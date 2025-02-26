@@ -4,8 +4,9 @@ import numpy as np
 from src.data_loader import load_drug_pathway_data, load_moa_data
 from src.preprocessing import perform_pca
 from src.clustering import perform_clustering, find_optimal_k
-from src.visualization import create_visualization_data, generate_html
 from src.utils import analyze_clusters, export_results
+# Import the visualize_clustering function from the restructured module
+from src.visualization.main import visualize_clustering
 
 def main():
     # Load and prepare data
@@ -48,14 +49,11 @@ def main():
     print("\nExporting results...")
     export_results(results_df, labels, cluster_stats, moa_data)
     
-    # Create visualization data
+    # Create visualization using the new modular approach
     print("\nCreating visualization...")
-    visualization_data = create_visualization_data(results_df, pca, labels, cluster_stats, moa_data)
-    
-    # Generate HTML visualization
-    html_path = generate_html(visualization_data)
+    html_path = visualize_clustering(results_df, pca, labels, cluster_stats, moa_data)
     
     print(f"\nAnalysis complete! Open {html_path} to view the results.")
 
 if __name__ == "__main__":
-    main() 
+    main()
