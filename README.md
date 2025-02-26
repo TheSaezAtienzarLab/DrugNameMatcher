@@ -1,186 +1,146 @@
-# Drug Matching Pipeline
+# Drug Clustering Analysis
 
-A comprehensive Python pipeline for matching drug names between datasets using both exact and fuzzy matching techniques, with advanced normalization and pattern analysis.
+A machine learning pipeline for clustering drugs based on their pathway data and analyzing relationships between drug mechanisms of action (MOA).
 
 ## Overview
 
-This script addresses the challenge of matching drug names across different datasets where naming conventions, chemical nomenclature, and synonyms may vary. It implements a three-step approach:
+This project implements a complete workflow for clustering drugs based on their biological pathway data. It uses Principal Component Analysis (PCA) for dimensionality reduction and K-means clustering to identify groups of drugs with similar pathway profiles. The results are visualized in an interactive 3D plot, with special emphasis on analyzing how drugs with the same mechanism of action (MOA) distribute across different clusters.
 
-1. **Exact Matching**: Normalizes drug names and performs exact matching
-2. **Fuzzy Matching**: Applies similarity-based matching for remaining unmatched drugs
-3. **Pattern Analysis**: Analyzes patterns in drugs that couldn't be matched
+## Features
 
-The pipeline handles various drug naming complexities including:
-- Chemical nomenclature variations (L-, D-, alpha-, beta-, etc.)
-- Language variations (acid/acide/ácido/acidum)
-- Common abbreviations and synonyms
-- Special character handling
+- **Data Loading**: Import drug pathway data from CSV files
+- **Preprocessing**: Standardize data and perform PCA for dimensionality reduction
+- **Clustering**: Automatic determination of optimal cluster number using the elbow method
+- **Performance Metrics**: Calculate and report silhouette, Calinski-Harabasz, and Davies-Bouldin scores
+- **Interactive Visualization**: 3D visualization of clusters with:
+  - Color-coding by cluster
+  - Highlighting drugs by MOA
+  - Filtering to focus on specific mechanisms
+  - Visualization of connections between related drugs
+  - Adjustable proximity threshold
+- **MOA Analysis**: Distribution analysis of drugs with the same mechanism across different clusters
 
-# Installation
+## Prerequisites
 
-### Clone the repository
+- Python 3.7+
+- Required packages:
+  - numpy
+  - pandas
+  - scikit-learn
+  - plotly
+  - kneed (for elbow method)
 
-    git clone https://github.com/yourusername/drug-matching-pipeline.git
+## Installation
 
-    cd drug-matching-pipeline
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/drug-clustering-analysis.git
+   cd drug-clustering-analysis
+   ```
 
-# Install required packages
+2. Install required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-    pip install pandas fuzzywuzzy python-Levenshtein {or}
-    conda install pandas fuzzywuzzy python-Levenshtein
+## Project Structure
 
-
-## Input Files
-
-The pipeline requires two CSV files:
-
-1. **filtered_drugs.csv**: Contains drug information with at least:
-   - `GENERIC_NAME`: Primary drug name
-   - `SYNONYMS`: Optional semicolon-separated list of alternative names
-
-2. **repurposing_drugs.csv**: Contains drug repurposing information with at least:
-   - `pert_iname`: Drug name
-   - `clinical_phase`: Clinical trial phase
-   - `moa`: Mechanism of action
-   - `target`: Drug target
-   - `disease_area`: Disease area
-   - `indication`: Medical indication
-
-## Output Structure
-
-The pipeline creates an organized output structure:
-```output_directory/
-
-output_directory/
-
-├── **final_output**/
-
-│      └── all_matched_drugs.csv # Combined results from exact and fuzzy matching
-
-└── **intermediate_output**/
-
-     ├── matched_drugs.csv # Drugs matched through exact matching
-
-     ├── unmatched_drugs.csv # Drugs that didn't match exactly
-
-     ├── fuzzy_matches.csv # Drugs matched through fuzzy matching
-
-     └── remaining_unmatched.csv # Drugs that couldn't be matched by any method
 ```
-
-## Workflow
-
-![Drug Matching Pipeline Workflow](workflow_diagram.png)
-
-1. **Normalization**: Drug names undergo extensive normalization:
-   - Lowercase conversion
-   - Parenthetical content removal
-   - Vitamin and common drug mapping
-   - Acid variation standardization
-   - Chemical nomenclature normalization
-   - Special character removal
-
-2. **Exact Matching**: 
-   - Normalized names are compared for exact matches
-   - Synonyms are expanded and checked
-   - Matched drugs are saved with repurposing information
-
-3. **Fuzzy Matching**:
-   - Similarity scores are calculated for unmatched drugs
-   - Matches above the similarity threshold are accepted
-   - Results are saved with similarity scores
-
-4. **Pattern Analysis**:
-   - Remaining unmatched drugs are analyzed for patterns
-   - Drugs are categorized (peptides, vitamins, antibiotics, etc.)
-   - Statistics and examples are provided for each category
-
-## Key Functions
-
-### normalize_drug_name(name)
-Performs comprehensive normalization of drug names, handling various naming conventions and chemical nomenclature.
-
-### get_all_names(row)
-Extracts all possible names for a drug from its generic name and synonyms.
-
-### perform_exact_matching(filtered_df, repurposing_df)
-Performs exact matching between normalized drug names.
-
-### perform_fuzzy_matching(unmatched_df, repurposing_df, similarity_threshold)
-Applies fuzzy matching to find additional matches based on name similarity.
-
-### analyze_remaining_unmatched(fuzzy_matches_df, unmatched_df)
-Analyzes patterns in drugs that couldn't be matched to identify common categories.
-
-### drug_matching_pipeline(filtered_drugs_path, repurposing_drugs_path, output_dir, similarity_threshold)
-Main function that orchestrates the entire matching process.
+drug-clustering-analysis/
+├── main.py                     # Main script to run the complete workflow
+├── src/
+│   ├── data_loader.py          # Functions for loading drug pathway and MOA data
+│   ├── preprocessing.py        # Data preprocessing and PCA
+│   ├── clustering.py           # K-means clustering and metrics calculation
+│   ├── utils.py                # Utility functions for analysis and export
+│   └── visualization/          # Visualization modules
+│       ├── __init__.py         # Package initialization
+│       ├── main.py             # Main visualization entry point
+│       ├── data_processing.py  # Process data for visualization
+│       ├── html_generator.py   # Generate HTML for interactive visualization
+│       ├── plotting.py         # JavaScript functions for interactive plots
+│       ├── templates.py        # HTML templates
+│       └── moa_replacement.py  # MOA data injection utilities
+├── drugs_moable/               # Directory for drug pathway CSV files
+├── final_output/               # Directory for MOA data
+│   └── all_matched_drugs.csv   # Mechanism of action information
+└── results/                    # Generated results (created during execution)
+    ├── clustering_results.csv  # Complete clustering results
+    ├── cluster_details.csv     # Metrics and details about each cluster
+    ├── moa_cluster_distribution.csv # MOA distribution across clusters
+    └── visualization.html      # Interactive visualization
+```
 
 ## Usage
 
-### Basic Usage
+1. Prepare your data:
+   - Place drug pathway CSV files in the `drugs_moable` directory
+   - Each CSV should have columns for `Term` (pathway name) and `NES` (normalized enrichment score)
+   - Place MOA data in `final_output/all_matched_drugs.csv` with `GENERIC_NAME` as drug identifier
 
-```python
+2. Run the analysis:
+   ```
+   python main.py
+   ```
 
-    from drug_matching_pipeline import drug_matching_pipeline
- 
- ```
+3. View the results:
+   - Results are saved in the `results` directory
+   - Open `results/visualization.html` in a web browser to explore the interactive visualization
 
-# Run the pipeline with default settings
+## Workflow Details
 
-  ```  drug_matching_pipeline(
-    
-    'filtered_drugs.csv',
-    
-    'repurposing_drugs.csv',
-    
-    './',
-    
-    similarity_threshold=80
-    
-    )
-```
+1. **Data Loading**:
+   - Drug pathway data is loaded from CSV files in the `drugs_moable` directory
+   - Each file represents one drug with its pathway enrichment scores
+   - MOA data is loaded from `final_output/all_matched_drugs.csv`
 
-### Command Line Usage
+2. **Preprocessing**:
+   - Data is standardized (zero mean, unit variance)
+   - PCA reduces dimensionality to 3 components for visualization
 
-```bash
+3. **Clustering**:
+   - Optimal number of clusters is determined using the elbow method
+   - K-means clustering is performed on the PCA results
+   - Clustering metrics are calculated to evaluate quality
 
-    python drug_matching_pipeline.py
+4. **Analysis**:
+   - Cluster characteristics are analyzed
+   - MOA distribution across clusters is calculated
 
-```
-## Customization
+5. **Visualization**:
+   - Interactive 3D visualization is generated with Plotly
+   - HTML file includes controls for exploration and filtering
+   - Drugs with the same MOA can be highlighted
 
-### Adding New Mappings
+## Interactive Visualization Features
 
-To add new vitamin mappings or common drug mappings, modify the respective functions:
+The generated visualization provides several interactive features:
 
-```python
+- **3D Plot**: Explore the clusters in three dimensions
+- **MOA Highlighting**: Select a specific MOA to highlight drugs with that mechanism
+- **Connection Visualization**: Show connections between drugs with the same MOA
+- **Proximity Threshold**: Adjust the threshold for showing connections
+- **Hover Information**: View drug names, MOA, and cluster information on hover
+- **Cluster Statistics**: View information about cluster sizes and distribution
+- **MOA Distribution Table**: Analyze how drugs with the same MOA are distributed across clusters
 
-        def create_vitamin_mappings():
-        
-        return {
-        
-        'vitamin c': 'ascorbic acid',
-        
-        'vitamin b6': 'pyridoxine',
-    
-    # Add your new mappings here
-    
-        'vitamin k': 'phylloquinone',
-        
-        }
-```
+## Extending the Framework
 
-### Adjusting Similarity Threshold
+### Adding New Data Sources
 
-The similarity threshold for fuzzy matching can be adjusted based on your needs:
-- Higher threshold (e.g., 90): More precision, fewer matches
-- Lower threshold (e.g., 60): More matches, less precision
+To add new data sources:
 
-## Performance Considerations
+1. Place new drug pathway files in the `drugs_moable` directory
+2. Update the MOA information in `final_output/all_matched_drugs.csv`
+3. Run the pipeline again
 
-- For large datasets (>10,000 drugs), the fuzzy matching step may take significant time
-- Consider using a higher similarity threshold for initial runs
-- The script is optimized for accuracy rather than speed
+### Customizing the Visualization
+
+To customize the visualization:
+
+1. Modify the `get_css_styles()` function in `src/visualization/plotting.py`
+2. Adjust the JavaScript functions in `get_javascript_functions()`
+3. Update the HTML template in `src/visualization/html_generator.py`
 
 ## License
 
@@ -188,29 +148,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- FuzzyWuzzy library for fuzzy string matching
-- Python-Levenshtein for efficient string distance calculations
+- https://github.com/dmis-lab/moable
 
+## Contact
 
-
-drug-clustering-project/
-├── data/                      # Data directory
-│   └── output/                # Drug pathway data
-│   └── final_output/          # MOA data
-├── src/                       # Source code
-│   ├── __init__.py
-│   ├── data_loader.py         # Data loading functions
-│   ├── preprocessing.py       # Data preprocessing
-│   ├── clustering.py          # Clustering algorithms
-│   ├── visualization.py       # Visualization functions
-│   └── utils.py               # Utility functions
-├── templates/                 # HTML templates
-│   └── base_template.html     # Base template for visualization
-├── static/                    # Static assets
-│   ├── css/
-│   │   └── styles.css         # Custom CSS
-│   └── js/
-│       └── custom.js          # Custom JavaScript
-├── results/                   # Output directory
-├── main.py                    # Main script
-└── README.md                  # Project documentation
+Saez Atienzar Lab - Ohio State
