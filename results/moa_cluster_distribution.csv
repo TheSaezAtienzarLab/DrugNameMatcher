@@ -1,0 +1,158 @@
+MOA,Count,Cluster_0,Cluster_1,Cluster_2,Cluster_3,Cluster_4
+bacterial cell wall synthesis inhibitor,67,3,33,4,25,2
+adrenergic receptor agonist,51,9,11,2,28,1
+histamine receptor antagonist,50,6,9,2,23,10
+cyclooxygenase inhibitor,49,5,9,6,19,10
+acetylcholine receptor antagonist,48,3,25,2,16,2
+glucocorticoid receptor agonist,45,1,12,1,31,0
+adrenergic receptor antagonist,41,3,9,3,18,8
+dopamine receptor antagonist,32,2,6,2,10,12
+sodium channel blocker,26,4,9,1,4,8
+calcium channel blocker,26,6,3,0,10,7
+phosphodiesterase inhibitor,20,6,0,1,6,7
+bacterial 30S ribosomal subunit inhibitor,19,4,14,0,1,0
+radiopaque medium,16,1,12,0,2,1
+progesterone receptor agonist,16,5,2,0,9,0
+benzodiazepine receptor agonist,16,1,5,0,4,6
+bacterial DNA gyrase inhibitor,16,0,5,6,4,1
+local anesthetic,16,4,7,0,4,1
+protein synthesis inhibitor,15,1,9,2,3,0
+serotonin receptor agonist,15,1,0,0,11,3
+acetylcholine receptor agonist,14,0,4,0,6,4
+dopamine receptor antagonist|serotonin receptor antagonist,14,1,3,0,8,2
+angiotensin converting enzyme inhibitor,13,0,4,0,8,1
+DNA synthesis inhibitor,13,4,2,0,5,2
+topoisomerase inhibitor,13,3,6,2,2,0
+dopamine receptor agonist,12,1,2,0,6,3
+HCV inhibitor,12,2,3,5,2,0
+carbonic anhydrase inhibitor,11,1,2,1,5,2
+HIV protease inhibitor,11,0,6,2,2,1
+chelating agent,11,2,4,1,3,1
+cytochrome P450 inhibitor,11,0,2,2,5,2
+sterol demethylase inhibitor,11,2,1,2,4,2
+acetylcholinesterase inhibitor,10,0,7,0,1,2
+ATPase inhibitor,10,0,4,0,2,4
+EGFR inhibitor,10,3,1,1,1,4
+HMGCR inhibitor,9,5,0,0,2,2
+androgen receptor antagonist,9,2,0,0,2,5
+monoamine oxidase inhibitor,9,0,2,1,5,1
+vitamin B,9,1,5,0,3,0
+bacterial 50S ribosomal subunit inhibitor,9,1,3,2,2,1
+DNA inhibitor,9,2,0,1,5,1
+prostanoid receptor agonist,9,1,2,2,3,1
+antioxidant,9,5,2,0,1,1
+serotonin receptor antagonist,9,1,1,0,5,2
+angiotensin receptor antagonist,9,1,3,0,4,1
+estrogen receptor agonist,9,1,0,0,1,7
+membrane integrity inhibitor,8,2,3,1,2,0
+beta lactamase inhibitor,8,0,2,1,5,0
+nucleoside reverse transcriptase inhibitor,8,0,2,0,4,2
+opioid receptor antagonist,8,2,1,0,4,1
+tubulin polymerization inhibitor,8,0,7,0,1,0
+DNA polymerase inhibitor,8,2,1,1,3,1
+bone resorption inhibitor,7,0,4,0,2,1
+DNA alkylating agent,7,1,1,1,2,2
+PPAR receptor agonist,7,0,3,0,4,0
+muscle relaxant,7,0,1,1,2,3
+antimalarial agent,7,0,4,0,1,2
+dihydrofolate reductase inhibitor,7,4,0,0,0,3
+HDAC inhibitor,7,4,2,0,1,0
+coagulation factor inhibitor,7,0,2,0,3,2
+selective serotonin reuptake inhibitor (SSRI),7,0,1,1,4,1
+potassium channel blocker,7,2,1,1,2,1
+JAK inhibitor,7,0,0,1,3,3
+gonadotropin releasing factor hormone receptor antagonist,6,1,4,1,0,0
+bacterial antifolate,6,0,2,0,3,1
+laxative,6,1,1,1,3,0
+mineralocorticoid receptor antagonist,6,2,0,0,3,1
+Bruton's tyrosine kinase (BTK) inhibitor,6,1,1,1,1,2
+retinoid receptor agonist,6,4,0,0,1,1
+glutamate receptor antagonist,6,0,1,0,4,1
+microtubule inhibitor,6,1,3,0,2,0
+vitamin D receptor agonist,6,3,0,1,1,1
+contrast agent,6,0,3,0,3,0
+purinergic receptor antagonist,6,0,3,0,1,2
+PABA antagonist,6,0,2,0,4,0
+cyclooxygenase inhibitor|prostanoid receptor antagonist,6,1,1,0,4,0
+GABA receptor antagonist,5,0,3,0,2,0
+antiviral,5,1,2,0,2,0
+sodium/glucose cotransporter inhibitor,5,2,1,0,2,0
+RNA polymerase inhibitor,5,0,1,1,2,1
+ribonucleotide reductase inhibitor,5,3,0,1,0,1
+vitamin K antagonist,5,1,0,1,3,0
+antiinfective drug,5,3,0,1,1,0
+insulin sensitizer,5,3,0,0,2,0
+non-nucleoside reverse transcriptase inhibitor,5,1,0,1,1,2
+HIV integrase inhibitor,5,1,1,2,1,0
+histamine receptor agonist,5,0,0,2,2,1
+membrane permeability inhibitor,5,1,2,0,1,1
+dipeptidyl peptidase inhibitor,5,0,0,1,4,0
+endothelin receptor antagonist,5,0,2,0,3,0
+antihistamine,5,1,3,0,1,0
+cholinergic receptor antagonist,5,0,3,0,1,1
+thrombin inhibitor,5,0,0,3,2,0
+selective estrogen receptor modulator (SERM),5,3,0,0,0,2
+PI3K inhibitor,5,2,0,1,2,0
+ALK tyrosine kinase receptor inhibitor,5,1,0,1,1,2
+other antibiotic,5,2,1,0,1,1
+folate receptor ligand,4,0,2,1,1,0
+thiazide diuretic,4,0,1,0,2,1
+vesicular monoamine transporter inhibitor,4,1,1,0,2,0
+calcineurin inhibitor,4,0,0,0,4,0
+prostanoid receptor antagonist,4,1,0,1,2,0
+CDK inhibitor,4,0,0,0,1,3
+other antifungal,4,1,2,0,1,0
+hydantoin antiepileptic,4,0,3,0,1,0
+PARP inhibitor,4,2,0,0,0,2
+diuretic,4,1,2,0,1,0
+antibacterial,4,1,3,0,0,0
+MEK inhibitor,4,0,1,1,1,1
+bile acid,4,0,0,0,4,0
+NFkB pathway inhibitor,4,1,1,0,1,1
+fungal squalene epoxidase inhibitor,4,0,2,0,2,0
+aromatase inhibitor,4,0,1,0,2,1
+ATP channel blocker,4,0,1,0,3,0
+melanin inhibitor,4,2,1,1,0,0
+mucolytic agent,4,2,0,0,2,0
+tachykinin antagonist,4,1,2,0,1,0
+nitric oxide stimulant,3,0,2,0,1,0
+mTOR inhibitor,3,0,1,0,2,0
+adenosine receptor agonist,3,0,2,1,0,0
+thrombopoietin receptor agonist,3,3,0,0,0,0
+serotonin receptor agonist|serotonin receptor antagonist,3,0,1,1,1,0
+insulin secretagogue,3,0,0,0,2,1
+thyroid hormone inhibitor,3,1,0,0,2,0
+GABA receptor modulator,3,0,1,1,1,0
+catechol O methyltransferase inhibitor,3,0,1,1,1,0
+cholinesterase inhibitor,3,0,1,0,1,1
+guanylate cyclase stimulant,3,2,0,0,0,1
+dihydropteroate synthetase inhibitor,3,1,2,0,0,0
+insulin sensitizer|PPAR receptor agonist,3,3,0,0,0,0
+microtubule inhibitor|tubulin polymerization inhibitor,3,0,3,0,0,0
+estrogen receptor antagonist|selective estrogen receptor modulator (SERM),3,2,0,0,0,1
+oxidizing agent,3,1,0,2,0,0
+dihydropteroate synthase inhibitor,3,0,1,1,1,0
+protein synthesis stimulant,3,2,0,0,1,0
+sodium/potassium/chloride transporter inhibitor,3,1,1,0,0,1
+isocitrate dehydrogenase inhibitor,3,1,0,1,0,1
+glycosyl transferase inhibitor,3,3,0,0,0,0
+penicillin binding protein inhibitor,3,0,2,0,0,1
+DNA alkylating agent|DNA inhibitor,3,0,2,0,1,0
+5 alpha reductase inhibitor,3,1,0,0,2,0
+fungal ergosterol inhibitor,3,0,2,0,1,0
+bacterial permeability inducer,3,0,2,1,0,0
+dopamine reuptake inhibitor,3,0,1,0,1,1
+DNA directed DNA polymerase inhibitor,3,2,0,0,1,0
+glutamate receptor agonist,3,0,0,0,1,2
+RAF inhibitor,3,1,0,0,0,2
+nitric oxide donor,3,0,0,0,3,0
+tricyclic antidepressant,3,0,1,0,1,1
+lipase inhibitor,3,1,1,0,1,0
+progestogen hormone,3,1,0,0,2,0
+serotonin–norepinephrine reuptake inhibitor (SNRI),3,0,1,0,1,1
+chloride channel blocker,3,0,2,0,0,1
+antitussive,3,1,0,0,2,0
+prostaglandin inhibitor,3,0,0,1,2,0
+vasodilator,3,1,1,0,1,0
+antiseptic,3,1,2,0,0,0
+hydroxy radical formation stimulant,3,0,1,0,2,0

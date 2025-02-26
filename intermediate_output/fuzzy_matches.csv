@@ -1,8 +1,5 @@
 original_name,matched_name,similarity_score,clinical_phase,moa,target,disease_area,indication
-Goserelin,buserelin,78,Launched,gonadotropin releasing factor hormone receptor agonist,,oncology|obstetrics/gynecology,prostate cancer|endometriosis
-Desmopressin,vasopressin,78,Launched,vasopressin receptor agonist,AVPR1A|AVPR1B|AVPR2|OXTR,gastroenterology,abdominal distension
 Cyclosporine,cyclosporin-A,88,Launched,calcineurin inhibitor,ABCB11|CAMLG|FPR1|PPIA|PPIF|PPP3CA|PPP3R2|SLC10A1|SLCO1B1|SLCO1B3,rheumatology|dermatology,rheumatoid arthritis|psoriasis
-Pyridoxal phosphate,tedizolid-phosphate,68,Launched,protein synthesis inhibitor,,infectious disease,skin infections
 Ascorbic acid,ascorbic-acid,100,Launched,antioxidant,SLC23A1|SLC23A2,endocrinology,scurvy
 Aspartic acid,L-aspartic-acid,93,Launched,metallic radical formation stimulant,ACY1|ACY3|ADSS|ADSSL1|ASNS|ASPA|ASPH|ASRGL1|ASS1|CAD|DARS|DARS2|GOT1|GOT2|GRIN1|GRIN2A|GRIN2B|GRIN2C|GRIN2D|LYZ|PAICS|RNASE1|SLC1A1|SLC25A12|SLC25A13,,
 Adenosine phosphate,adenosine-phosphate,100,Launched,adenosine receptor agonist,ACSL1|ACSS1|ACSS2|ADCY1|ADK|CREB1|FBP1|HINT1|PDE4B|PDE4D|PIM1|PRKAA1|PRKAB1|PRKAB2|PYGL|TRPM4,,
@@ -10,124 +7,65 @@ alpha-Linolenic acid,alpha-linolenic-acid,100,Phase 3,omega 3 fatty acid stimula
 Tyrosine,tylosin,80,Launched,protein synthesis inhibitor,,infectious disease|gastroenterology,gram-positive bacterial infections|colitis
 Succinic acid,succinic-acid,100,Launched,,ALDH5A1|ASPH|BBOX1|HSD17B6|OXCT1|OXCT2|P3H1|P3H2|P3H3|P4HA1|P4HA2|PLOD1|PLOD3|SDHA|SDHB|SDHC|SDHD|SLC13A1|SLC13A2|SLC13A3|SLC25A10|SUCLA2|SUCLG1|SUCLG2|SUCNR1|TMLHE,,
 Glutamic acid,L-glutamic-acid,93,Launched,glutamate receptor agonist,AADAT|AASS|ABAT|ALDH18A1|ASNS|BCAT1|BCAT2|CCBL2|DNPEP|EARS2|ENPEP|EPRS|FOLH1|FPGS|FTCD|GAD1|GAD2|GATB|GCLC|GCLM|GGCX|GLS|GLS2|GLUD1|GLUD2|GLUL|GMPS|GOT1|GOT2|GPT|GPT2|GRIA1|GRIA2|GRIA3|GRIA4|GRID1|GRID2|GRIK1|GRIK2|GRIK3|GRIK4|GRIK5|GRIN1|GRIN2A|GRIN2B|GRIN2C|GRIN2D|GRIN3A|GRIN3B|GRM1|GRM2|GRM3|GRM4|GRM6|GRM7|GRM8|LGSN|NADSYN1|NAGS|OPLAH|PFAS|PGCP|PSAT1|SLC1A1|SLC1A2|SLC1A3|SLC1A6|SLC1A7|SLC25A18|SLC25A22|SLC7A11|TAT,,
-Glycine,glycitein,75,Phase 3,tumor necrosis factor release inhibitor,TNF,,
 NADH,NADPH,89,Preclinical,,DRD2|DRD3|DRD4|GHSR|HTR2A|HTR2C,,
 Folic acid,folic-acid,100,Launched,folate receptor ligand,FOLR2|FOLR3|SLC19A1|SLC46A1,hematology,megaloblastic anemia
 Vitamin E,vitamin-E,100,Launched,LDL oxidation inhibitor|PKC inhibitor,ALOX5|DGKA|NR1I2|PPP2CA|PPP2CB|PRKCA|PRKCB|SEC14L2|SEC14L3|SEC14L4,,
 Lipoic acid,iopodic-acid,87,Launched,,,radiology,contrast agent
 Amphetamine,impentamine,82,Preclinical,histamine receptor antagonist,HRH3,,
-Lorazepam,ripazepam,78,Phase 2,benzodiazepine receptor agonist,GABRA1,,
-Ethchlorvynol,chloroxylenol,69,Launched,ATP synthase inhibitor,,infectious disease,skin infections
 Phentermine,mephentermine,92,Launched,adrenergic receptor agonist,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRB2|ADRB3,cardiology,hypotension
 Indecainide,pincainide,86,Phase 1,antiarrhythmic,,,
-Tramadol,estradiol,71,Launched,estrogen receptor agonist,ESR1|ESR2|GPER1|KCNMA1|NR1I2,endocrinology,contraceptive
-Oseltamivir,peramivir,70,Launched,neuraminidase inhibitor,,infectious disease,influenza A virus infection
-Succinylcholine,succinylcholine-chloride,77,Launched,,CHRFAM7A|CHRM1|CHRM2|CHRM3|CHRNA1|CHRNA10,neurology/psychiatry,muscle relaxant
-Bethanidine,betaine,78,Launched,nitric oxide donor,,metabolism,homocystinuria
-Diflorasone,tilorone,74,Launched,interferon inducer,,infectious disease|gastroenterology|neurology/psychiatry,influenza A virus infection|diarrhea|hepatitis B|multiple sclerosis|urinary tract infections|virus herpes simplex (HSV)|hepatitis C
-Pregabalin,arglabin,67,Launched,farnesyltransferase inhibitor,FNTA|NFKB1,,
-Temazepam,otenzepad,67,Phase 3,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5,,
 Aminosalicylic acid,salicylic-acid,85,Launched,cyclooxygenase inhibitor|prostanoid receptor antagonist,AKR1C1|ASIC3|PTGS1|PTGS2,dermatology|endocrinology|neurology/psychiatry,acne vulgaris (AV)|fever|pain relief
 Butabarbital,butalbital,82,Launched,GABA receptor antagonist,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,headache|muscle relaxant
 Alclometasone,clomesone,82,Phase 1,DNA inhibitor,,,
 Benzatropine,atropine,80,Launched,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3,ophthalmology,cycloplegia|mydriasis|amblyopia
-Calcium acetate,C11-Acetate,69,Phase 3,,ABAT|ACE|AKR1C3|CA2|CELA1|ESR2|FFAR2|FFAR3|HPRT1|LTA4H|MMP12|NOS1|NOS3|PLA2G1B|PTPN1|SOD1|TXN,,
 Cycloserine,cycloserine-(D),92,Launched,bacterial cell wall synthesis inhibitor,GRIN1,infectious disease,tuberculosis|tuberculosis
-Diatrizoate,dimetridazole,67,Launched,bacterial DNA inhibitor,,infectious disease,protozoan infection
-Theophylline,dyphylline,73,Launched,adenosine receptor antagonist|phosphodiesterase inhibitor,PDE4A,pulmonary,asthma|bronchitis|emphysema
-Morphine,morin,77,Preclinical,cytochrome P450 inhibitor,ADORA2A|ESR2|FASN|MCL1|SLC22A12,,
 Tenofovir disoproxil,tenofovir-disoproxil,100,Launched,nucleoside reverse transcriptase inhibitor,CYP1A2,infectious disease,human immunodeficiency virus (HIV-1)|hepatitis B
 Tranexamic acid,tranexamic-acid,100,Launched,antifibrinolytic|plasminogen activator inhibitor,PLG,hematology,hemophilia
-Talbutal,butalbital,78,Launched,GABA receptor antagonist,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,headache|muscle relaxant
-Pentobarbital,metharbital,75,Launched,GABA receptor modulator,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,epilepsy
 Valproic acid,valproic-acid,100,Launched,benzodiazepine receptor agonist|HDAC inhibitor,ABAT|ACADSB|ALDH5A1|HDAC1|HDAC2|HDAC9|OGDH|SCN10A|SCN11A|SCN1A|SCN1B|SCN2A|SCN2B|SCN3A|SCN3B|SCN4A|SCN4B|SCN5A|SCN7A|SCN8A|SCN9A,neurology/psychiatry,epilepsy|seizures|seizures
-Codeine,acadesine,75,Phase 3,AMPK activator,,,
-Nitroprusside,sodium-nitroprusside,79,Launched,nitric oxide donor,,cardiology,hypertension|congestive heart failure
 Calcium glucoheptonate,calcium-gluceptate,90,Launched,,,,
-Hydromorphone,hydrocortisone,74,Launched,glucocorticoid receptor agonist,ANXA1|NOS2|NR3C1|NR3C2,dermatology|neurology/psychiatry,eczema|psoriasis|seborrheic dermatitis|itching
 Methadone,dimethadione,86,Preclinical,oxazolidine antiepileptic,,,
 Atenolol,atenolol-(+),100,Preclinical,adrenergic receptor antagonist,,,
 Aminohippuric acid,4-aminohippuric-acid,95,Launched,,SLC22A6,nephrology,renal diagnostic agent
-Clobazam,xilobam,67,Phase 1,,,,
 Megestrol acetate,megestrol-acetate,100,Launched,progesterone receptor agonist,NR3C1|PGR,neurology/psychiatry|endocrinology,anorexia|cachexia
 Grepafloxacin,delafloxacin,80,Phase 3,antiinfective drug,,,
 Meprobamate,phenprobamate,83,Launched,muscle relaxant,,neurology/psychiatry,anxiety|muscle relaxant
 Beclomethasone dipropionate,beclomethasone-dipropionate,100,Launched,glucocorticoid receptor agonist,GPR97|NR3C1,allergy,allergic rhinitis
-Carisoprodol,bisoprolol,73,Launched,adrenergic receptor antagonist,ADRB1,cardiology,hypertension
 Phenylpropanolamine,"""1S,2R-phenylpropanolamine""",86,Withdrawn,adrenergic receptor agonist,,,
 Zoledronic acid,zoledronic-acid,100,Launched,bone resorption inhibitor,FDPS|GGPS1,endocrinology,Paget's disease
-Eszopiclone,opicapone,70,Phase 3,catechol O methyltransferase inhibitor,COMT,,
-Alprazolam,esaprazole,70,Phase 2,,,,
-Carbamoylcholine,carbachol,72,Launched,cholinergic receptor agonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|CHRNA2,ophthalmology,intraocular pressure
-Metocurine iodide,metocurine,74,Launched,acetylcholine receptor antagonist,CHRM2|CHRNA2,neurology/psychiatry,muscle relaxant
-Phenoxymethylpenicillin,phenethicillin,76,Launched,bacterial cell wall synthesis inhibitor,,,
-Secobarbital,metharbital,70,Launched,GABA receptor modulator,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,epilepsy
-Methylphenidate,methyldopate,74,Launched,,,cardiology,hypertension
 Zolpidem,alpidem,80,Withdrawn,benzodiazepine receptor agonist,GABRA1,,
-Carboprost tromethamine,promethazine,63,Launched,histamine receptor antagonist,HRH1,neurology/psychiatry|allergy,sedative|allergic rhinitis
-Nitric Oxide,nitromide,76,Launched,,,infectious disease,coccidiosis
 Cerivastatin,cilastatin,82,Launched,dehydropeptidase inhibitor,DPEP1,,
-Framycetin,apramycin,74,Launched,bacterial 30S ribosomal subunit inhibitor,,infectious disease,gram-negative bacterial infections
 Meperidine,hesperidin,80,Launched,flavanone glycoside,AURKB|CACNA1B,,
 Methscopolamine bromide,butylscopolamine-bromide,85,Launched,cholinergic receptor antagonist,,gastroenterology,abdominal pain
 Sodium tetradecyl sulfate,sodium-tetradecyl-sulfate,100,Launched,,PROC,dermatology,varicose veins
-Dronabinol,adrafinil,63,Launched,adrenergic receptor agonist,,neurology/psychiatry,fatigue
-Methohexital,metharbital,70,Launched,GABA receptor modulator,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,epilepsy
-Chlordiazepoxide,chlorothiazide,73,Launched,diuretic,CA1|CA2|CA4|SLC12A3,cardiology,hypertension
 Gallamine triethiodide,gallamine-triethiodide,100,Launched,acetylcholine receptor antagonist,CHRM2|CHRNA1,neurology/psychiatry,muscle relaxant
-Nabilone,naloxone,75,Launched,opioid receptor antagonist,CREB1|ESR1|OPRD1|OPRK1|OPRM1|TLR4,pulmonary,respiratory depression
-Oxycodone,desoxycortone,73,Preclinical,mineralocorticoid receptor agonist,NR3C1|NR3C2,,
-Dextrothyroxine,levothyroxine,79,Launched,thyroid hormone stimulant,THRA|THRB,endocrinology,myxedema coma
-Acetyldigitoxin,digitoxin,75,Launched,ATPase inhibitor,ATP1A1|ATP1A2|ATP1A3|ATP1A4|ATP1B1|ATP1B2|ATP1B3|FXYD2,cardiology,congestive heart failure|cardiac arrythmia
 Aminocaproic acid,aminocaproic-acid,100,Launched,plasminogen activator inhibitor,LPA|PLAT|PLG,hematology,fibrinolytic bleeding
 Anisotropine methylbromide,homatropine-methylbromide,86,Launched,acetylcholine receptor antagonist,CHRM5,ophthalmology,uveal tract inflammation
 Alitretinoin,tretinoin,86,Launched,retinoid receptor agonist|retinoid receptor ligand,ALDH1A1|ALDH1A2|GPRC5A|NR0B1|NR2C2|PPARD|RARA|RARB|RARG|RARRES1|RORB|RORC|RXRB|RXRG,hematologic malignancy,acute promyelocytic leukemia (APL)
-Chlormerodrin,chloroxine,70,Launched,opioid receptor antagonist,OPRK1,gastroenterology|infectious disease|dermatology,diarrhea|inflammatory bowel disease|giardiasis|dandruff
-Gadoversetamide,gadodiamide,69,Launched,radiopaque medium,,radiology,MRI contrast agent
 Pyridostigmine,physostigmine,81,Launched,acetylcholinesterase inhibitor|cholinesterase inhibitor,ACHE|BCHE,cardiology|neurology/psychiatry|ophthalmology|gastroenterology,hypotension|Alzheimer's disease|glaucoma|gastroparesis
 Azelaic acid,azelaic-acid,100,Launched,tyrosinase inhibitor,AKR1D1|SRD5A2|TYR,dermatology,rosacea
 Acetohydroxamic acid,acetohydroxamic-acid,100,Launched,urease inhibitor,MMP12,infectious disease,urinary tract infections
 Perflutren,perflubron,80,Launched,contrast agent,,radiology,contrast agent
-Succimer,sultiame,62,Phase 3,carbonic anhydrase inhibitor,CA2,,
 Cinnarizine,cinnarazine,91,Launched,calcium channel blocker,,neurology/psychiatry|gastroenterology|ophthalmology,Meniere's disease|nausea|vomiting|Cogan's syndrome
 Fenfluramine,enflurane,86,Launched,membrane permeability inhibitor,GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GLRA1|GLRB|KCNK10|KCNK18|KCNK2|KCNK3|KCNK9,neurology/psychiatry,anesthetic
-Mazindol,meptazinol,78,Launched,opioid receptor agonist,BCHE,neurology/psychiatry,pain relief
 Fluticasone propionate,fluticasone-propionate,100,Launched,glucocorticoid receptor agonist,NR3C1|NR3C2|PGR|PLA2G4A,dermatology,corticosteroid-responsive dermatoses
 Fluocinolone acetonide,fluocinolone-acetonide,100,Launched,glucocorticoid receptor agonist,NR3C1|SERPINA6,dermatology,seborrheic dermatitis
-Ulobetasol,labetalol,74,Launched,adrenergic receptor antagonist,ADRA1D|ADRB1|ADRB2,cardiology,hypertension
 Medroxyprogesterone acetate,medroxyprogesterone-acetate,100,Launched,progesterone receptor agonist,ESR1|PGR,endocrinology,contraceptive
-Butorphanol,thiorphan,70,Phase 1,membrane metalloendopeptidase inhibitor,MME,,
-Oxandrolone,androstenone,70,Preclinical,steroid,,,
-Testosterone,ethisterone,78,Launched,progestogen hormone,TYR,endocrinology,amenorrhea
-Clorazepic acid,chlorogenic-acid,77,Launched,antioxidant,SLC37A4,neurology/psychiatry|pulmonary|allergy,headache|chest congestion|allergic rhinitis
-Guanabenz,guanadrel,67,Launched,adrenergic inhibitor,,cardiology,hypertension
 Dextropropoxyphene,levopropoxyphene,82,Launched,antitussive,,pulmonary,cough suppressant
 Pentazocine,phenazone,80,Launched,cyclooxygenase inhibitor,PTGS1|PTGS2,neurology/psychiatry,pain relief
-Magnesium sulfate,sodium-dodecyl-sulfate,67,Launched,,ALB,,
-Sevelamer,evenamide,67,Phase 2,voltage-gated sodium channel blocker,,,
 Nafarelin,alarelin,82,Launched,gonadotropin releasing factor hormone receptor antagonist,GNRH1,,
 Benzyl benzoate,benzyl-benzoate,100,Launched,lipase inhibitor,LIPE,allergy,sweet itch
 Amphotericin B,amphotericin-b,100,Launched,membrane permeability enhancer,,infectious disease,fungal infection
 Midazolam,remimazolam,80,Phase 3,benzodiazepine receptor agonist,GABBR1,,
-Pentosan polysulfate,adenosine-phosphate,62,Launched,adenosine receptor agonist,ACSL1|ACSS1|ACSS2|ADCY1|ADK|CREB1|FBP1|HINT1|PDE4B|PDE4D|PIM1|PRKAA1|PRKAB1|PRKAB2|PYGL|TRPM4,,
 Fludrocortisone,hydrocortisone,83,Launched,glucocorticoid receptor agonist,ANXA1|NOS2|NR3C1|NR3C2,dermatology|neurology/psychiatry,eczema|psoriasis|seborrheic dermatitis|itching
 Mycophenolate mofetil,mycophenolate-mofetil,100,Launched,dehydrogenase inhibitor|inositol monophosphatase inhibitor,IMPDH1|IMPDH2,transplant,organ rejection
-Cephaloglycin,cephalothin,75,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,skin infections|surgical prophylaxis
-Flurazepam,ripazepam,74,Phase 2,benzodiazepine receptor agonist,GABRA1,,
-Sufentanil,bosentan,67,Launched,endothelin receptor antagonist,EDNRA|EDNRB,pulmonary,pulmonary arterial hypertension (PAH)
 Flurbiprofen,flurbiprofen-(+/-),100,Launched,cyclooxygenase inhibitor,,rheumatology,rheumatoid arthritis|osteoarthritis
 Apomorphine,(R)-(-)-apomorphine,92,Launched,dopamine receptor agonist,ADRA2A|ADRA2B|ADRA2C|CALY|DRD1|DRD2|DRD3|DRD4|DRD5|HTR1A|HTR1B|HTR1D|HTR2A|HTR2B|HTR2C|HTR5A,neurology/psychiatry,Parkinson's Disease
 Adefovir dipivoxil,adefovir-dipivoxil,100,Launched,DNA polymerase inhibitor,,infectious disease,hepatitis B
 Clodronic acid,clodronic-acid,100,Launched,bone resorption inhibitor,SLC25A4|SLC25A5|SLC25A6,orthopedics|endocrinology|hematologic malignancy,osteoporosis|hyperparathyroidism|hypercalcemia|multiple myeloma
 Homatropine methylbromide,homatropine-methylbromide,100,Launched,acetylcholine receptor antagonist,CHRM5,ophthalmology,uveal tract inflammation
-Nitroglycerin,nitroxoline,67,Launched,cathepsin inhibitor,METAP2,infectious disease,urinary tract infections
-Atracurium besylate,atracurium,69,Launched,acetylcholine receptor antagonist,,critical care|neurology/psychiatry,endotracheal intubation|muscle relaxant
 Mannitol,mannitol-D,89,Launched,diuretic,,neurology/psychiatry|ophthalmology|gastroenterology,intracranial pressure|intraocular pressure|constipation
 Gadobenic acid,capobenic-acid,86,Preclinical,,,,
-Modafinil,adrafinil,78,Launched,adrenergic receptor agonist,,neurology/psychiatry,fatigue
-Deferoxamine,deferoxamine-mesylate,73,Launched,chelating agent,,hematology,acute iron intoxication|iron overload
 Potassium chloride,potassium-iodide,82,Launched,,,pulmonary,asthma|bronchitis|emphysema
-Hydrocortamate,dehydrocholate,71,Preclinical,,,,
 Propiomazine,promazine,86,Launched,dopamine receptor antagonist,ADRA1A|ADRA1B|ADRA1D|CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|DRD1|DRD2|DRD3|DRD4|HRH1|HTR2A|HTR2C,neurology/psychiatry,schizophrenia
 Nalidixic acid,nalidixic-acid,100,Launched,bacterial DNA gyrase inhibitor,,infectious disease,urinary tract infections
 Mefenamic acid,mefenamic-acid,100,Launched,cyclooxygenase inhibitor,KCNQ1|PTGS1|PTGS2|TRPM3,endocrinology,primary dysmenorrhea (PD)
@@ -135,44 +73,20 @@ Gadopentetic acid,gadopentetic-acid,100,Launched,contrast agent,PGD,radiology,co
 Uracil mustard,uracil-mustard,100,Launched,DNA synthesis inhibitor,,hematologic malignancy,non-Hodgkin lymphoma (NHL)
 Candesartan cilexetil,candesartan-cilexetil,100,Launched,angiotensin receptor antagonist,,cardiology,hypertension|congestive heart failure|hypertension
 Gentamicin,gentamycin,90,Launched,bacterial 50S ribosomal subunit inhibitor,HSPA8,infectious disease|critical care,bone and joint infections|endocarditis|pelvic inflammatory disease|meningitis|pneumonia|urinary tract infections|sepsis
-Halazepam,halazone,71,Launched,,,infectious disease,disinfectant
-Alfentanil,acetanilide,67,Preclinical,hydrogen peroxide decomposition inhibitor,,,
-Fentanyl,bosentan,62,Launched,endothelin receptor antagonist,EDNRA|EDNRB,pulmonary,pulmonary arterial hypertension (PAH)
 Ethynodiol diacetate,ethynodiol-diacetate,100,Launched,,ESR1|PGR,endocrinology,contraceptive
 Diazepam,ripazepam,82,Phase 2,benzodiazepine receptor agonist,GABRA1,,
-Phenmetrazine,phenelzine,78,Launched,monoamine oxidase inhibitor,ABAT|AOC3|GAD2|GPT|GPT2|MAOA|MAOB|SLC6A2|SLC6A3|SLC6A4,neurology/psychiatry,depression
-Clocortolone,clocortolone-pivalate,73,Launched,steroid,NR3C1|PLA2G1B,dermatology,corticosteroid-responsive dermatoses
-Oxazepam,doxapram,75,Launched,potassium channel blocker,,pulmonary|neurology/psychiatry,respiratory depression|central nervous system depression|acute hypercapnia (AHC)
-Methylphenobarbital,metharbital,73,Launched,GABA receptor modulator,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,epilepsy
-Pseudoephedrine,ephedrine,75,Launched,adrenergic receptor agonist,ACHE|ADRA1A|ADRB2|SLC18A2|SLC6A2,cardiology|pulmonary|neurology/psychiatry|endocrinology,hypotension|asthma|narcolepsy|obesity
-Levorphanol,levallorphan,78,Launched,opioid receptor antagonist,CHRNA2|OPRM1,pulmonary,respiratory depression
 Aminolevulinic acid,5-aminolevulinic-acid,95,Launched,oxidizing agent,ALAD,oncology|dermatology,glioma|actinic keratosis (AK)
 Penicillamine,penicillamine-(D),93,Launched,chelating agent,,metabolism|rheumatology|nephrology,Wilson's disease|rheumatoid arthritis|cystinuria
 Benzphetamine,benethamine,83,Preclinical,,,,
-Loteprednol etabonate,loteprednol,69,Launched,glucocorticoid receptor agonist|phospholipase inhibitor,NR3C1,ophthalmology,conjunctivitis
 Isosorbide dinitrate,isosorbide-dinitrate,100,Launched,nitric oxide stimulant,GUCY1A2|GUCY1A3|GUCY1B2|GUCY1B3|NPR1,cardiology,angina pectoris|coronary artery disease (CAD)
-Mechlorethamine,chlorphenamine,76,Launched,histamine receptor antagonist,,allergy,allergic rhinitis|urticaria
-Testolactone,metolazone,73,Launched,carbonic anhydrase inhibitor,SLC12A3,cardiology,edema|hypertension
-Benzylpenicilloyl polylysine,benzylpenicillin,73,Launched,penicillin binding protein inhibitor,,infectious disease,celluitis|meningitis|endocarditis|syphilis|pneumonia|bacterial septicemia
 Triazolam,etizolam,82,Launched,benzodiazepine receptor agonist,GABRA1,neurology/psychiatry,insomnia|anxiety
-Ethanol,bethanechol,78,Launched,acetylcholine receptor agonist,CHRM1|CHRM2|CHRM3|CHRM4,urology,urinary retention
-Remifentanil,ramifenazone,67,Launched,cyclooxygenase inhibitor,,neurology/psychiatry|endocrinology,pain relief|fever
-Methdilazine,promethazine,75,Launched,histamine receptor antagonist,HRH1,neurology/psychiatry|allergy,sedative|allergic rhinitis
 Etacrynic acid,etacrynic-acid,100,Launched,sodium/potassium/chloride transporter inhibitor,ATP1A1|SLC12A1,cardiology|gastroenterology|nephrology|rheumatology,hypertension|congestive heart failure|edema|hepatic cirrhosis|chronic renal failure|nephrotic syndrome
 Cocaine,procaine,80,Launched,HMGCR inhibitor,CHRNA2|GRIN3A|HTR3A|KCNMA1|KCNMB1|KCNMB2|KCNMB3|KCNMB4|KCNN1|KCNN2|KCNN3|KCNN4|MAOA|MAOB|RYR1|RYR2|SCN10A|SLC6A3,neurology/psychiatry,anesthetic
 Anileridine,alexidine,80,Preclinical,phosphatidylglycerophosphatase inhibitor,PTPMT1,,
-Buprenorphine,buphenine,73,Launched,adrenergic receptor agonist,ADRB2,rheumatology,Raynaud's disease
 Salicylic acid,salicylic-acid,100,Launched,cyclooxygenase inhibitor|prostanoid receptor antagonist,AKR1C1|ASIC3|PTGS1|PTGS2,dermatology|endocrinology|neurology/psychiatry,acne vulgaris (AV)|fever|pain relief
-Diethylpropion,deptropine,67,Preclinical,histamine receptor antagonist,HRH1,,
 Meclofenamic acid,meclofenamic-acid,100,Launched,cyclooxygenase inhibitor|prostanoid receptor antagonist,ALOX5|CNR1|KCNQ2|KCNQ3|PTGS1|PTGS2,rheumatology|neurology/psychiatry|endocrinology,joint pain|muscle pain|rheumatoid arthritis|primary dysmenorrhea (PD)
-Hexafluronium,alcuronium,78,Launched,muscle relaxant,CHRM1|CHRM2|CHRM3|CHRM4|CHRNA7,neurology/psychiatry,muscle relaxant
-Cycrimine,cyclizine,78,Launched,histamine receptor modulator,HRH1|SULT1E1,gastroenterology|neurology/psychiatry,nausea|vomiting|vertigo|motion sickness
 Hydrocodone,hydrocortisone,80,Launched,glucocorticoid receptor agonist,ANXA1|NOS2|NR3C1|NR3C2,dermatology|neurology/psychiatry,eczema|psoriasis|seborrheic dermatitis|itching
-Zaleplon,lorediplon,67,Phase 2,GABA receptor modulator,GABRA1,,
-Selenium Sulfide,nimesulide,69,Launched,cyclooxygenase inhibitor,LTF|PLA2G2E|PTGS1|PTGS2,rheumatology|obstetrics/gynecology,osteoarthritis|menstrual pain
 Edetic acid,pentetic-acid,83,Phase 2,chelating agent,,,
-Ethinylestradiol,2-methoxyestradiol,76,Phase 2,hypoxia inducible factor inhibitor,COMT|CYP19A1|CYP1A1|CYP1B1|HIF1A|TUBB,,
-Nandrolone phenpropionate,dromostanolone-propionate,72,Launched,androgen receptor modulator,AR,oncology,breast cancer
 Methyl aminolevulinate,methyl-aminolevulinate,100,Launched,oxidizing agent,FCGR1A|FECH,dermatology,actinic keratosis (AK)
 Cyclacillin,cloxacillin,82,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,gram-positive bacterial infections
 Levobupivacaine,bupivacaine,85,Launched,sodium channel blocker,KCNA5|SCN10A,neurology/psychiatry,peripheral nerve block|caudal epidural block|lumbar epidural block
@@ -180,96 +94,33 @@ Cromoglicic acid,cromoglicic-acid,100,Launched,immunosuppressant,KCNMA1|S100P,pu
 Clobetasol propionate,clobetasol-propionate,100,Launched,glucocorticoid receptor agonist,NR3C1|PLA2G1B,dermatology,corticosteroid-responsive dermatoses
 Isosorbide mononitrate,isosorbide-mononitrate,100,Launched,nitric oxide stimulant,GUCY1A2|GUCY1A3|GUCY1B2|GUCY1B3,cardiology,angina pectoris|coronary artery disease (CAD)
 Mycophenolic acid,mycophenolic-acid,100,Launched,dehydrogenase inhibitor|inositol monophosphatase inhibitor,IMPDH1|IMPDH2,transplant,organ rejection
-Ethinamate,ethionamide,76,Launched,mycolic synthesis inhibitor,,infectious disease,tuberculosis
-Echothiophate,thiophanate,75,Preclinical,,,,
-Cefditoren,cefditoren-pivoxil,71,Launched,bacterial cell wall synthesis inhibitor,,infectious disease|pulmonary|otolaryngology,pneumonia|bronchitis|skin infections|tonsillitis|pharyngitis
-Clonazepam,clopamide,63,Launched,sodium/chloride cotransporter inhibitor,,cardiology,hypertension
 Etidronic acid,etidronic-acid,100,Launched,bone resorption inhibitor,ATP6V1A|PTPRS,endocrinology|orthopedics,Paget's disease|heterotopic ossification
-Diphenoxylate,pipenzolate,75,Launched,cholinergic receptor antagonist,CHRM1,neurology/psychiatry,spasms
-Oxamniquine,amodiaquine,73,Launched,histamine receptor agonist,HNMT,infectious disease,malaria
 Arbutamine,arbutin,82,Phase 2/Phase 3,melanin inhibitor,TYR,,
-Sibutramine,sulbutiamine,78,Launched,acetylcholine receptor antagonist,,neurology/psychiatry,asthenia
-Methyprylon,meparfylon,76,Preclinical,,,,
-Trimethaphan,trimethadione,72,Launched,oxazolidine antiepileptic,CACNA1G|CACNA1H|CACNA1I,neurology/psychiatry,seizures
 Proflavine,riboflavin,80,Launched,vitamin B,BLVRB|RFK,gastroenterology,jaundice
-Doxacurium,alcuronium,70,Launched,muscle relaxant,CHRM1|CHRM2|CHRM3|CHRM4|CHRNA7,neurology/psychiatry,muscle relaxant
 Sulfoxone,sulfadoxine,80,Launched,dihydropteroate synthase inhibitor,,infectious disease,malaria
-Dinoprost tromethamine,dinoprostone,71,Withdrawn,prostanoid receptor agonist,CATSPER1|CATSPER2|CATSPER3|CATSPER4|PTGDR|PTGDR2|PTGER1|PTGER2|PTGER3|PTGER4|PTGFR|TBXA2R,,
-Calcium chloride,calcium-levofolinate,67,Launched,,,,
 Arsenic trioxide,arsenic-trioxide,100,Launched,apoptosis stimulant,AKT1|CCND1|IKBKB|JUN|MAPK1|MAPK3|TXNRD1,gastroenterology,diarrhea
-Phenobarbital,metharbital,67,Launched,GABA receptor modulator,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,epilepsy
-Rescinnamine,cinnarazine,70,Launched,calcium channel blocker,,neurology/psychiatry|gastroenterology|ophthalmology,Meniere's disease|nausea|vomiting|Cogan's syndrome
-Fluoxymesterone,fluoxetine,72,Launched,selective serotonin reuptake inhibitor (SSRI),ANO1|HTR2B|SLC6A4,neurology/psychiatry,depression|obsessive compulsive disorder (OCD)|bulimia nervosa|panic disorders|bipolar disorder
-Iophendylate,pipenzolate,70,Launched,cholinergic receptor antagonist,CHRM1,neurology/psychiatry,spasms
 Desflurane,enflurane,84,Launched,membrane permeability inhibitor,GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GLRA1|GLRB|KCNK10|KCNK18|KCNK2|KCNK3|KCNK9,neurology/psychiatry,anesthetic
-Dexfenfluramine,enflurane,75,Launched,membrane permeability inhibitor,GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GLRA1|GLRB|KCNK10|KCNK18|KCNK2|KCNK3|KCNK9,neurology/psychiatry,anesthetic
-Oxymorphone,(R)-(-)-apomorphine,67,Launched,dopamine receptor agonist,ADRA2A|ADRA2B|ADRA2C|CALY|DRD1|DRD2|DRD3|DRD4|DRD5|HTR1A|HTR1B|HTR1D|HTR2A|HTR2B|HTR2C|HTR5A,neurology/psychiatry,Parkinson's Disease
-Zopiclone,opicapone,78,Phase 3,catechol O methyltransferase inhibitor,COMT,,
-Dezocine,benzocaine,78,Launched,sodium channel blocker,SCN10A,infectious disease,first-aid antiseptic
 Estazolam,etizolam,82,Launched,benzodiazepine receptor agonist,GABRA1,neurology/psychiatry,insomnia|anxiety
-Levacetylmethadol,levomenthol,64,Launched,,OPRK1|TRPA1|TRPM8|TRPV3,neurology/psychiatry,pain relief
 Encainide,acecainide,84,Phase 3,polarization inhibitor,SCN5A,,
-Pemoline,nemazoline,78,Phase 2,adrenergic receptor agonist|adrenergic receptor antagonist,,,
 Bromodiphenhydramine,diphenhydramine,86,Launched,histamine receptor antagonist,HRH1,neurology/psychiatry,headache
-Lisdexamfetamine,dexamethasone,69,Launched,glucocorticoid receptor agonist,ANXA1|NOS2|NR0B1|NR3C1|NR3C2,endocrinology|rheumatology|allergy|gastroenterology|hematology|neurology/psychiatry|dermatology,hypercalcemia|rheumatoid arthritis|psoriatic arthritis|osteoarthritis|allergic rhinitis|ulcerative colitis|anemia|multiple sclerosis|enteritis|lupus|dermatitis herpetiformis (DH)|nephrotic syndrome|psoriasis
 Arformoterol,formoterol,91,Launched,adrenergic receptor agonist,ADRB2,pulmonary,asthma|chronic obstructive pulmonary disease (COPD)|bronchospasm
-Pramlintide,repaglinide,73,Launched,insulin secretagogue,ABCC8|KCNJ11|PPARG,endocrinology,diabetes mellitus
-Tetracosactide,tetracaine,75,Launched,membrane integrity inhibitor,SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A,neurology/psychiatry,anesthetic
-Pirbuterol,albuterol,74,Launched,adrenergic receptor agonist,ADRB2,pulmonary,asthma
 Bismuth subsalicylate,bismuth-subsalicylate,100,Launched,antacid,,gastroenterology,diarrhea
-Sulfacytine,sulfatinib,76,Phase 1,tyrosine kinase inhibitor,,,
-Oxtriphylline,nortriptyline,77,Launched,tricyclic antidepressant,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRB2|ADRB3|CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|DRD2|HRH1|HTR1A|HTR2A|HTR2C|HTR6|KCNJ10|PGRMC1|SIGMAR1|SLC6A2|SLC6A4,neurology/psychiatry,depression
 Ceftizoxime,ceftizoxim,95,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,respiratory tract infections|urinary tract infections|gonorrhea|pelvic inflammatory disease|intra-abdominal infections|bacterial septicemia|skin infections|bone and joint infections|meningitis
 Potassium cation,antimony-potassium,88,Phase 2,,,,
-Quinidine barbiturate,uridine-triacetate,67,Launched,,,nephrology,orotic aciduria
-Spirapril,ramipril,71,Launched,angiotensin converting enzyme inhibitor,ACE,cardiology,hypertension
-Amobarbital,metharbital,73,Launched,GABA receptor modulator,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,epilepsy
 Butobarbital,butalbital,82,Launched,GABA receptor antagonist,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2,neurology/psychiatry,headache|muscle relaxant
-Quinupristin,liquiritin,73,Preclinical,antioxidant,,,
-Aluminium,amezinium,78,Launched,adrenergic receptor agonist,ADRB2,cardiology,hypotension
-Magnesium oxide,omeprazole-magnesium,69,Launched,proton pump inhibitor,ATP4A|ATP4B,gastroenterology,gastroesophageal reflux disease (GERD)|heartburn
-Magnesium cation,antimony-potassium,65,Phase 2,,,,
 Cortisone acetate,cortisone-acetate,100,Launched,glucocorticoid receptor agonist,NR3C1,pulmonary|rheumatology|allergy|dermatology|ophthalmology|gastroenterology|infectious disease,asthma|rheumatoid arthritis|urticaria|osteoarthritis|psoriasis|allergic rhinitis|conjunctivitis|ulcerative colitis|meningitis
-Glymidine,lamivudine,74,Launched,nucleoside reverse transcriptase inhibitor,,infectious disease,human immunodeficiency virus (HIV-1)|acquired immunodeficiency syndrome (AIDS)|hepatitis B
-Sodium bicarbonate,sodium-ascorbate,76,Launched,,,,
-Choline magnesium trisalicylate,meclocycline-sulfosalicylate,64,Launched,bacterial 50S ribosomal subunit inhibitor,,dermatology|infectious disease,acne vulgaris (AV)|skin infections
-Antrafenine,tafenoquine,73,Launched,antimalarial agent,,infectious disease,malaria
-Testosterone propionate,progesterone,63,Launched,progesterone receptor agonist,CATSPER1|CATSPER2|CATSPER3|CATSPER4|CYP17A1|ESR1|NR3C2|OPRK1|PGR|TRPC5,obstetrics/gynecology|endocrinology,infertility|amenorrhea
 Glutethimide,aminoglutethimide,83,Launched,glucocorticoid receptor antagonist,CYP11A1|CYP19A1,endocrinology|oncology,Cushing's syndrome|breast cancer
 gamma-Hydroxybutyric acid,aminohydroxybutyric-acid,86,Launched,,,neurology/psychiatry,epilepsy
-Diamorphine,(R)-(-)-apomorphine,75,Launched,dopamine receptor agonist,ADRA2A|ADRA2B|ADRA2C|CALY|DRD1|DRD2|DRD3|DRD4|DRD5|HTR1A|HTR1B|HTR1D|HTR2A|HTR2B|HTR2C|HTR5A,neurology/psychiatry,Parkinson's Disease
-Dichloralphenazone,chlorphenamine,75,Launched,histamine receptor antagonist,,allergy,allergic rhinitis|urticaria
-Difenoxin,digoxin,75,Launched,ATPase inhibitor,ATP1A1,cardiology,congestive heart failure|atrial fibrillation (AF)
-Flunitrazepam,flutrimazole,64,Launched,sterol demethylase inhibitor,,infectious disease,mycosis
-Dihydrocodeine,dehydrocorydaline,77,Phase 3,acetylcholinesterase inhibitor,ACHE,,
-Bromazepam,ripazepam,74,Phase 2,benzodiazepine receptor agonist,GABRA1,,
-Clotiazepam,clotrimazole,70,Launched,cytochrome P450 inhibitor|imidazoline receptor ligand,CYP3A4|KCNN4|NR1I2|NR1I3|TRPM2|TRPM4|TRPM8,infectious disease,vulvovaginal candidiasis|oropharyngeal candidiasis
-Chloral hydrate,amylene-hydrate,67,Preclinical,local anesthetic,,,
-Attapulgite,tasuldine,60,Phase 3,mucolytic agent,,,
-Kaolin,aloin,73,Preclinical,angiogenesis inhibitor,,,
 Dextroamphetamine,hydroxyamphetamine,80,Launched,trace amine associated receptor agonist,TAAR1,ophthalmology,mydriasis
-Metamfetamine,methenamine,75,Launched,bacterial DNA inhibitor,,infectious disease,urinary tract infections
-Phendimetrazine,pheniramine,77,Launched,histamine receptor antagonist,HRH1,allergy,allergic rhinitis|urticaria
-Liotrix,calcipotriol,63,Launched,vitamin D receptor agonist,VDR,dermatology,psoriasis
 Ketazolam,etizolam,82,Launched,benzodiazepine receptor agonist,GABRA1,neurology/psychiatry,insomnia|anxiety
 Prazepam,ripazepam,82,Phase 2,benzodiazepine receptor agonist,GABRA1,,
-Quazepam,ripazepam,71,Phase 2,benzodiazepine receptor agonist,GABRA1,,
-Solifenacin,darifenacin,73,Launched,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5,urology,urinary incontinence
-Iron,adiporon,67,Preclinical,adiponectin receptor agonist,ADIPOR1|ADIPOR2,,
-Zinc,INCA-6,60,Preclinical,calcineurin inhibitor,NFATC1,,
-Nitrazepam,ripazepam,74,Phase 2,benzodiazepine receptor agonist,GABRA1,,
 Tiaprofenic acid,tiaprofenic-acid,100,Launched,cyclooxygenase inhibitor,PTGS2,rheumatology,rheumatoid arthritis
-Periciazine,apricitabine,78,Phase 3,nucleoside reverse transcriptase inhibitor,,,
 Amyl Nitrite,amyl-nitrite,100,Preclinical,atrial natriuretic peptide receptor agonist,,,
-Erythrityl tetranitrate,telotristat-ethyl,70,Launched,tryptophan hydroxylase inhibitor,TPH1,gastroenterology,diarrhea
 Isopropamide,iopromide,86,Launched,radiopaque medium,,radiology,contrast agent
 Camphor,camphor-(+),100,Phase 2,,,,
 Pantothenic acid,pantothenic-acid,100,Launched,coenzyme A precursor,,,
 Propylene glycol,propylene-glycol,100,Launched,,,,
-D-glucose,glucosamine,70,Launched,glycosylated protein precursor,IL1B,neurology/psychiatry|rheumatology,muscle pain|rheumatoid arthritis|joint pain|backache
-Cocarboxylase,acarbose,67,Launched,glucosidase inhibitor,AMY2A|MGAM,endocrinology,diabetes mellitus
 Flufenamic acid,flufenamic-acid,100,Preclinical,chloride channel blocker,AKR1C3|ANO1|AR|GJA1|GJA10|GJA3|GJA4|GJA5|GJA8|GJA9|GJB1|GJB2|GJB3|GJB4|GJB5|GJB6|GJB7|GJC1|GJC2|GJC3|GJD2|GJD3|GJD4|GJE1|PANX1|PANX2|PANX3|PKD2L1|PTGS1|PTGS2|TRPC5|TRPM2|TRPM5,,
-Isopropyl alcohol,perillyl-alcohol,73,Phase 2,apoptosis stimulant|farnesyltransferase inhibitor,FNTA,,
 Aminobenzoic acid,benzoic-acid,83,Launched,food preservative,DAO|HRSP12|PRDX5|RAB9A,infectious disease,tinea pedis
 gamma-Aminobutyric acid,gamma-aminobutyric-acid,100,Preclinical,benzodiazepine receptor agonist,GABBR1|GABBR2|GABRA1|GABRA2|GABRA3|GABRA5|GABRB2|GABRG2|GATM|KCTD12|KCTD16|KCTD8|SLC6A1,,
 Cholic Acid,cholic-acid,100,Launched,bile acid,ADH1C|CES1|COX4I1|COX5A|COX5B|COX6A2|COX6B1|COX6C|COX7A1|COX7B|COX7C|COX8A|ESRRG|FABP6|FECH|GPBAR1|MT-CO1|MT-CO2|MT-CO3|PLA2G1B,gastroenterology|neurology/psychiatry|genetics,bile acid synthesis disorders|peroxisomal disorders|Zellweger syndrome
@@ -281,692 +132,251 @@ Flavin adenine dinucleotide,flavin-adenine-dinucleotide,100,Preclinical,,ACAD8|A
 Acetic acid,acexamic-acid,83,Launched,5 alpha reductase inhibitor,GAST,dermatology,wound healing
 Propyl alcohol,perillyl-alcohol,80,Phase 2,apoptosis stimulant|farnesyltransferase inhibitor,FNTA,,
 Stearic acid,terreic-acid-(-),83,Preclinical,Bruton's tyrosine kinase (BTK) inhibitor,BTK,,
-Oteracil,gimeracil,71,Launched,dihydropyrimidine dehydrogenase inhibitor,DPYD,oncology,gastric adenocarcinoma
-Flavin mononucleotide,linaclotide,62,Launched,guanylate cyclase activator,GUCY2C,gastroenterology,irritable bowel syndrome|constipation
-Glutathione disulfide,glutathione,69,Phase 3,antioxidant,ESD|GGT1|GLO1|GLRX|GLRX2|GPX1|GPX2|GPX3|GPX4|GPX5|GPX6|GPX7|GPX8|GSR|GSS|GSTA1|GSTA2|GSTA3|GSTA4|GSTA5|GSTK1|GSTM1|GSTM2|GSTM3|GSTM4|GSTM5|GSTO1|GSTO2|GSTP1|GSTT1|GSTZ1|HAGH|HPGDS|LTC4S|MGST1|MGST2|MGST3|TXNDC12,,
 Deoxycholic acid,deoxycholic-acid,100,Launched,biliverdin reductase A activator|G protein-coupled receptor agonist,FPR1|GPBAR1,endocrinology,submental fat
 Propanoic acid,iopanic-acid,85,Withdrawn,thyroid hormone inhibitor,,,
 Benzoic acid,benzoic-acid,100,Launched,food preservative,DAO|HRSP12|PRDX5|RAB9A,infectious disease,tinea pedis
 Palmitic Acid,palmitoleic-acid,90,Preclinical,,,,
 Hexamidine,hexetidine,80,Launched,local anesthetic,,otolaryngology|infectious disease|dental|gastroenterology,pharyngitis|meningitis|laryngitis|gingivitis|ulcerative colitis
-Formaldehyde,asaraldehyde,75,Preclinical,cyclooxygenase inhibitor,PTGS2,,
-Pyrophosphoric acid,beta-glycerophosphoric-acid,78,Preclinical,,,,
 Fructose,fosfructose,84,Phase 3,fructose diphosphate stimulant,,,
-Didecyldimethylammonium,benzyldimethyloctylammonium,76,Preclinical,,,,
 Oleic Acid,folic-acid,90,Launched,folate receptor ligand,FOLR2|FOLR3|SLC19A1|SLC46A1,hematology,megaloblastic anemia
 Citric acid,citric-acid,100,Preclinical,coagulation factor inhibitor,AKR1B1|ANG|APRT|BHMT|C8G|CA4|CPB1|CS|CTDSP1|GNMT|HGS|HS3ST3A1|IL4I1|ITPA|LSM6|MDH2|MIF|PDE5A|PKD2L1|PLEKHA1|RNASE1|RNASE3|SRC|TNFSF13B|UCK2,,
-Carbocisteine,carebastine,75,Phase 1,histamine receptor antagonist,HRH1,,
 Taurocholic acid,cholic-acid,81,Launched,bile acid,ADH1C|CES1|COX4I1|COX5A|COX5B|COX6A2|COX6B1|COX6C|COX7A1|COX7B|COX7C|COX8A|ESRRG|FABP6|FECH|GPBAR1|MT-CO1|MT-CO2|MT-CO3|PLA2G1B,gastroenterology|neurology/psychiatry|genetics,bile acid synthesis disorders|peroxisomal disorders|Zellweger syndrome
 Lactic acid,citric-acid,82,Preclinical,coagulation factor inhibitor,AKR1B1|ANG|APRT|BHMT|C8G|CA4|CPB1|CS|CTDSP1|GNMT|HGS|HS3ST3A1|IL4I1|ITPA|LSM6|MDH2|MIF|PDE5A|PKD2L1|PLEKHA1|RNASE1|RNASE3|SRC|TNFSF13B|UCK2,,
 Lactose,lactulose,88,Launched,laxative,,gastroenterology,portal-systemic encephalopathy (PSE)
-Estrone sulfate,sparteine-sulfate,75,Launched,,,,
-Carboxin,carbetocin,78,Launched,oxytocin receptor agonist,OXTR,hematology,hemorrhage
 Benoxaprofen,fenoprofen,82,Launched,prostaglandin inhibitor,PTGS1|SLC5A8,rheumatology,rheumatoid arthritis|osteoarthritis
 Oxeladin,oxelaidin,94,Launched,antitussive,,pulmonary,cough suppressant
-Thenalidine,octenidine,76,Launched,membrane integrity inhibitor,,infectious disease,gram-negative bacterial infections|gram-positive bacterial infections
 Rapacuronium,pancuronium,87,Launched,acetylcholine receptor antagonist,CHRM2|CHRM3|CHRNA1|CHRNA2,critical care|neurology/psychiatry,endotracheal intubation|muscle relaxant
 Cyproterone acetate,cyproterone-acetate,100,Launched,androgen receptor antagonist,ADORA1|AR,oncology,prostate cancer
-Roxadustat,daprodustat,76,Phase 3,hypoxia inducible factor inhibitor,EGLN1,,
-Lorcaserin,blonanserin,76,Launched,dopamine receptor antagonist|serotonin receptor antagonist,DRD2|HTR2A,neurology/psychiatry,schizophrenia
-Ximelagatran,melanotan-ii,67,Launched,melanocortin receptor agonist,,,
 Clevidipine,cilnidipine,82,Launched,calcium channel blocker,CACNA1B,cardiology,hypertension
-Ezogabine,benzocaine,74,Launched,sodium channel blocker,SCN10A,infectious disease,first-aid antiseptic
 Ingenol mebutate,ingenol-mebutate,100,Launched,PKC activator,PRKCA|PRKCB|PRKCD|PRKCE|PRKCG,dermatology,actinic keratosis (AK)
 Migalastat,miglustat,84,Launched,glycosyl transferase inhibitor,UGCG,hematology,Gaucher disease
-Arimoclomol,arotinolol,67,Launched,adrenergic receptor antagonist,ADRB3,cardiology|neurology/psychiatry,hypertension|tremors
 Silver sulfadiazine,silver-sulfadiazine,100,Launched,PABA antagonist,,critical care,sepsis
-Gallium nitrate,amyl-nitrite,67,Preclinical,atrial natriuretic peptide receptor agonist,,,
 Iodine,midodrine,80,Launched,adrenergic receptor agonist,,cardiology,hypotension
-Tetrachlorodecaoxide,trichlormethiazide,63,Launched,chloride channel blocker,PTGS1|PTGS2|SLC12A1,cardiology,hypertension|edema
-Mavorixafor,plerixafor,67,Launched,CC chemokine receptor antagonist,ACKR3|CCR4|CXCR4,hematologic malignancy,non-Hodgkin lymphoma (NHL)|multiple myeloma
-Brivaracetam,piracetam,76,Launched,acetylcholine receptor agonist,GRIA1|GRIA2|GRIA3|GRIA4,neurology/psychiatry,senile dementia
 Sodium stibogluconate,sodium-stibogluconate,100,Launched,tyrosine phosphatase inhibitor,PTPN6,infectious disease,leishmaniasis
 Levoketoconazole,ketoconazole,86,Launched,sterol demethylase inhibitor,KCNA10,dermatology,seborrheic dermatitis
 Obeticholic acid,obeticholic-acid,100,Launched,FXR agonist,NR1H4,gastroenterology,primary biliary cholangitis
-Tirbanibulin,indibulin,76,Phase 1/Phase 2,tubulin polymerization inhibitor,,,
-Tapentadol,thiopental,70,Launched,GABA receptor antagonist,FAAH,neurology/psychiatry,anesthetic
-Ferumoxytol,formoterol,67,Launched,adrenergic receptor agonist,ADRB2,pulmonary,asthma|chronic obstructive pulmonary disease (COPD)|bronchospasm
-Lacosamide,cilostamide,76,Preclinical,phosphodiesterase inhibitor,PDE3A|PDE3B,,
 Arzoxifene,bazedoxifene,82,Launched,selective estrogen receptor modulator (SERM),ESR1|ESR2,orthopedics|endocrinology,osteoporosis|menopause
-Telavancin,dalbavancin,76,Launched,bacterial cell wall synthesis inhibitor,PNLIP,infectious disease,skin infections
 Oxymetholone,oxymetazoline,80,Launched,adrenergic receptor agonist,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C|HTR1B|HTR1D|HTR2C,otolaryngology,nasal congestion
 Armodafinil,adrafinil,80,Launched,adrenergic receptor agonist,,neurology/psychiatry,fatigue
 Ceftaroline fosamil,ceftaroline-fosamil,100,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,skin infections|pneumonia
-Isavuconazonium,isavuconazole,79,Phase 3,cytochrome P450 inhibitor,CYP3A4,,
 Ethanolamine oleate,ethanolamine-oleate,100,Launched,immunostimulant,F12|FABP4|FFAR1|FFAR4|PLD2,gastroenterology,esophageal varices
-Nitrous oxide,nitromide,73,Launched,,,infectious disease,coccidiosis
 Dabigatran etexilate,dabigatran-etexilate,100,Launched,thrombin inhibitor,F2,neurology/psychiatry|hematology,stroke|systemic embolism|pulmonary embolism (PE)|deep vein thrombosis (DVT)
-Dexmethylphenidate,methyldopate,67,Launched,,,cardiology,hypertension
-Isometheptene,isometheptene-mucate,79,Launched,,,neurology/psychiatry,headache
-Methyltestosterone,ethisterone,69,Launched,progestogen hormone,TYR,endocrinology,amenorrhea
 Potassium Iodide,potassium-iodide,100,Launched,,,pulmonary,asthma|bronchitis|emphysema
 Fospropofol,propofol,84,Launched,benzodiazepine receptor agonist,FAAH|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|SCN2A|SCN4A,neurology/psychiatry,anesthetic
 Fosaprepitant,aprepitant,87,Launched,tachykinin antagonist,TACR1,gastroenterology,nausea|vomiting
-Stanozolol,talinolol,74,Launched,adrenergic receptor antagonist,ADRB1,cardiology,hypertension
-Aluminum hydroxide,salidroside,62,Preclinical,beta amyloid protein neurotoxicity inhibitor,APP,,
-Calcium carbonate,calcium-levofolinate,70,Launched,,,,
-Triclofos,triclosan,78,Launched,antibacterial agent,DNMT1,infectious disease,first-aid antiseptic
-Manganese cation,imisopasem-manganese,67,Preclinical,superoxide dismutase mimetic,,,
-Ammonium chloride,amiloride,69,Launched,sodium channel blocker,AOC1|ASIC1|ASIC2|ASIC3|PKD2|PKD2L1|PLAU|SCNN1A|SCNN1B|SCNN1D|SCNN1G|SLC9A1|TRPC7|TRPV2,cardiology,hypertension|congestive heart failure
 Benzyl alcohol,benzyl-alcohol,100,Launched,local anesthetic,,infectious disease,virus herpes simplex (HSV)
 Carglumic acid,carglumic-acid,100,Launched,carbamoyl phosphate synthase activator,CPS1,metabolism,hyperammonemia
 Chenodeoxycholic acid,chenodeoxycholic-acid,100,Launched,11-beta hydroxysteroid dehydrogenase inhibitor|FXR agonist,HSD11B1|NR1H4,cardiology|gastroenterology,cerebral cholesterosis|gallstones
-Cupric sulfate,sparteine-sulfate,71,Launched,,,,
 Desoxycorticosterone acetate,deoxycorticosterone-acetate,98,Preclinical,progestogen hormone,NR3C2,,
-Prussian blue,lypressin,64,Launched,vasopressin receptor agonist,AVPR1A|AVPR1B|AVPR2,endocrinology,central diabetes insipidus
-Gallium citrate Ga-67,lithium-citrate,67,Launched,,,neurology/psychiatry,bipolar disorder|depression
-Ganirelix,degarelix,78,Launched,gonadotropin releasing factor hormone receptor antagonist,GNRHR,oncology,prostate cancer
-Hexocyclium,bretylium,60,Launched,norepinephrine inhibitor,ATP1A1,cardiology,ventricular arrhythmias|ventricular fibrillation (VF)|ventricular tachycardia (VT)
-Histrelin,istradefylline,70,Launched,adenosine receptor antagonist,ADORA1|ADORA2A|ADORA2B|ADORA3,neurology/psychiatry,Parkinson's Disease|dyskinesia
 Hydroxyprogesterone caproate,17-hydroxyprogesterone-caproate,95,Launched,progesterone receptor agonist,AR|ESR1|ESR2|NR1H4|NR1I2|NR3C1|PGR,obstetrics/gynecology,spontaneous preterm birth
-Lanreotide,pasireotide,76,Launched,somatostatin receptor agonist,SSTR1|SSTR2|SSTR3|SSTR5,endocrinology,Cushing's syndrome|acromegaly
-Lanthanum carbonate,lithium-citrate,65,Launched,,,neurology/psychiatry,bipolar disorder|depression
-Mebutamate,buramate,78,Preclinical,antiepileptic,,,
 Phenyl aminosalicylate,phenyl-aminosalicylate,100,Launched,,,infectious disease,tuberculosis
-Protokylol,practolol,74,Withdrawn,adrenergic receptor antagonist,ADRB1,,
 Pyrithione,pyrithyldione,87,Withdrawn,psychoactive drug,,,
-Pyrvinium,pyrvinium-pamoate,69,Launched,androgen receptor antagonist,AR,infectious disease,pinworm
 Unoprostone,dinoprostone,87,Withdrawn,prostanoid receptor agonist,CATSPER1|CATSPER2|CATSPER3|CATSPER4|PTGDR|PTGDR2|PTGER1|PTGER2|PTGER3|PTGER4|PTGFR|TBXA2R,,
 Chloramphenicol succinate,chloramphenicol-sodium-succinate,88,Launched,protein synthesis inhibitor,,infectious disease,gram-negative bacterial infections
-Flavone,ipriflavone,78,Launched,bone resorption inhibitor,,orthopedics,osteoporosis
-Nandrolone decanoate,haloperidol-decanoate,68,Launched,psychoactive drug,DRD2|DRD3|DRD4|HTR2A,neurology/psychiatry,schizophrenia
 Hyaluronic acid,hyaluronic-acid,100,Launched,,C1QBP|CD44|HABP2|HAPLN1|HAPLN3|HAPLN4|HMMR|ICAM1|NCAN|VCAN,rheumatology|urology,osteoarthritis|interstitial cystitis (IC)
-Spinosad,prinomastat,63,Phase 3,matrix metalloprotease inhibitor,,,
-Ioflupane I-123,isoflurane,64,Launched,inhaled anaesthetic,GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GLRA1|GLRB|KCNK10|KCNK18|KCNK2|KCNK3|KCNK9,neurology/psychiatry,general anaesthetic
 Acetylcarnitine,N-acetylcarnosine,81,Launched,,,,
 Gabapentin enacarbil,gabapentin-enacarbil,100,Launched,adrenergic receptor agonist,CACNA1G,neurology/psychiatry,restless leg syndrome|postherpetic neuralgia
-Perampanel,rapastinel,70,Phase 2,glutamate receptor agonist,,,
 Gadoxetic acid,gadopentetic-acid,84,Launched,contrast agent,PGD,radiology,contrast agent
-Icosapent ethyl,icosapent,75,Launched,platelet aggregation inhibitor,ACSL3|ACSL4|FADS1|FFAR1|PPARD|PPARG|PTGS1|PTGS2|SLC8A1|TRPV1,endocrinology,hypertriglyceridemia
 Fluticasone furoate,fluticasone-propionate,83,Launched,glucocorticoid receptor agonist,NR3C1|NR3C2|PGR|PLA2G4A,dermatology,corticosteroid-responsive dermatoses
 Dimethyl fumarate,dimethyl-fumarate,100,Launched,nuclear factor erythroid derived|like (NRF2) activator,KEAP1,neurology/psychiatry,multiple sclerosis
 Glycerol phenylbutyrate,glycerol-phenylbutyrate,100,Phase 1,sigma receptor ligand,,,
-Radium Ra 223 dichloride,pralidoxime-chloride,64,Launched,acetylcholinesterase inhibitor,ACHE|BCHE,pulmonary,respiratory depression
 Levomilnacipran,milnacipran,85,Launched,serotonin–norepinephrine reuptake inhibitor (SNRI),SLC6A2|SLC6A4,rheumatology,fibromyalgia
-Magaldrate,alendronate,67,Launched,bone resorption inhibitor,ATP6V1A|FDPS|PTPN4|PTPRE|PTPRS,orthopedics,osteoporosis
-Isoaminile,anisodamine,76,Phase 3,lipid peroxidase inhibitor,ADRA1A,,
 Iopanoic acid,iopanic-acid,96,Withdrawn,thyroid hormone inhibitor,,,
-Inositol nicotinate,myristyl-nicotinate,79,Phase 1,topical sunscreen agent,,,
-Gemeprost,eprodisate,63,Phase 3,amyloid protein inhibitor|antiamyloidogenic agent,SAA1,,
-Fusafungine,abafungin,70,Phase 3,sterol methyltransferase inhibitor,,,
-Dimetotiazine,pipotiazine,75,Launched,dopamine receptor antagonist,DRD1|DRD2|HTR1A|HTR2A,neurology/psychiatry,schizophrenia
-Fluocortolone,fluorometholone,79,Launched,glucocorticoid receptor agonist,NR3C1,ophthalmology,eye inflammation
 Fluclorolone acetonide,fluocinolone-acetonide,86,Launched,glucocorticoid receptor agonist,NR3C1|SERPINA6,dermatology,seborrheic dermatitis
 Etidocaine,lidocaine,84,Launched,histamine receptor agonist,EGFR|SCN10A|SCN5A|SCN9A,neurology/psychiatry|dermatology|hematology,itching|eczema|hemorrhage
-Ethoheptazine,eltoprazine,75,Phase 2,serotonin receptor agonist,HTR1A|HTR1B,,
 Canrenoic acid,tannic-acid,80,Launched,PARG inhibitor,ANO1,gastroenterology,constipation
-Aliskiren,taltirelin,63,Launched,thyrotropin releasing hormone receptor agonist,TRHR,neurology/psychiatry,spinocerebellar ataxia
-Suvorexant,almorexant,70,Phase 3,orexin receptor antagonist,HCRTR1|HCRTR2,,
 Tedizolid phosphate,tedizolid-phosphate,100,Launched,protein synthesis inhibitor,,infectious disease,skin infections
-Ceftolozane,centazolone,73,Phase 1,monoamine oxidase inhibitor,,,
-Cannabidiol,arbidol,67,Launched,cytochrome P450 inhibitor,CYP3A4,infectious disease,influenza A virus infection
 Sodium oxybate,sodium-ascorbate,80,Launched,,,,
-Olodaterol,broxaterol,70,Phase 3,adrenergic receptor agonist,ADRB2,,
-Potassium alum,acesulfame-potassium,76,Phase 3,,,,
-Amylocaine,amyleine,78,Preclinical,local anesthetic,,,
-Tixocortol,tioconazole,67,Launched,sterol demethylase inhibitor,,infectious disease,yeast infection
-Xanthinol,dexpanthenol,76,Launched,,,gastroenterology,paralytic ileus
 Podophyllin,podophyllotoxin,85,Launched,microtubule inhibitor|tubulin polymerization inhibitor,IGF1R|TOP2A|TUBA4A|TUBB,infectious disease,genital warts
-Difluocortolone,fluorometholone,73,Launched,glucocorticoid receptor agonist,NR3C1,ophthalmology,eye inflammation
 Benzoyl peroxide,benzoyl-peroxide,100,Launched,oxidizing agent,,dermatology,acne vulgaris (AV)
-Magnesium hydroxide,hydroxyzine,60,Launched,antihistamine,HRH1,neurology/psychiatry|allergy|dermatology,anxiety|urticaria|itching|dermatosis
 Coenzyme M,coenzyme-I,90,Phase 2,,AASS|ACADS|ADH1A|ADH1B|ADH1C|ADH4|ADH5|ADH7|AKR1B1|AKR1C1|AKR1C2|AKR1C3|AKR1C4|ALDH1A1|ALDH1A2|ALDH1A3|ALDH1B1|ALDH2|ALDH3A1|ALDH3A2|ALDH3B1|ALDH3B2|ALDH4A1|ALDH5A1|ALDH6A1|ALDH7A1|ALDH9A1|AMT|BDH1|BLVRA|BLVRB|CDO1|CYB5R3|CYP17A1|CYP4A11|DHCR7|DHFR|DLAT|DLD|EHHADH|GAPDH|GAPDHS|GLUD1|GLUD2|GPD1|GSR|H6PD|HADH|HADHA|HIBADH|HMGCR|HMOX1|HMOX2|HPGD|HSD11B1|HSD11B2|HSD17B1|HSD17B10|HSD17B2|HSD17B3|HSD17B4|HSD17B7|HSD17B8|HSD3B1|HSD3B2|IDH3A|IDH3B|IDH3G|IMPDH1|IMPDH2|LDHA|LDHAL6A|LDHAL6B|LDHB|LDHC|MDH1|MDH2|ME1|ME2|ME3|MSMO1|MT-ND1|MT-ND2|MT-ND3|MT-ND4|MT-ND4L|MT-ND5|MT-ND6|MTHFD1|MTHFD2|NDUFA1|NDUFA10|NDUFA11|NDUFA12|NDUFA13|NDUFA2|NDUFA3|NDUFA4|NDUFA4L2|NDUFA5|NDUFA6|NDUFA7|NDUFA8|NDUFA9|NDUFAB1|NDUFB1|NDUFB10|NDUFB2|NDUFB3|NDUFB4|NDUFB5|NDUFB6|NDUFB7|NDUFB8|NDUFB9|NDUFC1|NDUFC2|NDUFS1|NDUFS2|NDUFS3|NDUFS4|NDUFS5|NDUFS6|NDUFS7|NDUFS8|NDUFV1|NDUFV2|NDUFV3|NNT|NQO2|NSDHL|OGDH|PDHA1|PDHA2|PDHB|PHGDH|PYCR1|PYCR2|QDPR|RDH5|SORD|TSTA3|TYR|UGDH,,
-Nitrous acid,citric-acid,70,Preclinical,coagulation factor inhibitor,AKR1B1|ANG|APRT|BHMT|C8G|CA4|CPB1|CS|CTDSP1|GNMT|HGS|HS3ST3A1|IL4I1|ITPA|LSM6|MDH2|MIF|PDE5A|PKD2L1|PLEKHA1|RNASE1|RNASE3|SRC|TNFSF13B|UCK2,,
 Colfosceril palmitate,colfosceril-palmitate,100,Launched,pulmonary surfactant,,pulmonary,respiratory distress syndrome (RDS)
-Calcium carbimide,calcium-gluceptate,63,Launched,,,,
 Paraldehyde,asaraldehyde,87,Preclinical,cyclooxygenase inhibitor,PTGS2,,
 Eslicarbazepine acetate,eslicarbazepine-acetate,100,Launched,sodium channel blocker,SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A,neurology/psychiatry,seizures
 Zucapsaicin,capsaicin,90,Launched,TRPV agonist,CFTR|TRPV1,neurology/psychiatry|rheumatology,muscle pain|rheumatoid arthritis
-Medrogestone,dydrogesterone,77,Launched,progesterone receptor agonist,PGR,obstetrics/gynecology,infertility
 Potassium citrate,potassium-canrenoate,81,Launched,mineralocorticoid receptor antagonist,NR3C2,cardiology,edema
-Chromic chloride,cholic-acid,67,Launched,bile acid,ADH1C|CES1|COX4I1|COX5A|COX5B|COX6A2|COX6B1|COX6C|COX7A1|COX7B|COX7C|COX8A|ESRRG|FABP6|FECH|GPBAR1|MT-CO1|MT-CO2|MT-CO3|PLA2G1B,gastroenterology|neurology/psychiatry|genetics,bile acid synthesis disorders|peroxisomal disorders|Zellweger syndrome
-Copper,CPP,67,Phase 2,glutamate receptor antagonist,GRIN1|GRIN2A|GRIN2B|GRIN2C|GRIN2D,,
-Cupric Chloride,pralidoxime-chloride,69,Launched,acetylcholinesterase inhibitor,ACHE|BCHE,pulmonary,respiratory depression
 Gadoteric acid,gadopentetic-acid,84,Launched,contrast agent,PGD,radiology,contrast agent
 Iothalamic acid,iothalamic-acid-d3,91,Preclinical,radiopaque medium,,,
-Isosulfan blue,busulfan,73,Launched,DNA inhibitor,,hematologic malignancy,chronic myeloid leukemia (CML)
-Oxygen,ogerin,67,Preclinical,G protein-coupled receptor modulator,,,
 Uridine triacetate,uridine-triacetate,100,Launched,,,nephrology,orotic aciduria
-Iron sucrose,sucrose,74,Launched,,ACTA1|ATOX1|C22orf28|LYZ,,
-Flutemetamol (18F),flumexadol,62,Preclinical,,,,
-Nitrogen,nitarsone,71,Launched,,,dermatology,blackhead disease
-Sodium chloride,sanguinarium-chloride,72,Phase 1,apoptosis stimulant,CASP3,,
 Sodium citrate,sodium-nitrite,86,Launched,nitric oxide donor,,critical care,poison antidote|cyanide poisoning
-Helium,bretylium,67,Launched,norepinephrine inhibitor,ATP1A1,cardiology,ventricular arrhythmias|ventricular fibrillation (VF)|ventricular tachycardia (VT)
-Carbon dioxide,atropine-oxide,71,Preclinical,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5,,
-Technetium Tc-99m pyrophosphate,thiamine-pyrophosphate,68,Launched,,,hematology,anemia
 Lorpiprazole,aripiprazole,83,Launched,serotonin receptor agonist|serotonin receptor antagonist,ADRA1A|ADRA1B|ADRA2A|ADRA2B|ADRA2C|CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|DRD1|DRD2|DRD3|DRD4|DRD5|HRH1|HTR1A|HTR1B|HTR1D|HTR1E|HTR2A|HTR2C|HTR3A|HTR6|HTR7,neurology/psychiatry,depression|schizophrenia|bipolar disorder
-Pholcodine,octodrine,74,Preclinical,antitumor agent,,,
 Dexibuprofen,ibuprofen,86,Launched,cyclooxygenase inhibitor,,neurology/psychiatry|rheumatology|otolaryngology|obstetrics/gynecology|endocrinology|dental,headache|muscle pain|rheumatoid arthritis|backache|common cold|menstrual pain|fever|toothache
 Dexketoprofen,ketoprofen,87,Launched,cyclooxygenase inhibitor,PTGS1|PTGS2|SLC5A8,rheumatology,rheumatoid arthritis|osteoarthritis
 Tolfenamic acid,tolfenamic-acid,100,Launched,cyclooxygenase inhibitor|prostanoid receptor antagonist,,neurology/psychiatry,migraine headache
 Bisoxatin,biotin,80,Launched,vitamin B,ACACA|ACACB|HLCS|MCCC1|MCCC2|PC|PCCA|PCCB|SLC5A6,,
 Methylene blue,methylene-blue,100,Launched,guanylyl cyclase inhibitor|nitric oxide production inhibitor,ACHE,hematology,methemoglobinemia
-Tegafur,ftorafur,67,Launched,thymidylate synthase inhibitor,TYMS,oncology,colorectal cancer
 Strontium ranelate,strontium-ranelate,100,Launched,bone formation stimulant|bone resorption inhibitor,CASR,orthopedics|rheumatology,osteoporosis|osteoarthritis
-Picosulfuric acid,picolinic-acid,77,Phase 2,chelating agent,,,
 Phenylacetic acid,pentetic-acid,80,Phase 2,chelating agent,,,
-Ubidecarenone,canrenone,73,Withdrawn,mineralocorticoid receptor antagonist,NR3C2,,
 Bismuth subcitrate potassium,bismuth-subcitrate-potassium,100,Launched,,,gastroenterology,duodenal ulcer disease
-Sodium aurothiomalate,sodium-orthovanadate,73,Preclinical,,,,
-Choline C 11,choline,74,Phase 3,acetylcholine precursor,ACHE|BCHE|CHRNA2|PCYT1A|PCYT1B|PHOSPHO1|PLD1|PLD2,,
-Activated charcoal,cholic-acid,62,Launched,bile acid,ADH1C|CES1|COX4I1|COX5A|COX5B|COX6A2|COX6B1|COX6C|COX7A1|COX7B|COX7C|COX8A|ESRRG|FABP6|FECH|GPBAR1|MT-CO1|MT-CO2|MT-CO3|PLA2G1B,gastroenterology|neurology/psychiatry|genetics,bile acid synthesis disorders|peroxisomal disorders|Zellweger syndrome
-Magnesium trisilicate,omeprazole-magnesium,63,Launched,proton pump inhibitor,ATP4A|ATP4B,gastroenterology,gastroesophageal reflux disease (GERD)|heartburn
 Tenofovir alafenamide,tenofovir-alafenamide,100,Launched,nucleoside reverse transcriptase inhibitor,,infectious disease,hepatitis B
 Butylscopolamine,scopolamine,81,Launched,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|SI,neurology/psychiatry|gastroenterology,motion sickness|vomiting|nausea
 Ioxaglic acid,ioxaglic-acid,100,Launched,radiopaque medium,,radiology,contrast agent
-Xenon-133,tenovin-1,67,Preclinical,SIRT inhibitor|TP53 activator,SIRT1,,
-Thallous chloride,chloralose,67,Preclinical,,,,
-Carindacillin,carbenicillin,77,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,gram-negative bacterial infections
-Procaine benzylpenicillin,benzylpenicillin,78,Launched,penicillin binding protein inhibitor,,infectious disease,celluitis|meningitis|endocarditis|syphilis|pneumonia|bacterial septicemia
-Zinc oxide,moxidectin,70,Launched,chloride channel antagonist,,infectious disease,gastrointestinal parasites
 Zinc sulfate,sulfanilate-zinc,86,Preclinical,,,,
-Sodium fluoride,sodium-gluconate,71,Launched,,,,
-Ammonia N-13,CaMKII-IN-1,61,Preclinical,calcium/calmodulin dependent protein kinase inhibitor,AKT1|CAMK2A|CAMK4|MYLK,,
-Tegafur-uracil,uracil-mustard,71,Launched,DNA synthesis inhibitor,,hematologic malignancy,non-Hodgkin lymphoma (NHL)
-Kappadione,lappaconite,67,Phase 2,sodium channel blocker,,,
 Iopodic acid,iopodic-acid,100,Launched,,,radiology,contrast agent
 Alatrofloxacin,balofloxacin,85,Launched,bacterial DNA gyrase inhibitor,,infectious disease,gram-negative bacterial infections
 Tyropanoic acid,iopanic-acid,81,Withdrawn,thyroid hormone inhibitor,,,
 Metrizoic acid,metrizoic-acid,100,Launched,radiopaque medium,,radiology,contrast agent
 Piperonyl butoxide,piperonyl-butoxide,100,Launched,cytochrome P450 inhibitor,,infectious disease,lice
-Procaine merethoxylline,methoxyflurane,65,Launched,membrane permeability inhibitor,ATP2C1|ATP5D|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GLRA1|GLRB|GRIA1|KCNA1|MT-ND1,neurology/psychiatry,general anaesthetic
-Propyliodone,procyclidine,75,Launched,acetylcholine receptor antagonist,,neurology/psychiatry,parkinsonism|Parkinson's Disease|akathisia|dystonia
-Sodium phosphate P 32,riboflavin-5-phosphate-sodium,68,Launched,,BLVRB|DHODH|DPYD|HAO1|HAO2|MT-ND1|NOS1|PNPO|POR|PPCDC|RFK|RPS6KA4|SGK1,,
 Tannic acid,tannic-acid,100,Launched,PARG inhibitor,ANO1,gastroenterology,constipation
-Indocyanine green acid form,indocyanine-green,77,Launched,contrast agent,SLCO1B1,cardiology,vascular imaging agent
-Lapyrium,iclaprim,75,Phase 3,dihydrofolate reductase inhibitor,,,
 Fluprednisolone,prednisolone,89,Launched,glucocorticoid receptor agonist,NR3C1|NR3C2|SERPINA6,ophthalmology|dermatology|infectious disease,conjunctivitis|rosacea|punctate keratitis|shingles|iritis|cyclitis
-Sodium chromate Cr-51,sodium-ascorbate,65,Launched,,,,
-Iodohippurate sodium I-131,2-iodohippuric-acid,62,Preclinical,,,,
-Rose bengal I-131,rose-bengal,79,Launched,contrast agent|immunostimulant,,radiology,diagnostic agent
-Phosphoric acid,sorbic-acid,77,Launched,,,,
 Sodium acetate,sodium-ascorbate,80,Launched,,,,
 Iocetamic acid,iocetamic-acid,100,Launched,radiopaque medium,,radiology,contrast agent
-Magnesium chloride,sanguinarium-chloride,77,Phase 1,apoptosis stimulant,CASP3,,
-Magnesium acetate tetrahydrate,segesterone-acetate,61,Launched,progesterone receptor agonist,PGR,,
-Monopotassium phosphate,etoposide-phosphate,71,Launched,topoisomerase inhibitor,TOP2A,oncology,testicular carcinoma|small cell lung cancer
-Dipotassium phosphate,adenosine-phosphate,70,Launched,adenosine receptor agonist,ACSL1|ACSS1|ACSS2|ADCY1|ADK|CREB1|FBP1|HINT1|PDE4B|PDE4D|PIM1|PRKAA1|PRKAB1|PRKAB2|PYGL|TRPM4,,
-Potassium perchlorate,potassium-canrenoate,73,Launched,mineralocorticoid receptor antagonist,NR3C2,cardiology,edema
-Iodide I-123,rhodamine-123,64,Phase 1,,,,
-Iodohippurate sodium I-123,2-iodohippuric-acid,67,Preclinical,,,,
-"Sodium phosphate, monobasic",sodium-monofluorophosphate,77,Launched,,PYGM,dental,cavities
 Sodium carbonate,sodium-ascorbate,81,Launched,,,,
 Glycerin,glycitein,82,Phase 3,tumor necrosis factor release inhibitor,TNF,,
-Sodium sulfate,sodium-dodecyl-sulfate,78,Launched,,ALB,,
-Indium In-111 oxyquinoline,oxyquinoline,63,Launched,chelating agent,METAP2,dermatology,cosmetic
-Iofetamine I-123,rhodamine-123,69,Phase 1,,,,
-Magnesium carbonate,potassium-canrenoate,67,Launched,mineralocorticoid receptor antagonist,NR3C2,cardiology,edema
-Potassium lactate,acesulfame-potassium,76,Phase 3,,,,
 Sodium fluorophosphate,sodium-monofluorophosphate,92,Launched,,PYGM,dental,cavities
-Iotrolan,ioxilan,67,Launched,radiopaque medium,,radiology,angiography
-Indium In-111 chloride,sanguinarium-chloride,70,Phase 1,apoptosis stimulant,CASP3,,
 Cetyl alcohol,benzyl-alcohol,81,Launched,local anesthetic,,infectious disease,virus herpes simplex (HSV)
-Strontium chloride Sr-89,sanguinarium-chloride,62,Phase 1,apoptosis stimulant,CASP3,,
-Thiosulfuric acid,hippuric-acid,73,Preclinical,,,,
-Ferric ammonium citrate,ammonium-lactate,72,Launched,,HCAR1,dermatology,xerosis cutis|ichthyosis vulgaris
-Fludeoxyglucose (18F),2-deoxyglucose,79,Phase 2,glycolysis inhibitor,SLC2A1|SLC2A2|SLC2A3|SLC2A4,,
-Talc,tecalcet,67,Phase 2,calcium-sensing receptor agonist,CASR,,
 Simethicone,dimethicone,91,Launched,,,dermatology,cosmetic
-Sodium ferric gluconate complex,sodium-gluconate,68,Launched,,,,
-Perflexane,perfluamine,76,Launched,,,,
-Ecamsule,etamsylate,67,Launched,hemostatic agent,,hematology,hemorrhage
-Titanium dioxide,potassium-iodide,69,Launched,,,pulmonary,asthma|bronchitis|emphysema
 Methyl salicylate,methyl-salicylate,100,Launched,,,endocrinology|neurology/psychiatry,fever|pain relief
-Iobenguane sulfate I-123,2-aminobenzenesulfonamide,61,Preclinical,carbonic anhydrase inhibitor,CA12|CA14|CA2|CA6|CA9,,
-Tetracycline phosphate complex,chlortetracycline,64,Launched,protein synthesis inhibitor,,ophthalmology,conjunctivitis
 Dexchlorpheniramine maleate,dexchlorpheniramine,83,Launched,histamine receptor antagonist,,allergy|cardiology,allergic conjunctivitis|allergic rhinitis|urticaria|angioedema
-Sodium glycerophosphate,sodium-monofluorophosphate,78,Launched,,PYGM,dental,cavities
-Choline C-11,choline,74,Phase 3,acetylcholine precursor,ACHE|BCHE|CHRNA2|PCYT1A|PCYT1B|PHOSPHO1|PLD1|PLD2,,
-Levmetamfetamine,levetiracetam,69,Launched,calcium channel blocker,CACNA1B|SCN1A|SV2A,neurology/psychiatry,seizures
-Stannous chloride,sanguinarium-chloride,74,Phase 1,apoptosis stimulant,CASP3,,
-Selenic acid,undecylenic-acid,79,Launched,other antifungal,,infectious disease,tinea pedis|tinea corporis
 Phenyl salicylate,phenyl-salicylate,100,Launched,antiseptic,,urology,interstitial cystitis (IC)
-Hydrogen fluoride,flurbiprofen-(+/-),62,Launched,cyclooxygenase inhibitor,,rheumatology,rheumatoid arthritis|osteoarthritis
-Trolamine salicylate,salicylamide,69,Launched,analgesic agent,,neurology/psychiatry|endocrinology,pain relief|fever
-Silver nitrate,isosorbide-dinitrate,65,Launched,nitric oxide stimulant,GUCY1A2|GUCY1A3|GUCY1B2|GUCY1B3|NPR1,cardiology,angina pectoris|coronary artery disease (CAD)
-Aluminum chloride,amiloride,69,Launched,sodium channel blocker,AOC1|ASIC1|ASIC2|ASIC3|PKD2|PKD2L1|PLAU|SCNN1A|SCNN1B|SCNN1D|SCNN1G|SLC9A1|TRPC7|TRPV2,cardiology,hypertension|congestive heart failure
 Potassium nitrate,potassium-canrenoate,81,Launched,mineralocorticoid receptor antagonist,NR3C2,cardiology,edema
-Hydrogen peroxide,benzoyl-peroxide,67,Launched,oxidizing agent,,dermatology,acne vulgaris (AV)
-Stannous fluoride,methanesulfonyl-fluoride,63,Phase 2,acetylcholinesterase inhibitor,ACHE,,
-Calcium citrate,calcium-gluceptate,79,Launched,,,,
-Meradimate,eprodisate,70,Phase 3,amyloid protein inhibitor|antiamyloidogenic agent,SAA1,,
 Potassium bicarbonate,potassium-canrenoate,83,Launched,mineralocorticoid receptor antagonist,NR3C2,cardiology,edema
-Sulfur hexafluoride,methanesulfonyl-fluoride,60,Phase 2,acetylcholinesterase inhibitor,ACHE,,
-Magnesium citrate,lithium-citrate,69,Launched,,,neurology/psychiatry,bipolar disorder|depression
-Ensulizole,sulmazole,74,Phase 1,adenosine receptor antagonist,,,
 Undecylenic acid,undecylenic-acid,100,Launched,other antifungal,,infectious disease,tinea pedis|tinea corporis
 Sodium iodide,propidium-iodide,83,Preclinical,,ACHE,,
-Hypochlorite,cytochlor,67,Phase 1,,,,
 Calcium gluconate,calcium-gluceptate,86,Launched,,,,
-Selenious acid,geniposidic-acid,67,Preclinical,cyclooxygenase inhibitor,,,
-Carbamide peroxide,benzoyl-peroxide,65,Launched,oxidizing agent,,dermatology,acne vulgaris (AV)
-Silicon dioxide,digoxigenin,62,Preclinical,steroid,,,
-Cupric oxide,bupicomide,73,Phase 1,adrenergic receptor antagonist,ADRB1,,
-Selenium,meldonium,71,Launched,gamma butyrobetaine hydroxylase inhibitor,BBOX1,cardiology,coronary artery disease (CAD)
-Chromium,homidium,75,Preclinical,,,,
-Molybdenum,meldonium,63,Launched,gamma butyrobetaine hydroxylase inhibitor,BBOX1,cardiology,coronary artery disease (CAD)
-Chromium Cr-51,chromium-picolinate,61,Launched,insulin sensitizer,,endocrinology,diabetes mellitus
-Manganese gluconate,imisopasem-manganese,67,Preclinical,superoxide dismutase mimetic,,,
-Barium sulfate,sparteine-sulfate,71,Launched,,,,
-Sodium hydroxide,sodium-nitrite,67,Launched,nitric oxide donor,,critical care,poison antidote|cyanide poisoning
 Potassium hydroxide,potassium-iodide,80,Launched,,,pulmonary,asthma|bronchitis|emphysema
-Sodium sulfide,nimesulide,67,Launched,cyclooxygenase inhibitor,LTF|PLA2G2E|PTGS1|PTGS2,rheumatology|obstetrics/gynecology,osteoarthritis|menstrual pain
 Phenyltoloxamine,phentolamine,86,Launched,adrenergic receptor antagonist,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C,endocrinology|cardiology,pheochromocytoma|hypertension
-Bicisate,cobicistat,78,Launched,cytochrome P450 inhibitor,CYP3A4|CYP3A43|CYP3A5|CYP3A7,infectious disease,human immunodeficiency virus (HIV-1)
-Calcium threonate,calcium-levofolinate,76,Launched,,,,
-Ferric sulfate,dodecyl-sulfate,69,Preclinical,,LYZ,,
-Zeaxanthin,astaxanthin,76,Launched,antioxidant,,,
-Exametazime,dexamethasone,67,Launched,glucocorticoid receptor agonist,ANXA1|NOS2|NR0B1|NR3C1|NR3C2,endocrinology|rheumatology|allergy|gastroenterology|hematology|neurology/psychiatry|dermatology,hypercalcemia|rheumatoid arthritis|psoriatic arthritis|osteoarthritis|allergic rhinitis|ulcerative colitis|anemia|multiple sclerosis|enteritis|lupus|dermatitis herpetiformis (DH)|nephrotic syndrome|psoriasis
-Tetrofosmin,metformin,70,Launched,insulin sensitizer,ACACB|PRKAB1,endocrinology,diabetes mellitus
 Rose bengal,rose-bengal,100,Launched,contrast agent|immunostimulant,,radiology,diagnostic agent
-Oftasceine,tacrine,71,Launched,acetylcholinesterase inhibitor,ACHE|BCHE,neurology/psychiatry,Alzheimer's disease
-Magnesium glycinate,sodium-gluconate,69,Launched,,,,
 Menthyl salicylate,methyl-salicylate,97,Launched,,,endocrinology|neurology/psychiatry,fever|pain relief
 Panthenol,dexpanthenol,86,Launched,,,gastroenterology,paralytic ileus
-Alcloxa,alclofenac,71,Launched,cyclooxygenase inhibitor,PTGS1,rheumatology,rheumatoid arthritis
-Amiloxate,cinoxate,71,Launched,,,dermatology,sunscreen lotion
-Ethylhexyl methoxycrylene,methylene-blue,62,Launched,guanylyl cyclase inhibitor|nitric oxide production inhibitor,ACHE,hematology,methemoglobinemia
-Aluminum sulfate,polymyxin-B-sulfate,69,Launched,bacterial permeability inducer,,ophthalmology,eye infection
-Copper gluconate,gluconolactone,60,Launched,,LCT,,
-Zinc gluconate,sodium-gluconate,73,Launched,,,,
 Chromium picolinate,chromium-picolinate,100,Launched,insulin sensitizer,,endocrinology,diabetes mellitus
-Levomefolic acid,folic-acid,77,Launched,folate receptor ligand,FOLR2|FOLR3|SLC19A1|SLC46A1,hematology,megaloblastic anemia
-Fluoride ion,florifenine,70,Preclinical,anti-inflammatory agent,,,
-Diacetyl benzoyl lathyrol,p-dimethylinamyl-benzoate,60,Preclinical,,,,
-Calcium glycerophosphate,calcium-gluceptate,76,Launched,,,,
-Diethylamino hydroxybenzoyl hexyl benzoate,p-dimethylinamyl-benzoate,63,Preclinical,,,,
 Dihydroergocornine,dihydroergocristine,86,Launched,adrenergic receptor antagonist|prolactin inhibitor,ADRA1A|ADRB1|DRD1|DRD2|DRD3|DRD4|DRD5|HTR1A|HTR2A|HTR3A|HTR4|HTR5A|HTR6|HTR7,neurology/psychiatry,senile dementia|cerebrovascular insufficiency
-Dihydro-alpha-ergocryptine,dihydroergocristine,76,Launched,adrenergic receptor antagonist|prolactin inhibitor,ADRA1A|ADRB1|DRD1|DRD2|DRD3|DRD4|DRD5|HTR1A|HTR2A|HTR3A|HTR4|HTR5A|HTR6|HTR7,neurology/psychiatry,senile dementia|cerebrovascular insufficiency
-Epicriptine,icaritin,74,Phase 3,PPAR receptor antagonist,PDE5A,,
-DL-Methylephedrine,methylene-blue,69,Launched,guanylyl cyclase inhibitor|nitric oxide production inhibitor,ACHE,hematology,methemoglobinemia
 Brilliant green cation,brilliant-green,81,Launched,,,infectious disease,antiseptic
-DL-dimyristoylphosphatidylcholine,phosphatidylcholine,73,Launched,,,infectious disease|dermatology|gastroenterology|cardiology|obstetrics/gynecology,hepatitis B|hepatitis C|eczema|gallbladder disease|cholesterol|premenstrual syndrome
-Ethyl ferulate,ethyl-pyruvate,79,Phase 2,tumor necrosis factor production inhibitor,,,
-Phenoxyethanol,phenothiazine,67,Preclinical,dopamine receptor antagonist,,,
-Glycol salicylate,methyl-salicylate,76,Launched,,,endocrinology|neurology/psychiatry,fever|pain relief
 Boric acid,orotic-acid,86,Phase 2,,DHODH,,
 Dipyrithione,pyrithyldione,80,Withdrawn,psychoactive drug,,,
-Tetradecyl hydrogen sulfate (ester),sodium-tetradecyl-sulfate,72,Launched,,PROC,dermatology,varicose veins
 Sinapultide,sincalide,80,Preclinical,cholecystokinin agonist,,,
-Ubiquinol,clioquinol,74,Withdrawn,chelating agent,OPRK1,,
-Aluminum oxide,amcinonide,67,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses
-Silanol,vilanterol,71,Launched,adrenergic receptor agonist,ADRB2,pulmonary,chronic obstructive pulmonary disease (COPD)
-Rubidium,homidium,62,Preclinical,,,,
-Calcium Phosphate,clindamycin-phosphate,74,Launched,protein synthesis inhibitor,,obstetrics/gynecology,bacterial vaginosis
-Chloroform,chlorfenson,67,Phase 2,other antifungal,,,
-Squalene,squalamine,78,Phase 3,antiviral,,,
-2-mercaptobenzothiazole,"""4,5,6,7-tetrabromobenzotriazole""",63,Preclinical,casein kinase inhibitor,AKT1|CHEK1|CSNK2A1|GSK3B|LCK|MAP2K1|MAPK1|MAPK11|MAPK12|MAPK14|MAPK8|PRKCA|ROCK1|RPS6KB1|SGK1,,
-Padimate O,lisadimate,70,Launched,topical sunscreen agent,,dermatology,sunscreen lotion
-Aluminum chlorohydrate,camylofine-chlorhydrate,76,Launched,,,gastroenterology,abdominal pain
-Indigotindisulfonic acid,minodronic-acid,67,Launched,bone resorption inhibitor,FDPS|GGPS1,orthopedics,osteoporosis
 Cetalkonium,cefalonium,86,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,gram-positive bacterial infections
-Pipradrol,opipramol,78,Launched,sigma receptor agonist,,neurology/psychiatry,generalized anxiety disorder (GAD)
-Drometrizole trisiloxane,octamethyltrisiloxane,71,Preclinical,,,,
 Etafedrine,ethaverine,80,Launched,calcium channel blocker,,neurology/psychiatry,muscle relaxant|spasms
-Carbon monoxide,atropine-oxide,69,Preclinical,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5,,
-Neon,gepon,67,Phase 1,,,,
 Levoleucovorin,leucovorin,83,Launched,folate receptor ligand,,oncology,osteosarcoma
 Normethadone,norethindrone,80,Launched,progesterone receptor agonist,PGR,obstetrics/gynecology,endometriosis
-Oxilofrine,doxifluridine,70,Launched,thymidylate synthase inhibitor,TYMS,oncology,colorectal cancer
 Nomegestrol,megestrol,90,Launched,progesterone receptor agonist,,oncology,breast cancer
-Tafamidis,pafuramidine,67,Phase 3,DNA synthesis inhibitor,,,
-Latanoprostene bunod,latanoprost,71,Launched,prostanoid receptor agonist,PTGFR,ophthalmology,ocular hypertension|glaucoma
-Triheptanoin,tretinoin,76,Launched,retinoid receptor agonist|retinoid receptor ligand,ALDH1A1|ALDH1A2|GPRC5A|NR0B1|NR2C2|PPARD|RARA|RARB|RARG|RARRES1|RORB|RORC|RXRB|RXRG,hematologic malignancy,acute promyelocytic leukemia (APL)
-Naldemedine,ademetionine,70,Launched,methyltransferase stimulant|phosphodiesterase inhibitor,,neurology/psychiatry,depression|attention-deficit/hyperactivity disorder (ADHD)
-Iomeprol,omeprazole,78,Launched,ATPase inhibitor,ATP4A|CLCN2,gastroenterology,heartburn
-Galactose,lactulose,78,Launched,laxative,,gastroenterology,portal-systemic encephalopathy (PSE)
-Clobetasol,acetarsol,74,Launched,,,gastroenterology,diarrhea
 Momelotinib,erlotinib,80,Launched,EGFR inhibitor,EGFR|NR1I2,oncology,non-small cell lung cancer (NSCLC)|pancreatic cancer
-Zytron,azasetron,67,Launched,serotonin receptor antagonist,HTR3A|HTR3B,infectious disease,genitial herpes
 Capmatinib,apatinib,89,Phase 3,RET tyrosine kinase inhibitor,CSK|KDR|KIT|RET,,
-Esketamine,benethamine,76,Preclinical,,,,
-Indium In-111 pentetreotide,indium(III)-isopropoxide,60,Preclinical,,,,
-Brexanolone,eltanolone,76,Phase 3,GABA receptor positive allosteric modulator,GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB2|GABRG2,,
-Infigratinib,fisogatinib,78,Phase 1,fibroblast growth factor inhibitor,,,
 Bempedoic acid,bempedoic-acid,100,Launched,AMPK inhibitor,ACLY,,
-Difelikefalin,dibekacin,64,Launched,bacterial 30S ribosomal subunit inhibitor,,infectious disease,gram-negative bacterial infections
 Nirogacestat,crenigacestat,80,Preclinical,notch signaling inhibitor,,,
-Voxilaprevir,ciluprevir,73,Preclinical,serine protease inhibitor,,,
 Sarecycline,sancycline,86,Preclinical,antitumor agent,,,
-Gadolinium,aclidinium,70,Launched,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5,pulmonary,bronchitis|emphysema|chronic obstructive pulmonary disease (COPD)
 Telotristat ethyl,telotristat-ethyl,100,Launched,tryptophan hydroxylase inhibitor,TPH1,gastroenterology,diarrhea
-Mannitol busulfan,mannitol-D,67,Launched,diuretic,,neurology/psychiatry|ophthalmology|gastroenterology,intracranial pressure|intraocular pressure|constipation
 Deutetrabenazine,tetrabenazine,90,Launched,vesicular monoamine transporter inhibitor,SLC18A1|SLC18A2,infectious disease|neurology/psychiatry,cholera|Huntington's disease
-Gepirone,gepon,77,Phase 1,,,,
-Capivasertib,alisertib,76,Phase 3,Aurora kinase inhibitor,AURKA,,
-P-nitrobiphenyl,nitrocaramiphen,67,Preclinical,cholinergic receptor antagonist,CHRM1,,
 Dopexamine,dopamine,89,Launched,dopamine receptor agonist,DBH|DRD1|DRD2|DRD3|DRD4|DRD5|HTR1A|HTR7|SLC6A2|SLC6A3|SLC6A4,cardiology|neurology/psychiatry,ventricular arrhythmias|depression|headache|tremors
-Temocillin,amoxicillin,76,Launched,penicillin binding protein inhibitor,CYP2C19|SLC15A1|SLC15A2|SLC22A6,infectious disease|gastroenterology,skin infections|duodenal ulcer disease|gonorrhea|ear infections|throat infections|genitourinary tract infections|respiratory tract infections
-Iobitridol,ribitol,71,Preclinical,,,,
-Steviolbioside,teniposide,67,Launched,topoisomerase inhibitor,TOP2A|TOP2B,hematologic malignancy,acute lymphoblastic leukemia (ALL)
 Betulinic Acid,betulinic-acid,100,Phase 1/Phase 2,apoptosis stimulant|NFkB pathway inhibitor,GPBAR1,,
 Piritramide,picartamide,82,Phase 2,H+/K+-ATPase inhibitor,ATP4A,,
-Clascoterone,corticosterone,69,Preclinical,mineralocorticoid receptor agonist,HSD11B1|NCOA1|NR3C2,,
-Omaveloxolone,enoxolone,73,Launched,gap junction modulator,HSD11B1,gastroenterology|otolaryngology,peptic ulcer disease (PUD)|common cold
-Nitrite,nitromide,75,Launched,,,infectious disease,coccidiosis
 Oxetacaine,oxethazaine,86,Launched,local anesthetic,,neurology/psychiatry,local anesthetic
-"1,2-Benzodiazepine",benzo[d]thiazole-2(3H)-thione,65,Phase 1,,,,
-Samidorphan,thiorphan,70,Phase 1,membrane metalloendopeptidase inhibitor,MME,,
-Pentetreotide,octreotide,70,Launched,somatostatin receptor agonist,SSTR2|SSTR3|SSTR5,gastroenterology|endocrinology|oncology,diarrhea|acromegaly|carcinoid tumors
-Plazomicin,isepamicin,70,Launched,protein synthesis inhibitor,,infectious disease,pneumonia|peritonitis
 Perazine,piperazine,89,Launched,benzodiazepine receptor agonist,GABRB3,infectious disease,gastrointestinal roundworms
-Fenpropidin,ifenprodil,76,Launched,adrenergic receptor antagonist|glutamate receptor antagonist,GRIN2B,,
-Iodide,iodipamide,75,Launched,radiopaque medium,ALB,radiology,contrast agent
-Gaxilose,xylose,71,Launched,,,,
-Boscalid,sincalide,71,Preclinical,cholecystokinin agonist,,,
-Trifarotene,tamibarotene,78,Launched,retinoid receptor agonist,RARA|RARB,hematologic malignancy,acute promyelocytic leukemia (APL)
-Perflubutane,perfluamine,78,Launched,,,,
-Lefamulin,valnemulin,74,Launched,bacterial 50S ribosomal subunit inhibitor,,infectious disease|gastroenterology,dysentry|colitis|pneumonia
-Etelcalcetide,tecalcet,76,Phase 2,calcium-sensing receptor agonist,CASR,,
-Nicoboxil,idronoxil,67,Phase 3,XIAP inhibitor,ENOX2|SPHK1,,
-Isoxaflutole,amflutizole,70,Phase 2,xanthine oxidase inhibitor,XDH,,
 Lactitol,lacitol,93,Launched,laxative,,gastroenterology,constipation
 Dihydralazine,hydralazine,92,Launched,vasodilator,,cardiology,hypertension
 Methylprednisone,methylprednisolone,94,Launched,glucocorticoid receptor agonist,NR3C1,endocrinology|rheumatology|dermatology|infectious disease|allergy|hematology|neurology/psychiatry|gastroenterology,hypercalcemia|thyroiditis|ankylosing spondylitis|bursitis|osteoarthritis|psoriatic arthritis|seborrheic dermatitis|mycosis|allergic rhinitis|psoriasis|anemia|multiple sclerosis|ulcerative colitis|enteritis
-Terizidone,primidone,74,Launched,GABA receptor antagonist,CHRNA4|CHRNA7|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GRIA2|GRIK2|SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A,neurology/psychiatry,seizures
-Silicon,salicin,71,Phase 1,anti-inflammatory agent,,,
 Oteseconazole,terconazole,83,Launched,sterol demethylase inhibitor,,infectious disease,vulvovaginal candidiasis
 Macimorelin,tabimorelin,82,Phase 2,growth hormone secretagogue receptor agonist,GHSR,,
-Lumefantrine co-artemether,methylergometrine,65,Launched,dopamine receptor antagonist|serotonin receptor antagonist,DRD1|HTR1E|HTR1F|HTR2A|HTR2B|HTR2C,hematology|neurology/psychiatry,postpartum hemorrhage (PPH)|migraine headache
-Biguanide,guanidine,78,Launched,HSP inhibitor,ALDH2|DLG4|GAMT|RNASE1,neurology/psychiatry,Lambert-Eaton myasthenic syndrome (LEMS)
 Amitriptylinoxide,amitriptyline,87,Launched,norepinephrine inhibitor|norepinephrine reuptake inhibitor|serotonin receptor antagonist|serotonin–norepinephrine reuptake inhibitor (SNRI),ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRB1|ADRB2|ADRB3|CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|HRH1|HRH2|HRH4|HTR1A|HTR1B|HTR1D|HTR2A|HTR2C|HTR6|HTR7|KCNA1|KCND2|KCND3|KCNQ2|KCNQ3|NTRK1|NTRK2|OPRD1|OPRK1|OPRM1|SIGMAR1|SLC6A2|SLC6A4,neurology/psychiatry,depression
 Norflurane,enflurane,84,Launched,membrane permeability inhibitor,GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GLRA1|GLRB|KCNK10|KCNK18|KCNK2|KCNK3|KCNK9,neurology/psychiatry,anesthetic
-Pentafluoropropane,enflurane,67,Launched,membrane permeability inhibitor,GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|GLRA1|GLRB|KCNK10|KCNK18|KCNK2|KCNK3|KCNK9,neurology/psychiatry,anesthetic
-Fluindione,floxuridine,76,Launched,DNA synthesis inhibitor,TYMS,oncology,colorectal cancer
-Calcium glubionate anhydrous,calcium-gluceptate,61,Launched,,,,
-Inosine pranobex,inosine,61,Launched,neurotrophic agent,PARP1|PNP,,
-Sodium lauryl sulfoacetate,sodium-dodecyl-sulfate,71,Launched,,ALB,,
 Clobetasone,beclomethasone,80,Launched,glucocorticoid receptor agonist,NR3C1|SERPINA6,allergy,allergic rhinitis
-Terpin hydrate,hydrastinine,62,Preclinical,hemostatic agent,,,
-Zofenopril,zofenopril-calcium,71,Launched,angiotensin converting enzyme inhibitor,ACE,cardiology,hypertension
-Plecanatide,flecainide,76,Launched,sodium channel blocker,KCNA5|KCNA7|SCN5A,cardiology,ventricular tachycardia (VT)|atrial fibrillation (AF)|ventricular arrhythmias
 Gluconic Acid,glucaric-acid,85,Phase 1,,,,
-Bismuth subnitrate,bismuth-subgallate,78,Launched,nitric oxide synthase inhibitor,NOS1,gastroenterology,internal deoderant
-Guanoxan,garenoxacin,74,Launched,topoisomerase inhibitor,TOP2A,infectious disease,respiratory tract infections
-Butaperazine,butacaine,76,Launched,local anesthetic,,neurology/psychiatry,local anesthetic
 Mandelic acid,mandelic-acid,100,Launched,,,,
-Medifoxamine,methoxamine,78,Launched,adrenergic receptor agonist,ADRA1A|ADRA1B|ADRA1D,cardiology,hypotension
-Tilbroquinol,actinoquinol,75,Preclinical,,,,
 Dibenzepin,dibenzepine,95,Preclinical,norepinephrine reputake inhibitor,,,
 Calcium lactate,calcium-gluceptate,85,Launched,,,,
 Perboric acid,terreic-acid-(-),80,Preclinical,Bruton's tyrosine kinase (BTK) inhibitor,BTK,,
-Quinupramine,quipazine,76,Preclinical,serotonin receptor agonist,HTR1A|HTR1D|HTR2A|HTR2B|HTR2C|HTR3A|HTR3B|HTR6|SLC6A4,,
-Magnesium silicate,ammonium-lactate,65,Launched,,HCAR1,dermatology,xerosis cutis|ichthyosis vulgaris
-Proxibarbal,efaproxiral,73,Phase 3,hemoglobin oxygen release stimulant,HBA1|HBB,,
-Ferrous sulfate anhydrous,dehydroepiandrosterone-sulfate,62,Launched,androgen receptor agonist|estrogen receptor agonist,AR|ESR1|ESR2,endocrinology,menopause
 Etofamide,ethionamide,80,Launched,mycolic synthesis inhibitor,,infectious disease,tuberculosis
-Ethyl chloride,chloramine-T,69,Launched,,,infectious disease,bacterial gill disease
-Hexobendine,fexofenadine,78,Launched,histamine receptor antagonist,HRH1,allergy,allergic rhinitis|urticaria
-Ritiometan,mitotane,67,Launched,antineoplastic agent,CYP11A1|CYP11B1|ESR1,oncology,adrenal cortical carcinoma
-Dichlorobenzyl alcohol,benzyl-alcohol,78,Launched,local anesthetic,,infectious disease,virus herpes simplex (HSV)
 Benziodarone,benzbromarone,80,Launched,chloride channel blocker,ABCC1,rheumatology,gout
 Carbocromen,carbazochrome,83,Launched,,,hematology,hemorrhage
-Bumadizone,menadione,74,Launched,mitochondrial DNA polymerase inhibitor|phosphatase inhibitor,AOX1|BGLAP|F10|F2|F7|F9|GGCX|NQO1|NQO2|PROC|PROS1|PROZ|VKORC1|VKORC1L1,gastroenterology|neurology/psychiatry|dermatology|rheumatology,ulcerative colitis|diarrhea|headache|varicose veins|rheumatoid arthritis
 Tromantadine,rimantadine,87,Launched,antiviral|RNA synthesis inhibitor,,infectious disease,influenza A virus infection
-Hydrotalcite,hydralazine,70,Launched,vasodilator,,cardiology,hypertension
 Pheneticillin,phenethicillin,96,Launched,bacterial cell wall synthesis inhibitor,,,
-Sodium feredetate,sodium-butyrate,69,Phase 2,HDAC inhibitor,BCHE|FFAR2|FFAR3|HDAC1|HDAC2|HDAC3|HDAC8,,
 Ioxitalamic acid,ioxaglic-acid,83,Launched,radiopaque medium,,radiology,contrast agent
-Almasilate,etamsylate,70,Launched,hemostatic agent,,hematology,hemorrhage
-Mifamurtide,amifampridine,75,Launched,potassium channel blocker,,neurology/psychiatry,Lambert-Eaton myasthenic syndrome (LEMS)
 Potassium gluconate,sodium-gluconate,80,Launched,,,,
-Ethyl hydroxybenzoate,beta-hydroxybutyrate,68,Phase 1,,HCAR2,,
-Benorilate,enbucrilate,76,Launched,,,dermatology,skin lacerations|tissue adhesive
-Naftazone,antazoline,74,Launched,antihistamine,HRH1,ophthalmology|otolaryngology,conjunctivitis|nasal congestion
-Sodium tartrate,disodium-sebacate,69,Phase 1,,HBB,,
-Tritoqualine,tioguanine,73,Launched,purine antagonist,,hematologic malignancy,acute myeloid leukemia (AML)|acute lymphoblastic leukemia (ALL)|chronic myeloid leukemia (CML)
 Sodium aurotiosulfate,sodium-picosulfate,82,Launched,,,gastroenterology,constipation
-Bioallethrin,isoetharine,70,Launched,adrenergic receptor agonist,,pulmonary,bronchospasm|asthma
-Trolamine,oxolamine,78,Launched,antitussive,,pulmonary,cough suppressant
 Magnesium gluconate,sodium-gluconate,80,Launched,,,,
-Glycyrrhizic acid,glucaric-acid,73,Phase 1,,,,
 Calcium levulinate,calcium-levofolinate,89,Launched,,,,
 Muzolimine,zolimidine,80,Launched,mucus protecting agent,,gastroenterology,peptic ulcer disease (PUD)|gastroesophageal reflux disease (GERD)
-Iodoform,cidofovir,71,Launched,DNA polymerase inhibitor,,infectious disease,acquired immunodeficiency syndrome (AIDS)|cytomegalovirus retinitis
-Noxytiolin,oxytocin,78,Launched,oxytocin receptor agonist,AVPR1A|AVPR1B|AVPR2|OXTR,obstetrics/gynecology,labor induction
 Anethole trithione,anethole-trithione,100,Launched,glutathione transferase stimulant,,dental,xerostomia
 Gamolenic acid,gamma-linolenic-acid,82,Phase 2,cyclooxygenase inhibitor|prostanoid receptor agonist,PTGS1|PTGS2,,
 Dimazole,rimcazole,82,Phase 1,sigma receptor antagonist,SIGMAR1,,
-Fluticasone,flumethasone,78,Launched,glucocorticoid receptor agonist,NR3C1|PLA2G1B,otolaryngology|infectious disease|dermatology,otitis|ear infections|corticosteroid-responsive dermatoses
-Lormetazepam,ripazepam,67,Phase 2,benzodiazepine receptor agonist,GABRA1,,
 Fenofibric acid,fenofibric-acid,100,Launched,cytochrome P450 inhibitor,CLCN1|PPARA,cardiology,dyslipidemia
-Pibrentasvir,amprenavir,73,Launched,HIV protease inhibitor,,infectious disease,human immunodeficiency virus (HIV-1)
 Amylmetacresol,metacresol,83,Launched,,INS,,
 Bismuth subgallate,bismuth-subgallate,100,Launched,nitric oxide synthase inhibitor,NOS1,gastroenterology,internal deoderant
 Valproate bismuth,bismuth-oxalate,81,Preclinical,,,,
-Phloxine B,epothilone-B,73,Phase 3,microtubule stabilizing agent|tubulin polymerization inhibitor,TUBB,,
-Semaglutide,liraglutide,73,Launched,GLP receptor agonist,GLP1R,endocrinology,weight-loss aid|diabetes mellitus
-Netarsudil,fasudil,71,Launched,rho associated kinase inhibitor,PKIA|PRKACA|ROCK1|ROCK2,neurology/psychiatry,cerebral vasospasm
 Piperaquine,piperazine,86,Launched,benzodiazepine receptor agonist,GABRB3,infectious disease,gastrointestinal roundworms
-Testosterone cypionate,estradiol-cypionate,73,Launched,estrogen receptor agonist,ESR1,endocrinology,hypoestrogenism|menopause
 Testosterone enanthate,norethisterone-enanthate,83,Launched,contraceptive agent,,endocrinology,contraceptive
-Testosterone undecanoate,desoxycorticosterone-pivalate,60,Launched,corticosteroid agonist,NR3C2,endocrinology,Addison's disease
-Ferric cation,ferulic-acid,64,Phase 2,antioxidant,CA1|CA12|CA14|CA2|CA4|CA6|CA9,,
 Estradiol acetate,estradiol-acetate,100,Launched,estrogen receptor agonist,ESR1,endocrinology|obstetrics/gynecology,menopause|vaginal atrophy
 Estradiol benzoate,estradiol-benzoate,100,Preclinical,contraceptive agent,ESR1,,
 Estradiol cypionate,estradiol-cypionate,100,Launched,estrogen receptor agonist,ESR1,endocrinology,hypoestrogenism|menopause
-Estradiol dienanthate,estradiol-acetate,79,Launched,estrogen receptor agonist,ESR1,endocrinology|obstetrics/gynecology,menopause|vaginal atrophy
 Estradiol valerate,estradiol-valerate,100,Launched,estrogen receptor agonist,ESR1,oncology|endocrinology|obstetrics/gynecology,prostate cancer|hypoestrogenism|menopause|vaginal atrophy
-Calcium saccharate,calcium-gluceptate,67,Launched,,,,
 Isopropyl myristate,isopropyl-myristate,100,Launched,,,dermatology,cosmetic
-Patent Blue,evans-blue,67,Launched,glutamate receptor negative allosteric modulator,GRIA1|PTPN1,,
-Dioctyldimonium,cetrimonium,69,Launched,,,dermatology,cosmetic
-Vanadium,avanafil,62,Launched,phosphodiesterase inhibitor,PDE5A,urology,erectile dysfunction
 Racemethionine,ademetionine,85,Launched,methyltransferase stimulant|phosphodiesterase inhibitor,,neurology/psychiatry,depression|attention-deficit/hyperactivity disorder (ADHD)
 Potassium carbonate,potassium-canrenoate,87,Launched,mineralocorticoid receptor antagonist,NR3C2,cardiology,edema
-Copper Cu-64,CU-CPT-4a,67,Preclinical,toll-like receptor inhibitor,TLR3,,
 Nomegestrol acetate,nomegestrol-acetate,100,Launched,progesterone receptor agonist,PGR,endocrinology,contraceptive
-Strontium chloride,sanguinarium-chloride,72,Phase 1,apoptosis stimulant,CASP3,,
-Ferric pyrophosphate citrate,creatinol-phosphate,64,Launched,,,,
-Magnesium acetate,megestrol-acetate,71,Launched,progesterone receptor agonist,NR3C1|PGR,neurology/psychiatry|endocrinology,anorexia|cachexia
 Baloxavir marboxil,baloxavir-marboxil,100,Launched,endonuclease inhibitor,,infectious disease,influenza A virus infection
 alpha-Tocopherol succinate,D-alpha-tocopheryl-succinate,93,Launched,,,,
 D-alpha-Tocopherol acetate,alpha-tochopheryl-acetate,90,Launched,antioxidant,,endocrinology,vitamin E deficiency
-Choline salicylate,meclocycline-sulfosalicylate,74,Launched,bacterial 50S ribosomal subunit inhibitor,,dermatology|infectious disease,acne vulgaris (AV)|skin infections
 Pentetic acid,pentetic-acid,100,Phase 2,chelating agent,,,
 Sodium bisulfite,sodium-picosulfate,82,Launched,,,gastroenterology,constipation
-Bromotheophylline,aminophylline,67,Launched,adenosine receptor antagonist,ADORA1|ADORA2A|ADORA2B|ADORA3|HDAC2|PDE3A|PDE3B|PDE4A|PDE4B|PDE4C|PDE4D|PDE5A,pulmonary,asthma|bronchitis|emphysema
 Fosnetupitant,netupitant,87,Launched,tachykinin antagonist,TACR1,gastroenterology,nausea|vomiting
 Acetyl sulfisoxazole,sulfisoxazole-acetyl,100,Launched,folic acid antagonist,,infectious disease|otolaryngology,meningitis|urinary tract infections|otitis|trachoma
 Medronic acid,medronic-acid,100,Launched,bone resorption inhibitor,,radiology,skeletal imaging agent
-Betiatide,benzthiazide,76,Launched,carbonic anhydrase inhibitor,CA2,cardiology,hypertension|edema
 Butylparaben,butyl-paraben,96,Preclinical,DNA synthesis inhibitor,,,
 Dimercaptosuccinic acid,dimercaptosuccinic-acid,100,Launched,chelating agent,DNMT1,neurology/psychiatry,metal toxicity
 Linoleic acid,linoleic-acid,100,Phase 3,oxidative stress inducer,FABP4|FFAR1|FFAR4|HNF4A|KCNB1|PPARG|TRPM8,,
-alpha-Arbutin,arbutin,70,Phase 2/Phase 3,melanin inhibitor,TYR,,
-Silodrate,osilodrostat,76,Launched,cytochrome P450 inhibitor,,,
-Phenylethyl resorcinol,hexylresorcinol,76,Launched,local anesthetic,TYR,infectious disease,skin infections|first-aid antiseptic
-Menthol,levomenthol,78,Launched,,OPRK1|TRPA1|TRPM8|TRPV3,neurology/psychiatry,pain relief
-p-Phenylenediamine,phenindamine,73,Launched,histamine receptor antagonist,HRH1,allergy|otolaryngology,allergic rhinitis|common cold
-Distearyldimonium,cetrimonium,64,Launched,,,dermatology,cosmetic
 Chloric acid,cholic-acid,87,Launched,bile acid,ADH1C|CES1|COX4I1|COX5A|COX5B|COX6A2|COX6B1|COX6C|COX7A1|COX7B|COX7C|COX8A|ESRRG|FABP6|FECH|GPBAR1|MT-CO1|MT-CO2|MT-CO3|PLA2G1B,gastroenterology|neurology/psychiatry|genetics,bile acid synthesis disorders|peroxisomal disorders|Zellweger syndrome
-Phosphorus,phytosphingosine,62,Phase 1,,,,
-Synthetic camphor,camptothecin,62,Phase 3,topoisomerase inhibitor,TOP1,,
 Oxidronic acid,oxonic-acid,88,Preclinical,uricase inhibitor,,,
-Diazolidinylurea,diazoxide,64,Launched,potassium channel activator,ATP1A1|CA1|CA2|KCNJ11|KCNJ8|KCNMA1|SLC12A3,endocrinology,hypoglycemia
-Dipentamethylenethiuram disulfide,"""4,4-pentamethylenepiperidine""",62,Preclinical,M2 channel blocker,,,
-alpha-Amyl cinnamaldehyde,cinnamaldehyde,72,Preclinical,aldose reductase inhibitor|TRPV agonist,TRPA1,,
-Benzylparaben,butyl-paraben,77,Preclinical,DNA synthesis inhibitor,,,
 Tetramethylthiuram monosulfide,tetramethylthiuram-monosulfide,100,Preclinical,,,,
-Nickel sulfate,dodecyl-sulfate,69,Preclinical,,LYZ,,
-Dichromate,dichloroacetate,72,Phase 3,pyruvate dehydrogenase kinase inhibitor,,,
-Geraniol,estradiol,71,Launched,estrogen receptor agonist,ESR1|ESR2|GPER1|KCNMA1|NR1I2,endocrinology,contraceptive
 Aripiprazole lauroxil,aripiprazole-lauroxil,100,Launched,serotonin receptor agonist,,neurology/psychiatry,schizophrenia
-Cinnamyl alcohol,benzyl-alcohol,73,Launched,local anesthetic,,infectious disease,virus herpes simplex (HSV)
-Hydroxycitronellal,dihydroxyacetone,71,Launched,,,dermatology,skin protectant
 Isoeugenol,eugenol,82,Launched,androgen receptor antagonist,AR,dental,toothache
-Ethylenediamine,methenamine,77,Launched,bacterial DNA inhibitor,,infectious disease,urinary tract infections
-Ditiocarb zinc,dacarbazine,64,Launched,DNA alkylating agent,PGD|POLA2,oncology|hematologic malignancy,melanoma|Hodgkin's lymphoma
-Zinc dibutyldithiocarbamate,diethylcarbamazine,67,Launched,lipoxygenase inhibitor,ALOX5|PTGS1,infectious disease,filariasis
-4-(Isopropylamino)diphenylamine,L-phenylisopropyladenosine,68,Preclinical,,,,
-Methylchloroisothiazolinone,methyclothiazide,70,Launched,chloride reabsorption inhibitor,SLC12A1|SLC12A3,cardiology,hypertension|edema
-Bromothalonil,tribromoethanol,71,Preclinical,analgesic agent,,,
-Thiohexam,thiotepa,71,Launched,cytochrome P450 inhibitor,CYP2B6|CYP3A4,oncology,breast cancer|ovarian cancer|bladder cancer
-"2,2'-Dibenzothiazyl disulfide",N-oxydiethylenebenzothiazole-2-sulfenamide,69,Preclinical,,,,
-Cobalt chloride,palmatine-chloride,73,Preclinical,dopamine synthesis inhibitor,CYP3A4,,
 Monomethyl fumarate,monomethyl-fumarate,100,Launched,,,neurology/psychiatry,multiple sclerosis
 L-Lactic acid,ellagic-acid,80,Phase 2,glutathione transferase inhibitor|non-nucleoside reverse transcriptase inhibitor,CA1|CA12|CA14|CA2|CA3|CA4|CA5A|CA5B|CA6|CA7|CA9|CSNK2A1|GSK3B|PRKACA|PRKCA|PRKCB|SQLE|SYK,,
 DL-alpha-Tocopherol,alpha-tochopherol,89,Launched,antioxidant,,endocrinology,vitamin E deficiency
 DL-alpha tocopheryl acetate,alpha-tochopheryl-acetate,92,Launched,antioxidant,,endocrinology,vitamin E deficiency
-Calcium phosphate dihydrate,fludarabine-phosphate,67,Launched,ribonucleotide reductase inhibitor,POLA1|POLD1|POLE|RRM1|RRM2|RRM2B,hematologic malignancy,chronic lymphocytic leukemia (CLL)
 Sodium ascorbate,sodium-ascorbate,100,Launched,,,,
-Calcium ascorbate,sodium-ascorbate,79,Launched,,,,
 Magnesium ascorbate,sodium-ascorbate,80,Launched,,,,
-Zinc ascorbate,sodium-ascorbate,73,Launched,,,,
-Niacinamide ascorbate,sodium-ascorbate,65,Launched,,,,
-Zinc acetate,C11-Acetate,78,Phase 3,,ABAT|ACE|AKR1C3|CA2|CELA1|ESR2|FFAR2|FFAR3|HPRT1|LTA4H|MMP12|NOS1|NOS3|PLA2G1B|PTPN1|SOD1|TXN,,
-Ferrous gluconate,fosfluconazole,65,Preclinical,other antifungal,,,
-Ferrous succinate,ferroquine,67,Phase 2,antimalarial agent,,,
-Ferrous ascorbate,sodium-ascorbate,73,Launched,,,,
-Ferrous fumarate,diroximel-fumarate,65,Phase 3,anti-inflammatory agent,,,
-Manganese citrate,imisopasem-manganese,70,Preclinical,superoxide dismutase mimetic,,,
-Sodium molybdate,sodium-ascorbate,75,Launched,,,,
 Potassium acetate,acesulfame-potassium,81,Phase 3,,,,
-Potassium sulfate,bismuth-subcitrate-potassium,67,Launched,,,gastroenterology,duodenal ulcer disease
-Potassium,potassium-iodide,72,Launched,,,pulmonary,asthma|bronchitis|emphysema
-Ferrous glycine sulfate,ribostamycin-sulfate,70,Launched,bacterial 30S ribosomal subunit inhibitor,,infectious disease,gram-negative bacterial infections
-"Sodium phosphate, dibasic",sodium-ascorbate,70,Launched,,,,
 Sodium borate,sodium-butyrate,86,Phase 2,HDAC inhibitor,BCHE|FFAR2|FFAR3|HDAC1|HDAC2|HDAC3|HDAC8,,
-Lithium hydroxide,lithium-citrate,62,Launched,,,neurology/psychiatry,bipolar disorder|depression
 Lithium citrate,lithium-citrate,100,Launched,,,neurology/psychiatry,bipolar disorder|depression
 Lithium carbonate,lithium-citrate,81,Launched,,,neurology/psychiatry,bipolar disorder|depression
 Mometasone furoate,mometasone-furoate,100,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses
-Magnesium,alagebrium,63,Phase 2/Phase 3,glycosylation inhibitor,,,
-Aluminium phosphate,clindamycin-phosphate,70,Launched,protein synthesis inhibitor,,obstetrics/gynecology,bacterial vaginosis
-Aluminum acetate,goserelin-acetate,67,Launched,gonadotropin releasing factor hormone receptor agonist,GNRHR|LHCGR,oncology|obstetrics/gynecology,prostate cancer|breast cancer|endometriosis
-Chromic nitrate,chromium-picolinate,65,Launched,insulin sensitizer,,endocrinology,diabetes mellitus
 Chromium gluconate,chromium-picolinate,81,Launched,insulin sensitizer,,endocrinology,diabetes mellitus
 Chromium nicotinate,chromium-picolinate,89,Launched,insulin sensitizer,,endocrinology,diabetes mellitus
-Chromous sulfate,homosalate,69,Preclinical,HSP inducer,,,
-Zinc chloride,phlorizin,73,Preclinical,sodium/glucose cotransporter inhibitor,SLC5A1|SLC5A11|SLC5A2|SLC5A3,,
 Hydrocortisone acetate,hydrocortisone-acetate,100,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses
 Hydrocortisone butyrate,hydrocortisone-butyrate,100,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses|eczema
 Hydrocortisone cypionate,hydrocortisone-acetate,83,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses
 Hydrocortisone phosphate,hydrocortisone-phosphate,100,Launched,,,pulmonary|gastroenterology|hematologic malignancy|ophthalmology,asthma|nausea|vomiting|multiple myeloma|contact dermatitis|enteritis|colitis
 Hydrocortisone probutate,hydrocortisone-phosphate,83,Launched,,,pulmonary|gastroenterology|hematologic malignancy|ophthalmology,asthma|nausea|vomiting|multiple myeloma|contact dermatitis|enteritis|colitis
 Hydrocortisone valerate,hydrocortisone-valerate,100,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses
-Hydrocortisone succinate,hydrocortisone-phosphate,79,Launched,,,pulmonary|gastroenterology|hematologic malignancy|ophthalmology,asthma|nausea|vomiting|multiple myeloma|contact dermatitis|enteritis|colitis
-Gallium chloride Ga-67,sanguinarium-chloride,70,Phase 1,apoptosis stimulant,CASP3,,
-Dotatate,octisalate,67,Launched,,,dermatology,sunscreen lotion
-Cobalt,cabaletta,67,Phase 2,pharmacological chaperone,,,
 Eslicarbazepine,licarbazepine,93,Phase 3,voltage-gated sodium channel blocker,SCN5A,,
 Segesterone acetate,segesterone-acetate,100,Launched,progesterone receptor agonist,PGR,,
-Edetate disodium anhydrous,disodium-sebacate,60,Phase 1,,HBB,,
-Oxyphenisatin acetate,roxatidine-acetate,72,Launched,histamine receptor antagonist,HRH2,gastroenterology,Zollinger-Ellison syndrome|erosive esophagitis (EE)|gastroesophageal reflux disease (GERD)|gastritis
 Prednisolone phosphate,prednisolone-sodium-phosphate,86,Launched,glucocorticoid receptor agonist,NR3C1,allergy|pulmonary|ophthalmology|infectious disease|rheumatology|endocrinology|neurology/psychiatry|gastroenterology|hematology,allergic rhinitis|asthma|contact dermatitis|mycosis|lupus|hypercalcemia|thyroiditis|congenital adrenal hyperplasia|multiple sclerosis|ulcerative colitis|enteritis|thrombocythemia|pneumonia|meningitis|psoriatic arthritis|rheumatoid arthritis
 Prednisolone tebutate,prednisolone-tebutate,100,Launched,anti-inflammatory agent,,,
-Diloxanide furoate,diroximel-fumarate,72,Phase 3,anti-inflammatory agent,,,
 Methylprednisolone aceponate,methylprednisolone-aceponate,100,Launched,anti-inflammatory agent|glucocorticoid receptor agonist,NR3C1,endocrinology|rheumatology|infectious disease|allergy|pulmonary|gastroenterology|dermatology|neurology/psychiatry|hematology,congenital adrenal hyperplasia|thyroiditis|hypercalcemia|rheumatoid arthritis|bursitis|epicondylitis|allergic rhinitis|asthma|ulcerative colitis|enteritis|osteoarthritis|psoriasis|multiple sclerosis|anemia
 Methylprednisolone hemisuccinate,prednisolone-hemisuccinate,90,Preclinical,glucocorticoid receptor agonist,NR3C1,,
 Prednisone acetate,prednisolone-acetate,95,Launched,glucocorticoid receptor agonist,NR3C1,ophthalmology|dermatology|infectious disease,conjunctivitis|rosacea|punctate keratitis|shingles|iritis|cyclitis
 Dexamethasone acetate,dexamethasone-acetate,100,Launched,glucocorticoid receptor agonist,,endocrinology|rheumatology|allergy|gastroenterology|hematology|neurology/psychiatry|dermatology,hypercalcemia|rheumatoid arthritis|psoriatic arthritis|osteoarthritis|allergic rhinitis|ulcerative colitis|anemia|multiple sclerosis|enteritis|lupus|dermatitis herpetiformis (DH)|nephrotic syndrome|psoriasis
-Menadiol diphosphate,tedizolid-phosphate,77,Launched,protein synthesis inhibitor,,infectious disease,skin infections
 Drostanolone propionate,dromostanolone-propionate,96,Launched,androgen receptor modulator,AR,oncology,breast cancer
 Chlorphenesin carbamate,chlorphensin-carbamate,98,Launched,muscle relaxant,,neurology/psychiatry,spasms
 Paramethasone acetate,betamethasone-acetate,86,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses
 Chloramphenicol palmitate,chloramphenicol-palmitate,100,Launched,protein synthesis inhibitor,,infectious disease|endocrinology,meningitis|fever|cholera
 Betamethasone phosphate,betamethasone-phosphate,100,Launched,,,rheumatology,rheumatoid arthritis
 Estramustine phosphate,estramustine-phosphate,100,Launched,DNA synthesis inhibitor|microtubule inhibitor,ESR1|ESR2|MAP1A|MAP2,oncology,prostate cancer
-Gestonorone caproate,progesterone,69,Launched,progesterone receptor agonist,CATSPER1|CATSPER2|CATSPER3|CATSPER4|CYP17A1|ESR1|NR3C2|OPRK1|PGR|TRPC5,obstetrics/gynecology|endocrinology,infertility|amenorrhea
 Sodium metavanadate,sodium-orthovanadate,82,Preclinical,,,,
-Dexamethasone metasulfobenzoate,betamethasone-valerate,68,Launched,glucocorticoid receptor agonist,NR3C1,dermatology,corticosteroid-responsive dermatoses
 Cefamandole nafate,cefamandole-nafate,100,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,skin infections|urinary tract infections|respiratory tract infections
-Ceftobiprole medocaril,ceftobiprole,71,Phase 3,antiinfective drug,,,
 Racephedrine,ephedrine,86,Launched,adrenergic receptor agonist,ACHE|ADRA1A|ADRB2|SLC18A2|SLC6A2,cardiology|pulmonary|neurology/psychiatry|endocrinology,hypotension|asthma|narcolepsy|obesity
-Remdesivir,galidesivir,67,Phase 1,antiviral,,,
-Cycloguanil,chlorproguanil,72,Launched,dihydrofolate reductase inhibitor,DHFR,infectious disease,malaria
 Diroximel fumarate,diroximel-fumarate,100,Phase 3,anti-inflammatory agent,,,
-Oliceridine,octenidine,76,Launched,membrane integrity inhibitor,,infectious disease,gram-negative bacterial infections|gram-positive bacterial infections
 Vibegron,amibegron,82,Phase 3,adrenergic receptor agonist,ADRB3,,
-Imetelstat,imirestat,74,Preclinical,aldose reductase inhibitor,,,
 Ritlecitinib,itacitinib,82,Phase 3,JAK inhibitor,JAK1,,
 Abrocitinib,baricitinib,82,Launched,JAK inhibitor,JAK1|JAK2,rheumatology,rheumatoid arthritis
-Umbralisib,nemiralisib,76,Phase 2,,,,
 Aprocitentan,macitentan,82,Launched,endothelin receptor antagonist,EDNRA|EDNRB,endocrinology,contraceptive
-Omidenepag isopropyl,isopropyl-myristate,67,Launched,,,dermatology,cosmetic
 Pemigatinib,pelitinib,80,Phase 2,EGFR inhibitor,EGFR,,
 Vamorolone,amorolfine,80,Launched,membrane integrity inhibitor,,infectious disease,onychomycosis
-Tepotinib,erlotinib,78,Launched,EGFR inhibitor,EGFR|NR1I2,oncology,non-small cell lung cancer (NSCLC)|pancreatic cancer
 Tovorafenib,sorafenib,80,Launched,FLT3 inhibitor|KIT inhibitor|PDGFR tyrosine kinase receptor inhibitor|RAF inhibitor|RET tyrosine kinase inhibitor|VEGFR inhibitor,BRAF|DDR2|FGFR1|FLT1|FLT3|FLT4|KDR|KIT|PDGFRB|RAF1|RET,oncology,renal cell carcinoma (RCC)|thyroid cancer|hepatocellular carcinoma (HCC)
-Inavolisib,tenalisib,74,Phase 2,PI3K inhibitor,,,
-Ubrogepant,rimegepant,70,Launched,calcitonin antagonist,CALCA,,
-Danicopan,avacopan,71,Phase 2,complement inhibitor,,,
-Pafolacianine,afalanine,73,Phase 3,dopamine receptor agonist,DRD2,,
-Elexacaftor,lumacaftor,76,Launched,CFTR channel agonist,CFTR,pulmonary,cystic fibrosis
-Belzutifan,belizatinib,67,Preclinical,receptor tyrosine protein kinase inhibitor,,,
-Benzhydrocodone,dehydrocorydaline,69,Phase 3,acetylcholinesterase inhibitor,ACHE,,
-Zirconium chloride hydroxide,methylbenzethonium-chloride,65,Preclinical,other antibiotic,,,
 Resorcinol monoacetate,resorcinol-monoacetate,100,Launched,antiseptic,,,
 Colchiceine,colchicine,95,Launched,microtubule inhibitor,GLRA1|GLRA2|TUBA1A|TUBA1B|TUBA1C|TUBA3C|TUBA3D|TUBA3E|TUBA4A|TUBB|TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B|TUBB6|TUBB8,rheumatology|endocrinology,gout|fever
-Ferric chloride,ferulic-acid,67,Phase 2,antioxidant,CA1|CA12|CA14|CA2|CA4|CA6|CA9,,
-Magnesium malate,omeprazole-magnesium,78,Launched,proton pump inhibitor,ATP4A|ATP4B,gastroenterology,gastroesophageal reflux disease (GERD)|heartburn
 Prednisolone acetate,prednisolone-acetate,100,Launched,glucocorticoid receptor agonist,NR3C1,ophthalmology|dermatology|infectious disease,conjunctivitis|rosacea|punctate keratitis|shingles|iritis|cyclitis
-Adagrasib,madrasin,71,Preclinical,cell splicing inhibitor,,,
-Sotorasib,salirasib,67,Phase 2,mTOR inhibitor,TRPA1,,
-Padeliporfin,talaporfin,73,Phase 3,photosensitizing agent,,,
 Ethyl salicylate,methyl-salicylate,97,Launched,,,endocrinology|neurology/psychiatry,fever|pain relief
-Brilliant blue G,brilliant-green,71,Launched,,,infectious disease,antiseptic
-Ferric maltol,ercalcitriol,64,Phase 1,vitamin D receptor agonist,VDR,,
-Zilucoplan,teicoplanin,67,Launched,bacterial cell wall synthesis inhibitor,,infectious disease,gram-positive bacterial infections
-Lenacapavir,glecaprevir,73,Launched,serine protease inhibitor,,infectious disease,hepatitis C
-Calcium undecylenate,calcium-gluceptate,74,Launched,,,,
-Aluminum subacetate,calcium-gluceptate,70,Launched,,,,
-Selpercatinib,selitrectinib,77,Phase 1/Phase 2,protein tyrosine kinase inhibitor,,,
-Zavegepant,rimegepant,70,Launched,calcitonin antagonist,CALCA,,
-Fluoroestradiol F-18,5-fluorouracil,65,Launched,thymidylate synthase inhibitor,DPYD|TYMS,oncology,colorectal cancer|breast cancer|pancreatic cancer|gastric adenocarcinoma
-Cedazuridine,3-deazauridine,77,Preclinical,cytidine deaminase inhibitor,,,
-Zinc phenolsulfonate,phenolsulfonphthalein,78,Launched,,,,
-Potassium aspartate,potassium-canrenoate,77,Launched,mineralocorticoid receptor antagonist,NR3C2,cardiology,edema
 Pralsetinib,alectinib,80,Launched,ALK tyrosine kinase receptor inhibitor,ALK|MET,oncology,non-small cell lung cancer (NSCLC)
-Acetylene,acetylcysteine,78,Launched,mucolytic agent,ACY1|CHUK|GRIN1|GRIN2A|GRIN2B|GRIN2D|GRIN3A|GSS|IKBKB|RELA|SLC7A11,gastroenterology,acetaminophen overdose|hepatic injury
-Ammonium carbonate,ammonium-lactate,76,Launched,,HCAR1,dermatology,xerosis cutis|ichthyosis vulgaris
-Ferric glycerophosphate,cyclophosphamide,62,Launched,DNA alkylating agent,CYP2A6|CYP2B6|CYP2C18|CYP2C19|CYP2C8|CYP2C9|CYP2D6|CYP3A4|CYP3A5|CYP3A7,hematologic malignancy|oncology,Hodgkin's lymphoma|small lymphocytic lymphoma (SLL)|breast cancer|neuroblastoma|Burkitt's lymphoma|multiple myeloma|chronic lymphocytic leukemia (CLL)|acute myeloid leukemia (AML)|acute lymphoblastic leukemia (ALL)|chronic myeloid leukemia (CML)|true histiocytic lymphoma (THL)|retinoblastoma|ovarian cancer
-Sodium camphorsulfonate,sodium-picosulfate,78,Launched,,,gastroenterology,constipation
-Berotralstat,avoralstat,73,Phase 3,kallikrein inhibitor,,,
 Thenyldiamine,thonzylamine,80,Launched,antihistamine,,neurology/psychiatry,itching
 Indocyanine green,indocyanine-green,100,Launched,contrast agent,SLCO1B1,cardiology,vascular imaging agent
-Atogepant,telcagepant,70,Phase 3,calcitonin antagonist,CALCRL|RAMP1,,
-Ensifentrine,phenserine,73,Phase 3,acetylcholinesterase inhibitor|beta amyloid synthesis inhibitor,ACHE|BCHE,,
-Finerenone,canrenone,74,Withdrawn,mineralocorticoid receptor antagonist,NR3C2,,
 Foscarbidopa,carbidopa,86,Launched,aromatic L-amino acid decarboxylase inhibitor,DDC,neurology/psychiatry,Parkinson's Disease
-Iptacopan,avacopan,71,Phase 2,complement inhibitor,,,
-Maralixibat,nemiralisib,64,Phase 2,,,,
-Olutasidenib,vorasidenib,78,Preclinical,isocitrate dehydrogenase inhibitor,,,
-Rezafungin,abafungin,74,Phase 3,sterol methyltransferase inhibitor,,,
-Sulopenem etzadroxil,sulopenem,62,Phase 3,antibacterial,,,
-Mobocertinib,ceritinib,76,Launched,ALK tyrosine kinase receptor inhibitor,ALK|FLT3|IGF1R|INSR|TSSK1B,oncology,non-small cell lung cancer (NSCLC)
 Prasterone enantate,prasterone-acetate,86,Preclinical,,,,
-Melphalan flufenamide,melphalan,60,Launched,DNA alkylating agent|DNA inhibitor,,hematologic malignancy,multiple myeloma
-Fosdenopterin,fenoverine,70,Launched,acetylcholine receptor antagonist,,neurology/psychiatry,spasms
-Serdexmethylphenidate,hexamethylenebisacetamide,61,Phase 2,AKT inhibitor|differentiation inducer|NFKB pathway inhibitor,AKT1,,
-Deucravacitinib,derazantinib,74,Phase 2,tyrosine kinase inhibitor,,,
 Foslevodopa,levodopa,84,Launched,dopamine precursor,DRD1|DRD2|DRD3|DRD4|DRD5|GPR143,neurology/psychiatry,Parkinson's Disease
-Nirmatrelvir,narlaprevir,70,Phase 3,HCV inhibitor,,,
-Belumosudil,eliprodil,60,Phase 3,glutamate receptor antagonist,GRIN1|GRIN2B,,
 Durlobactam,sulbactam,80,Launched,beta lactamase inhibitor,,infectious disease,skin infections|intra-abdominal infections|gynecologic infections
-Bortezomib D-mannitol,bortezomib,65,Launched,NFkB pathway inhibitor|proteasome inhibitor,PSMA1|PSMA2|PSMA3|PSMA4|PSMA5|PSMA6|PSMA7|PSMA8|PSMB1|PSMB10|PSMB11|PSMB2|PSMB3|PSMB4|PSMB5|PSMB6|PSMB7|PSMB8|PSMB9|PSMD1|PSMD2|RELA,hematologic malignancy,multiple myeloma|mantle cell lymphoma (MCL)
-"Zoledronate D,L-Lysine Monohydrate",L-(+)-rhamnose-monohydrate,61,Preclinical,,,,
-PBT-434,PBT-1033,67,Preclinical,chelating agent,,,
-Linzagolix,elagolix,78,Launched,gonadotropin releasing factor hormone receptor antagonist,GNRHR,,
-Gadopiclenol,nadolol,63,Launched,adrenergic receptor antagonist,ADRB1|ADRB2|ADRB3,cardiology,angina pectoris|hypertension
-Xenon Xe-129,SEN-1269,60,Preclinical,beta amyloid inhibitor,APP,,
 Pirtobrutinib,ibrutinib,82,Launched,Bruton's tyrosine kinase (BTK) inhibitor,BLK|BMX|BTK,hematologic malignancy,chronic lymphocytic leukemia (CLL)|mantle cell lymphoma (MCL)|Waldenstrom's macroglobulinemia (WM)
-Lotilaner,clotiapine,74,Launched,,,neurology/psychiatry,psychosis
 Lomifylline,lisofylline,82,Phase 2,interleukin receptor antagonist|STAT inhibitor,,,
-Revumenib,refametinib,70,Phase 2,MEK inhibitor,MAP2K1|MAP2K2,,
 Enmetazobactam,tazobactam,83,Launched,beta lactamase inhibitor,,infectious disease,pneumonia
-Procinonide,fluocinonide,78,Launched,glucocorticoid receptor agonist,NR3C1|SERPINA6|SMO,dermatology,seborrheic dermatitis|eczema
-Ciprocinonide,fluocinonide,72,Launched,glucocorticoid receptor agonist,NR3C1|SERPINA6|SMO,dermatology,seborrheic dermatitis|eczema
-Diaminopyrimidine oxide,atropine-oxide,65,Preclinical,acetylcholine receptor antagonist,CHRM1|CHRM2|CHRM3|CHRM4|CHRM5,,
-Scarlet red,tecalcet,63,Phase 2,calcium-sensing receptor agonist,CASR,,
-Sofpironium,otilonium,70,Launched,acetylcholine receptor antagonist,CACNA1C,gastroenterology,irritable bowel syndrome
 Benzgalantamine,galantamine,85,Launched,acetylcholinesterase inhibitor,ACHE|BCHE|CHRNA1|CHRNA10|CHRNA2|CHRNA3|CHRNA4|CHRNA5|CHRNA6|CHRNA7|CHRNA9|CHRNB1|CHRNB2|CHRNB3|CHRNB4|CHRND|CHRNE|CHRNG,neurology/psychiatry,senile dementia
-Carboprost,travoprost,70,Launched,prostanoid receptor agonist,PTGFR,ophthalmology,ocular hypertension|glaucoma
 Chlorisondamine,chlorindione,81,Preclinical,,,,
 Latanoprost acid,latanoprost,81,Launched,prostanoid receptor agonist,PTGFR,ophthalmology,ocular hypertension|glaucoma
-Aurothioglycanide,aurothioglucose,75,Launched,PKC inhibitor,PRKCI,rheumatology,rheumatoid arthritis
-Azaribine,azaserine,78,Preclinical,purine antagonist,,,
-Aminometradine,amantadine,75,Launched,glutamate receptor antagonist,DRD2|GRIN2A|GRIN2B|GRIN2C|GRIN2D|GRIN3A,infectious disease|neurology/psychiatry,influenza A virus infection|Parkinson's Disease
-Syrosingopine,rotigotine,70,Launched,dopamine receptor agonist,ADRA2B|DRD1|DRD2|DRD3|DRD4|DRD5|HTR1A,neurology/psychiatry,Parkinson's Disease|restless leg syndrome
-Acetomenaphthone,bonaphthone,74,Phase 3,,,,

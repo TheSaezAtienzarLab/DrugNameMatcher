@@ -190,3 +190,27 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - FuzzyWuzzy library for fuzzy string matching
 - Python-Levenshtein for efficient string distance calculations
+
+
+
+drug-clustering-project/
+├── data/                      # Data directory
+│   └── output/                # Drug pathway data
+│   └── final_output/          # MOA data
+├── src/                       # Source code
+│   ├── __init__.py
+│   ├── data_loader.py         # Data loading functions
+│   ├── preprocessing.py       # Data preprocessing
+│   ├── clustering.py          # Clustering algorithms
+│   ├── visualization.py       # Visualization functions
+│   └── utils.py               # Utility functions
+├── templates/                 # HTML templates
+│   └── base_template.html     # Base template for visualization
+├── static/                    # Static assets
+│   ├── css/
+│   │   └── styles.css         # Custom CSS
+│   └── js/
+│       └── custom.js          # Custom JavaScript
+├── results/                   # Output directory
+├── main.py                    # Main script
+└── README.md                  # Project documentation

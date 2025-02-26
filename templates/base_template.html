@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .plot-container {
+            width: 100%;
+            height: 800px;
+        }
+        .info-panel {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .cluster-info {
+            display: none;
+            margin-top: 20px;
+        }
+        .moa-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drug Clustering Analysis</h1>
+        
+        <div id="plot" class="plot-container"></div>
+        
+        <div class="info-panel">
+            <h3>Cluster Distribution</h3>
+            <div id="cluster-distribution"></div>
+        </div>
+        
+        {% if has_moa_data %}
+        <div class="info-panel moa-info">
+            <h3>MOA Distribution</h3>
+            <div id="moa-distribution"></div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Load visualization data
+        const visualizationData = {{ visualization_data|safe }};
+        
+        // Create the main plot
+        const traces = [visualizationData.all_drugs_trace, ...visualizationData.moa_traces];
+        const layout = visualizationData.layout;
+        
+        Plotly.newPlot('plot', traces, layout);
+        
+        // Update cluster distribution when a new MOA is selected
+        document.getElementById('plot').on('plotly_restyle', function(data) {
+            // Get the currently visible trace
+            const visibleTraces = [];
+            for (let i = 0; i < traces.length; i++) {
+                if (traces[i].visible === true) {
+                    visibleTraces.push(i);
+                }
+            }
+            
+            // Update cluster distribution display
+            updateClusterDistribution(visibleTraces[0]);
+        });
+        
+        // Function to update cluster distribution
+        function updateClusterDistribution(traceIndex) {
+            const distributionDiv = document.getElementById('cluster-distribution');
+            
+            if (traceIndex === 0) {
+                // All drugs trace - show overall distribution
+                let html = '<table style="width:100%; border-collapse: collapse;">';
+                html += '<tr><th style="border:1px solid #ddd; padding:8px;">Cluster</th><th style="border:1px solid #ddd; padding:8px;">Number of Drugs</th><th style="border:1px solid #ddd; padding:8px;">Percentage</th></tr>';
+                
+                const totalDrugs = visualizationData.cluster_stats.sizes.reduce((a, b) => a + b, 0);
+                
+                for (let i = 0; i < visualizationData.unique_clusters.length; i++) {
+                    const cluster = visualizationData.unique_clusters[i];
+                    const size = visualizationData.cluster_stats.sizes[i];
+                    const percentage = (size / totalDrugs * 100).toFixed(1);
+                    
+                    html += `<tr>
+                        <td style="border:1px solid #ddd; padding:8px;">Cluster ${cluster}</td>
+                        <td style="border:1px solid #ddd; padding:8px;">${size}</td>
+                        <td style="border:1px solid #ddd; padding:8px;">${percentage}%</td>
+                    </tr>`;
+                }
+                
+                html += '</table>';
+                distributionDiv.innerHTML = html;
+            } else {
+                // MOA trace - show MOA-specific distribution
+                const moaIndex = traceIndex - 1;
+                const moaName = visualizationData.moa_traces[moaIndex].name;
+                
+                // Find the button with this MOA's label to get cluster distribution
+                const moaButton = visualizationData.layout.updatemenus[0].buttons.find(
+                    button => button.label.startsWith(moaName)
+                );
+                
+                if (moaButton) {
+                    // Extract cluster distribution from title
+                    const titleParts = moaButton.args[1].title.split('<br>');
+                    const moaInfo = titleParts[0];
+                    
+                    let html = `<h4>${moaInfo}</h4>`;
+                    html += '<table style="width:100%; border-collapse: collapse;">';
+                    html += '<tr><th style="border:1px solid #ddd; padding:8px;">Cluster</th><th style="border:1px solid #ddd; padding:8px;">Number of Drugs</th><th style="border:1px solid #ddd; padding:8px;">Percentage</th></tr>';
+                    
+                    // Get cluster counts from customdata
+                    const clusterCounts = {};
+                    const customdata = visualizationData.moa_traces[moaIndex].customdata;
+                    
+                    for (let i = 0; i < customdata.length; i++) {
+                        const cluster = customdata[i][0];
+                        clusterCounts[cluster] = (clusterCounts[cluster] || 0) + 1;
+                    }
+                    
+                    const totalDrugs = customdata.length;
+                    
+                    for (let cluster of visualizationData.unique_clusters) {
+                        const count = clusterCounts[cluster] || 0;
+                        const percentage = (count / totalDrugs * 100).toFixed(1);
+                        
+                        html += `<tr>
+                            <td style="border:1px solid #ddd; padding:8px;">Cluster ${cluster}</td>
+                            <td style="border:1px solid #ddd; padding:8px;">${count}</td>
+                            <td style="border:1px solid #ddd; padding:8px;">${percentage}%</td>
+                        </tr>`;
+                    }
+                    
+                    html += '</table>';
+                    distributionDiv.innerHTML = html;
+                }
+            }
+        }
+        
+        // Initialize with overall distribution
+        updateClusterDistribution(0);
+        
+        // Update MOA distribution if available
+        if (visualizationData.has_moa_data) {
+            const moaDistributionDiv = document.getElementById('moa-distribution');
+            let html = '<table style="width:100%; border-collapse: collapse;">';
+            html += '<tr><th style="border:1px solid #ddd; padding:8px;">MOA</th><th style="border:1px solid #ddd; padding:8px;">Number of Drugs</th></tr>';
+            
+            // Count drugs per MOA
+            const moaCounts = {};
+            for (let i = 1; i < traces.length; i++) {
+                const moaName = traces[i].name;
+                moaCounts[moaName] = traces[i].x.length;
+            }
+            
+            // Sort MOAs by count (descending)
+            const sortedMOAs = Object.keys(moaCounts).sort((a, b) => moaCounts[b] - moaCounts[a]);
+            
+            for (let moa of sortedMOAs) {
+                html += `<tr>
+                    <td style="border:1px solid #ddd; padding:8px;">${moa}</td>
+                    <td style="border:1px solid #ddd; padding:8px;">${moaCounts[moa]}</td>
+                </tr>`;
+            }
+            
+            html += '</table>';
+            moaDistributionDiv.innerHTML = html;
+        }
+    </script>
+</body>
+</html> 
