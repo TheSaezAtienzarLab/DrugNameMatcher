@@ -27,14 +27,29 @@ def export_results(results_df, labels, cluster_stats, moa_data=None):
     
     # Add MoA information if available
     if moa_data is not None:
+        print(f"Processing MOA data for {len(moa_data)} drugs")
+        
+        # Debug: Check index types
+        print(f"Export DF index type: {type(export_df.index[0])}")
+        print(f"MOA data index type: {type(moa_data.index[0]) if len(moa_data.index) > 0 else 'No index'}")
+        
         # Ensure index alignment for joining
+        # Convert both indices to strings to ensure proper matching
+        export_df.index = export_df.index.astype(str)
+        if not moa_data.index.equals(moa_data.index.astype(str)):
+            moa_data = moa_data.copy()
+            moa_data.index = moa_data.index.astype(str)
+        
         common_indices = export_df.index.intersection(moa_data.index)
+        print(f"Found {len(common_indices)} common drug indices between results and MOA data")
+        
         if len(common_indices) > 0:
             # Find the MoA column - it might be named differently
             moa_column = None
             for col in moa_data.columns:
-                if 'moa' in col.lower():
+                if 'moa' in col.lower() or 'mechanism' in col.lower():
                     moa_column = col
+                    print(f"Found MOA column: {moa_column}")
                     break
             
             if moa_column:
@@ -42,6 +57,9 @@ def export_results(results_df, labels, cluster_stats, moa_data=None):
                 export_df = export_df.join(moa_data[moa_column], how='left')
                 # Rename to standardize
                 export_df.rename(columns={moa_column: 'MoA'}, inplace=True)
+                print(f"Added MOA information to {export_df['MoA'].notna().sum()} drugs")
+        else:
+            print("Warning: No matching drug names found between clustering results and MOA data")
     
     # Export the main results
     export_df.to_csv('results/clustering_results.csv')
@@ -65,13 +83,14 @@ def export_results(results_df, labels, cluster_stats, moa_data=None):
         
         # Get unique MOAs
         unique_moas = export_df['MoA'].dropna().unique()
+        print(f"Found {len(unique_moas)} unique MOAs")
         
         for moa in unique_moas:
             moa_drugs = export_df[export_df['MoA'] == moa]
             total_count = len(moa_drugs)
             
-            # Skip MOAs with very few drugs
-            if total_count < 3:
+            # Skip MOAs with very few drugs - reduced threshold to 2
+            if total_count < 2:
                 continue
                 
             row = {'MOA': moa, 'Count': total_count}
@@ -81,11 +100,16 @@ def export_results(results_df, labels, cluster_stats, moa_data=None):
                 cluster_count = len(moa_drugs[moa_drugs['cluster'] == cluster])
                 row[f'Cluster_{cluster}'] = cluster_count
             
+            # Add this MOA row to our distribution dataframe
             moa_distribution = pd.concat([moa_distribution, pd.DataFrame([row])], ignore_index=True)
         
         # Sort by total count
         moa_distribution = moa_distribution.sort_values('Count', ascending=False)
         
         # Export
-        moa_distribution.to_csv('results/moa_cluster_distribution.csv', index=False)
-        print("MOA cluster distribution saved to results/moa_cluster_distribution.csv") 
+        if not moa_distribution.empty:
+            moa_distribution.to_csv('results/moa_cluster_distribution.csv', index=False)
+            print(f"MOA cluster distribution saved to results/moa_cluster_distribution.csv with {len(moa_distribution)} MOAs")
+        else:
+            print("Warning: No MOA distribution data generated. Creating empty file.")
+            pd.DataFrame(columns=['MOA', 'Count']).to_csv('results/moa_cluster_distribution.csv', index=False)

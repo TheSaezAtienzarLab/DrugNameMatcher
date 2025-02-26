@@ -1,0 +1,157 @@
+bacterial cell wall synthesis inhibitor
+adrenergic receptor agonist
+histamine receptor antagonist
+cyclooxygenase inhibitor
+acetylcholine receptor antagonist
+glucocorticoid receptor agonist
+adrenergic receptor antagonist
+dopamine receptor antagonist
+sodium channel blocker
+calcium channel blocker
+phosphodiesterase inhibitor
+bacterial 30S ribosomal subunit inhibitor
+radiopaque medium
+progesterone receptor agonist
+benzodiazepine receptor agonist
+bacterial DNA gyrase inhibitor
+local anesthetic
+protein synthesis inhibitor
+serotonin receptor agonist
+acetylcholine receptor agonist
+dopamine receptor antagonist|serotonin receptor antagonist
+angiotensin converting enzyme inhibitor
+DNA synthesis inhibitor
+topoisomerase inhibitor
+dopamine receptor agonist
+HCV inhibitor
+carbonic anhydrase inhibitor
+HIV protease inhibitor
+chelating agent
+cytochrome P450 inhibitor
+sterol demethylase inhibitor
+acetylcholinesterase inhibitor
+ATPase inhibitor
+EGFR inhibitor
+HMGCR inhibitor
+androgen receptor antagonist
+monoamine oxidase inhibitor
+vitamin B
+bacterial 50S ribosomal subunit inhibitor
+DNA inhibitor
+prostanoid receptor agonist
+antioxidant
+serotonin receptor antagonist
+angiotensin receptor antagonist
+estrogen receptor agonist
+membrane integrity inhibitor
+beta lactamase inhibitor
+nucleoside reverse transcriptase inhibitor
+opioid receptor antagonist
+tubulin polymerization inhibitor
+DNA polymerase inhibitor
+bone resorption inhibitor
+DNA alkylating agent
+PPAR receptor agonist
+muscle relaxant
+antimalarial agent
+dihydrofolate reductase inhibitor
+HDAC inhibitor
+coagulation factor inhibitor
+selective serotonin reuptake inhibitor (SSRI)
+potassium channel blocker
+JAK inhibitor
+gonadotropin releasing factor hormone receptor antagonist
+bacterial antifolate
+laxative
+mineralocorticoid receptor antagonist
+Bruton's tyrosine kinase (BTK) inhibitor
+retinoid receptor agonist
+glutamate receptor antagonist
+microtubule inhibitor
+vitamin D receptor agonist
+contrast agent
+purinergic receptor antagonist
+PABA antagonist
+cyclooxygenase inhibitor|prostanoid receptor antagonist
+GABA receptor antagonist
+antiviral
+sodium/glucose cotransporter inhibitor
+RNA polymerase inhibitor
+ribonucleotide reductase inhibitor
+vitamin K antagonist
+antiinfective drug
+insulin sensitizer
+non-nucleoside reverse transcriptase inhibitor
+HIV integrase inhibitor
+histamine receptor agonist
+membrane permeability inhibitor
+dipeptidyl peptidase inhibitor
+endothelin receptor antagonist
+antihistamine
+cholinergic receptor antagonist
+thrombin inhibitor
+selective estrogen receptor modulator (SERM)
+PI3K inhibitor
+ALK tyrosine kinase receptor inhibitor
+other antibiotic
+folate receptor ligand
+thiazide diuretic
+vesicular monoamine transporter inhibitor
+calcineurin inhibitor
+prostanoid receptor antagonist
+CDK inhibitor
+other antifungal
+hydantoin antiepileptic
+PARP inhibitor
+diuretic
+antibacterial
+MEK inhibitor
+bile acid
+NFkB pathway inhibitor
+fungal squalene epoxidase inhibitor
+aromatase inhibitor
+ATP channel blocker
+melanin inhibitor
+mucolytic agent
+tachykinin antagonist
+nitric oxide stimulant
+mTOR inhibitor
+adenosine receptor agonist
+thrombopoietin receptor agonist
+serotonin receptor agonist|serotonin receptor antagonist
+insulin secretagogue
+thyroid hormone inhibitor
+GABA receptor modulator
+catechol O methyltransferase inhibitor
+cholinesterase inhibitor
+guanylate cyclase stimulant
+dihydropteroate synthetase inhibitor
+insulin sensitizer|PPAR receptor agonist
+microtubule inhibitor|tubulin polymerization inhibitor
+estrogen receptor antagonist|selective estrogen receptor modulator (SERM)
+oxidizing agent
+dihydropteroate synthase inhibitor
+protein synthesis stimulant
+sodium/potassium/chloride transporter inhibitor
+isocitrate dehydrogenase inhibitor
+glycosyl transferase inhibitor
+penicillin binding protein inhibitor
+DNA alkylating agent|DNA inhibitor
+5 alpha reductase inhibitor
+fungal ergosterol inhibitor
+bacterial permeability inducer
+dopamine reuptake inhibitor
+DNA directed DNA polymerase inhibitor
+glutamate receptor agonist
+RAF inhibitor
+nitric oxide donor
+tricyclic antidepressant
+lipase inhibitor
+progestogen hormone
+serotonin–norepinephrine reuptake inhibitor (SNRI)
+chloride channel blocker
+antitussive
+prostaglandin inhibitor
+vasodilator
+antiseptic
+hydroxy radical formation stimulant

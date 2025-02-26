@@ -20,10 +20,7 @@ def get_javascript_functions():
     
     // Populate the MoA dropdown
     var moaSelect = document.getElementById('moa-select');
-    var uniqueMoas = UNIQUE_MOAS;
-    
-    // Sort MoAs alphabetically
-    uniqueMoas.sort();
+    var uniqueMoas = [];  // This will be replaced with actual MOA list in html_generator.py
     
     // Add options to the dropdown
     uniqueMoas.forEach(function(moa) {
@@ -52,6 +49,19 @@ def get_javascript_functions():
     // Update proximity threshold value display
     document.getElementById('proximity-slider').addEventListener('input', function() {
         document.getElementById('proximity-value').textContent = this.value;
+    });
+    
+    // Show connections checkbox handler
+    document.getElementById('show-connections').addEventListener('change', function() {
+        var selectedMoa = moaSelect.value;
+        if (selectedMoa) {
+            if (this.checked) {
+                showConnectionsBetweenRelatedDrugs(selectedMoa);
+            } else {
+                // Just re-highlight without connections
+                highlightMoa(selectedMoa);
+            }
+        }
     });
     
     // Color by cluster checkbox handler - fixes the bug with colors turning white

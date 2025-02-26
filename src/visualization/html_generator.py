@@ -35,6 +35,14 @@ def generate_html(visualization_data):
     # Create MOA distribution table HTML
     moa_table_html = create_moa_table_html(visualization_data)
     
+    # Extract unique MOAs directly
+    unique_moas = extract_unique_moas()
+    moa_array_str = json.dumps(unique_moas)
+    
+    # Get the JavaScript code and replace the MOA placeholder with our MOA list
+    js_functions = get_javascript_functions()
+    js_functions = js_functions.replace('var uniqueMoas = [];', f'var uniqueMoas = {moa_array_str};')
+    
     # Create the HTML content with enhanced MoA highlighting
     html_content = f"""<!DOCTYPE html>
 <html>
@@ -99,15 +107,11 @@ def generate_html(visualization_data):
         var layout = {json.dumps(visualization_data['layout'])};
         var clusterColors = {json.dumps(cluster_colors)};
         
-        {get_javascript_functions()}
+        {js_functions}
     </script>
 </body>
 </html>"""
 
-    # Extract unique MOAs and replace the placeholder in JavaScript
-    unique_moas = extract_unique_moas()
-    html_content = html_content.replace('var uniqueMoas = UNIQUE_MOAS;', f'var uniqueMoas = {json.dumps(unique_moas)};')
-    
     # Write the HTML to a file
     output_path = write_html_to_file(html_content)
     
@@ -136,38 +140,41 @@ def create_moa_table_html(visualization_data):
             # Load the MOA distribution data
             moa_dist_df = pd.read_csv(moa_distribution_path)
             
-            # Create the table
-            moa_table_html += """
-            <table>
-                <tr>
-                    <th>MOA</th>
-                    <th>Total Drugs</th>
-                    <th>Cluster Distribution</th>
-                </tr>
-            """
-            
-            # Add rows for each MOA
-            for _, row in moa_dist_df.iterrows():
-                moa = row['MOA']
-                count = row['Count']
-                
-                # Create cluster distribution text
-                cluster_dist = []
-                for i in range(visualization_data['cluster_stats']['n_clusters']):
-                    col_name = f'Cluster_{i}'
-                    if col_name in row and row[col_name] > 0:
-                        percentage = (row[col_name] / count) * 100
-                        cluster_dist.append(f"Cluster {i}: {int(row[col_name])} ({percentage:.1f}%)")
-                
-                moa_table_html += f"""
-                <tr>
-                    <td>{moa}</td>
-                    <td>{int(count)}</td>
-                    <td>{', '.join(cluster_dist)}</td>
-                </tr>
+            if moa_dist_df.empty:
+                moa_table_html += "<p>No MOA distribution data available.</p>"
+            else:
+                # Create the table
+                moa_table_html += """
+                <table>
+                    <tr>
+                        <th>MOA</th>
+                        <th>Total Drugs</th>
+                        <th>Cluster Distribution</th>
+                    </tr>
                 """
-            
-            moa_table_html += "</table>"
+                
+                # Add rows for each MOA
+                for _, row in moa_dist_df.iterrows():
+                    moa = row['MOA']
+                    count = row['Count']
+                    
+                    # Create cluster distribution text
+                    cluster_dist = []
+                    for i in range(visualization_data['cluster_stats']['n_clusters']):
+                        col_name = f'Cluster_{i}'
+                        if col_name in row and row[col_name] > 0:
+                            percentage = (row[col_name] / count) * 100
+                            cluster_dist.append(f"Cluster {i}: {int(row[col_name])} ({percentage:.1f}%)")
+                    
+                    moa_table_html += f"""
+                    <tr>
+                        <td>{moa}</td>
+                        <td>{int(count)}</td>
+                        <td>{', '.join(cluster_dist)}</td>
+                    </tr>
+                    """
+                
+                moa_table_html += "</table>"
         except Exception as e:
             moa_table_html += f"<p>Error loading MOA distribution: {str(e)}</p>"
     else:
@@ -184,13 +191,30 @@ def extract_unique_moas():
     """
     unique_moas = []
     try:
+        # Try to read from the MOA distribution file
         moa_distribution_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'results', 'moa_cluster_distribution.csv')
         if os.path.exists(moa_distribution_path):
             moa_dist_df = pd.read_csv(moa_distribution_path)
-            unique_moas = moa_dist_df['MOA'].tolist()
+            if 'MOA' in moa_dist_df.columns:
+                unique_moas = moa_dist_df['MOA'].tolist()
+                print(f"Extracted {len(unique_moas)} MOAs from distribution file")
+            else:
+                print("Warning: MOA column not found in distribution file")
+        else:
+            # If distribution file doesn't exist, try to read from clustering results
+            results_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'results', 'clustering_results.csv')
+            if os.path.exists(results_path):
+                results_df = pd.read_csv(results_path)
+                if 'MoA' in results_df.columns:
+                    unique_moas = results_df['MoA'].dropna().unique().tolist()
+                    print(f"Extracted {len(unique_moas)} MOAs from clustering results")
+                else:
+                    print("Warning: MoA column not found in clustering results")
     except Exception as e:
         print(f"Warning: Could not extract unique MOAs: {e}")
     
+    # Sort alphabetically for better usability
+    unique_moas.sort()
     return unique_moas
 
 def write_html_to_file(html_content):

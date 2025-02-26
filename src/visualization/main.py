@@ -27,14 +27,17 @@ def visualize_clustering(results_df, pca, labels, cluster_stats, moa_data=None):
     # Create the visualization data
     vis_data = create_visualization_data(results_df, pca, labels, cluster_stats, moa_data)
     
-    # Generate the HTML
+    # Generate the HTML - this is the main visualization we want to view
     html_path = generate_html(vis_data)
     
-    # Create a default template if needed
+    # Optional: Create templates directory and default template
+    # But don't use it as the primary visualization
     template_dir = os.path.join(os.path.dirname(html_path), 'templates')
     os.makedirs(template_dir, exist_ok=True)
-    template_path = os.path.join(template_dir, 'default_template.html')
-    if not os.path.exists(template_path):
-        create_default_template(template_path)
     
+    # We don't need to create the default template if we already have visualization data
+    # But keeping this for completeness, just not linking to it
+    # create_default_template()  # No arguments needed for this function
+    
+    # Return the path to the main visualization, not the template
     return html_path
