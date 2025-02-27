@@ -1,146 +1,93 @@
-# Drug Clustering Analysis
+# Drug Clustering Analysis Tool
 
-A machine learning pipeline for clustering drugs based on their pathway data and analyzing relationships between drug mechanisms of action (MOA).
+![Drug Clustering Visualization](results/visualization_example.png)
+
+An interactive data visualization tool that clusters drugs based on their pathway activation patterns, helps identify relationships between drugs with similar mechanisms of action (MoA), and visualizes these relationships in an explorable 3D space.
 
 ## Overview
 
-This project implements a complete workflow for clustering drugs based on their biological pathway data. It uses Principal Component Analysis (PCA) for dimensionality reduction and K-means clustering to identify groups of drugs with similar pathway profiles. The results are visualized in an interactive 3D plot, with special emphasis on analyzing how drugs with the same mechanism of action (MOA) distribute across different clusters.
+This tool performs several key operations:
+1. Loads drug pathway data from CSV files
+2. Analyzes the data using Principal Component Analysis (PCA)
+3. Groups similar drugs using K-means clustering
+4. Creates an interactive 3D visualization for exploring the results
+5. Integrates mechanism of action (MoA) data to provide context
+
+The visualization allows researchers to identify drugs with similar pathway profiles, discover potential new applications for existing drugs, and understand the relationship between pathway activation patterns and clinical effects.
 
 ## Features
 
-- **Data Loading**: Import drug pathway data from CSV files
-- **Preprocessing**: Standardize data and perform PCA for dimensionality reduction
-- **Clustering**: Automatic determination of optimal cluster number using the elbow method
-- **Performance Metrics**: Calculate and report silhouette, Calinski-Harabasz, and Davies-Bouldin scores
-- **Interactive Visualization**: 3D visualization of clusters with:
-  - Color-coding by cluster
-  - Highlighting drugs by MOA
-  - Filtering to focus on specific mechanisms
-  - Visualization of connections between related drugs
-  - Adjustable proximity threshold
-- **MOA Analysis**: Distribution analysis of drugs with the same mechanism across different clusters
-
-## Prerequisites
-
-- Python 3.7+
-- Required packages:
-  - numpy
-  - pandas
-  - scikit-learn
-  - plotly
-  - kneed (for elbow method)
+- **PCA-Based Dimensionality Reduction**: Condenses complex pathway data into a 3D visualization
+- **Automatic Optimal Clustering**: Finds the best number of clusters using the elbow method
+- **Interactive 3D Visualization**: Explore the drug landscape with zoom, rotation, and pan controls
+- **MoA Integration**: Hover over drugs to see their mechanism of action
+- **Cluster Analysis**: See detailed statistics about each cluster
+- **Filtering Capabilities**: Highlight drugs by MoA to observe patterns
+- **Connection Visualization**: See how drugs with the same MoA relate to each other spatially
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/drug-clustering-analysis.git
-   cd drug-clustering-analysis
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/TheSaezAtienzarLab/clustering-project.git
+cd drug-clustering
 
-2. Install required packages:
-   ```
-   pip install -r requirements.txt
-   ```
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-## Project Structure
-
-```
-drug-clustering-analysis/
-├── main.py                     # Main script to run the complete workflow
-├── src/
-│   ├── data_loader.py          # Functions for loading drug pathway and MOA data
-│   ├── preprocessing.py        # Data preprocessing and PCA
-│   ├── clustering.py           # K-means clustering and metrics calculation
-│   ├── utils.py                # Utility functions for analysis and export
-│   └── visualization/          # Visualization modules
-│       ├── __init__.py         # Package initialization
-│       ├── main.py             # Main visualization entry point
-│       ├── data_processing.py  # Process data for visualization
-│       ├── html_generator.py   # Generate HTML for interactive visualization
-│       ├── plotting.py         # JavaScript functions for interactive plots
-│       ├── templates.py        # HTML templates
-│       └── moa_replacement.py  # MOA data injection utilities
-├── drugs_moable/               # Directory for drug pathway CSV files
-├── final_output/               # Directory for MOA data
-│   └── all_matched_drugs.csv   # Mechanism of action information
-└── results/                    # Generated results (created during execution)
-    ├── clustering_results.csv  # Complete clustering results
-    ├── cluster_details.csv     # Metrics and details about each cluster
-    ├── moa_cluster_distribution.csv # MOA distribution across clusters
-    └── visualization.html      # Interactive visualization
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ## Usage
 
-1. Prepare your data:
-   - Place drug pathway CSV files in the `drugs_moable` directory
-   - Each CSV should have columns for `Term` (pathway name) and `NES` (normalized enrichment score)
-   - Place MOA data in `final_output/all_matched_drugs.csv` with `GENERIC_NAME` as drug identifier
+### Preparing your data
 
-2. Run the analysis:
-   ```
-   python main.py
-   ```
+1. Place your drug pathway data CSV files in the `drugs_data/` directory
+   - Each file should be named after the drug (e.g., `aspirin.csv`)
+   - Files should contain columns for `Term` (pathway name) and `NES` (normalized enrichment score)
 
-3. View the results:
-   - Results are saved in the `results` directory
-   - Open `results/visualization.html` in a web browser to explore the interactive visualization
+2. (Optional) Place your MoA data in `drugs_association/all_matched_drugs.csv` with columns for drug names and their mechanisms of action
 
-## Workflow Details
+### Running the analysis
 
-1. **Data Loading**:
-   - Drug pathway data is loaded from CSV files in the `drugs_moable` directory
-   - Each file represents one drug with its pathway enrichment scores
-   - MOA data is loaded from `final_output/all_matched_drugs.csv`
+```bash
+# Run the main analysis script
+python main.py
+```
 
-2. **Preprocessing**:
-   - Data is standardized (zero mean, unit variance)
-   - PCA reduces dimensionality to 3 components for visualization
+### Interpreting the visualization
 
-3. **Clustering**:
-   - Optimal number of clusters is determined using the elbow method
-   - K-means clustering is performed on the PCA results
-   - Clustering metrics are calculated to evaluate quality
+- Each point represents a drug
+- Colors represent different clusters
+- Hover over points to see drug name, MoA, and cluster assignment
+- Use the dropdown to select and highlight drugs by MoA
+- Toggle connections to see relationships between drugs with the same MoA
+- Use cluster statistics to understand the distribution of drugs
 
-4. **Analysis**:
-   - Cluster characteristics are analyzed
-   - MOA distribution across clusters is calculated
+## Files
 
-5. **Visualization**:
-   - Interactive 3D visualization is generated with Plotly
-   - HTML file includes controls for exploration and filtering
-   - Drugs with the same MOA can be highlighted
+- `main.py`: Main script that performs analysis and generates visualization
+- `requirements.txt`: List of required Python packages
+- `results/`: Directory where analysis results and visualization are saved
 
-## Interactive Visualization Features
+## Requirements
 
-The generated visualization provides several interactive features:
+- Python 3.7+
+- pandas
+- numpy
+- scikit-learn
+- plotly
+- kneed (for finding optimal cluster number)
 
-- **3D Plot**: Explore the clusters in three dimensions
-- **MOA Highlighting**: Select a specific MOA to highlight drugs with that mechanism
-- **Connection Visualization**: Show connections between drugs with the same MOA
-- **Proximity Threshold**: Adjust the threshold for showing connections
-- **Hover Information**: View drug names, MOA, and cluster information on hover
-- **Cluster Statistics**: View information about cluster sizes and distribution
-- **MOA Distribution Table**: Analyze how drugs with the same MOA are distributed across clusters
+If you encounter issues with missing data:
+1. Check that your drug pathway files follow the required format
+2. Ensure the MoA data file contains the correct column names
 
-## Extending the Framework
+## Contributing
 
-### Adding New Data Sources
-
-To add new data sources:
-
-1. Place new drug pathway files in the `drugs_moable` directory
-2. Update the MOA information in `final_output/all_matched_drugs.csv`
-3. Run the pipeline again
-
-### Customizing the Visualization
-
-To customize the visualization:
-
-1. Modify the `get_css_styles()` function in `src/visualization/plotting.py`
-2. Adjust the JavaScript functions in `get_javascript_functions()`
-3. Update the HTML template in `src/visualization/html_generator.py`
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
@@ -148,8 +95,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- https://github.com/dmis-lab/moable
+- This tool uses [Plotly](https://plotly.com/) for interactive visualizations
+- Clustering algorithms are powered by [scikit-learn](https://scikit-learn.org/)
+- MoA analysis was done using [MoAble](https://github.com/dmis-lab/moable)
 
-## Contact
+---
 
-Saez Atienzar Lab - Ohio State
+*Note: This tool is for research purposes only and should not be used for clinical decision making.*

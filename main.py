@@ -9,6 +9,7 @@ import os
 import pandas as pd
 import numpy as np
 import json
+import re
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
@@ -299,8 +300,9 @@ def create_visualization_data(results_df, pca, labels, cluster_stats, moa_data=N
         if moa_data is not None and 'MoA' in cluster_data.columns:
             hover_texts = []
             for idx, row in cluster_data.iterrows():
+                drug_name = str(idx)
                 moa_text = f"MoA: {row['MoA']}" if pd.notna(row['MoA']) else "MoA: Unknown"
-                hover_texts.append(f"{idx}<br>{moa_text}<br>Cluster: {row['cluster']}")
+                hover_texts.append(f"{drug_name}<br>{moa_text}<br>Cluster: {cluster}")
             trace['text'] = hover_texts
         
         plot_data.append(trace)
@@ -844,6 +846,105 @@ def create_moa_table_html(visualization_data, unique_moas=None):
 
 # ---- MAIN FUNCTION ----
 
+def validate_hover_text(html_path):
+    """Validate and fix the hover text in the visualization if needed."""
+    print("\nValidating hover text in visualization...")
+    
+    try:
+        # Read the HTML file
+        with open(html_path, 'r') as f:
+            html_content = f.read()
+        
+        # Extract the plot data
+        plot_data_match = re.search(r'var plotData = (\[.*?\]);', html_content, re.DOTALL)
+        if not plot_data_match:
+            print("  Warning: Could not find plot data in HTML file")
+            return
+        
+        # Parse the plot data
+        plot_data_str = plot_data_match.group(1)
+        plot_data = json.loads(plot_data_str)
+        
+        # Check text/hover information in each trace
+        hover_text_issues = False
+        
+        for i, trace in enumerate(plot_data):
+            if 'text' not in trace or not trace['text']:
+                print(f"  Warning: No 'text' field found in trace {i}")
+                hover_text_issues = True
+                continue
+            
+            # Sample a few texts to check for MOA info
+            sample_texts = trace['text'][:min(3, len(trace['text']))]
+            moa_count = sum(1 for text in sample_texts if 'MoA:' in text)
+            
+            if moa_count == 0:
+                print(f"  Warning: No MOA information found in trace {i}")
+                hover_text_issues = True
+        
+        if hover_text_issues:
+            print("  Issues found with hover text. Fixing automatically...")
+            
+            # Load clustering results to get MOA data
+            results_path = os.path.join('results', 'clustering_results.csv')
+            if os.path.exists(results_path):
+                results_df = pd.read_csv(results_path)
+                
+                # Set index if needed
+                if 'Unnamed: 0' in results_df.columns:
+                    results_df.set_index('Unnamed: 0', inplace=True)
+                
+                # Check if MOA data is available
+                if 'MoA' in results_df.columns:
+                    # Create a dictionary of drug to MOA
+                    drug_to_moa = {}
+                    for drug, row in results_df.iterrows():
+                        if pd.notna(row.get('MoA')):
+                            drug_to_moa[str(drug)] = row['MoA']
+                    
+                    # Fix the hover text in each trace
+                    any_fixed = False
+                    
+                    for i, trace in enumerate(plot_data):
+                        if 'text' in trace and len(trace['text']) > 0:
+                            # Check if the current text already has MOA info
+                            has_moa = any('MoA:' in str(t) for t in trace['text'][:5])
+                            
+                            if not has_moa:
+                                # Try to add MOA information
+                                new_texts = []
+                                for text in trace['text']:
+                                    drug_name = text.split('<br>')[0] if '<br>' in text else text
+                                    if drug_name in drug_to_moa:
+                                        moa = drug_to_moa[drug_name]
+                                        new_text = f"{drug_name}<br>MoA: {moa}<br>Cluster: {trace.get('name', '').split()[-1]}"
+                                        new_texts.append(new_text)
+                                    else:
+                                        new_texts.append(text)
+                                
+                                # Update trace with new texts
+                                plot_data[i]['text'] = new_texts
+                                any_fixed = True
+                    
+                    if any_fixed:
+                        # Update the HTML with fixed plot data
+                        new_plot_data_str = json.dumps(plot_data)
+                        new_html_content = html_content.replace(plot_data_str, new_plot_data_str)
+                        
+                        # Write the updated HTML
+                        with open(html_path, 'w') as f:
+                            f.write(new_html_content)
+                        
+                        print("  Updated HTML file with fixed hover text")
+                    else:
+                        print("  No fixes needed for hover text")
+        else:
+            print("  Hover text validated successfully - MOA information is correctly included.")
+    
+    except Exception as e:
+        print(f"  Error validating hover text: {e}")
+        print("  You can run the debug_hover_text.py script to fix any issues manually.")
+
 def main():
     """Main function to run the complete drug clustering analysis pipeline."""
     # Load and prepare data
@@ -881,6 +982,9 @@ def main():
     
     # Generate HTML visualization
     html_path = generate_html(vis_data, export_df)
+    
+    # Validate and fix hover text if needed
+    validate_hover_text(html_path)
     
     print(f"\nAnalysis complete! Open {html_path} to view the results.")
     print("Use 'python view_visualization.py' to open the visualization in your browser.")

@@ -167,3 +167,7 @@ cython_debug/
 drugs_data/
 drugs_association/
 results/
+results/my_results_moa_cluster_distribution.csv
+results/my_visualization.html
+results/my_results_cluster_details.csv
+results/my_results_clustering_results.csv
